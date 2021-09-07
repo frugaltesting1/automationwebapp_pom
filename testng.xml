@@ -1,15 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="All Test Suite">
-    <test verbose="2" preserve-order="true"
-          name="/home/ashwin/Documents/projects/Frugal Testing/automationpomSG/src/test">
+    <test verbose="2" preserve-order="true">
         <classes>
             <class name="tests.Profile.Activites">
                 <methods>
                     <include name="clickAllInterestList"/>
                 </methods>
             </class>
-            <class name="tests.Profile.California">
+<!--             <class name="tests.Profile.California">
                 <methods>
                     <include name="californiaToggle"/>
                 </methods>
@@ -166,7 +165,7 @@
                     <include name="creatAccount"/>
                     <include name="clickSubmitButtonWithWrongOtp"/>
                 </methods>
-            </class>
+            </class> -->
         </classes>
     </test>
 </suite>
