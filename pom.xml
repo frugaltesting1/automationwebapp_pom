@@ -5,8 +5,13 @@
 	<groupId>com.sacredgroves</groupId>
 	<artifactId>com.sacredgroves</artifactId>
 	<version>1.0</version>
-	<name>WebappAutomation</name>
 
+	<properties>
+	    <aspectj.version>1.9.6</aspectj.version>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+	</properties>
+
+	<name>WebappAutomation</name>
 
 	<dependencies>
 		<dependency>
@@ -44,7 +49,19 @@
 			<version>8.19.0</version>
 		</dependency>
 
+		<dependency>
+			<groupId>org.apache.maven.plugins</groupId>
+			<artifactId>maven-surefire-plugin</artifactId>
+			<version>3.0.0-M5</version>
+			<type>maven-plugin</type>
+		</dependency>
 
+		<dependency>
+			<groupId>org.aspectj</groupId>
+			<artifactId>aspectjweaver</artifactId>
+			<version>1.9.6</version>
+			<scope>runtime</scope>
+		</dependency>
 
 	</dependencies>
 
@@ -67,9 +84,18 @@
 					<target>8</target>
 				</configuration>
 			</plugin>
+
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-surefire-plugin</artifactId>
+				<version>3.0.0-M5</version>
+				<configuration>
+					<suiteXmlFiles>
+						<suiteXmlFile>testng.xml</suiteXmlFile>
+					</suiteXmlFiles>
+				</configuration>
+			</plugin>
+
 		</plugins>
 	</build>
-
-
-
 </project>
