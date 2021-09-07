@@ -1,0 +1,23 @@
+
+
+profilePage:
+    uploadProfilePic
+    changeAddress
+    changeBasicDetails
+    changePassword
+
+Activities,interest
+     select everything
+     deselect everything
+     select random 5
+
+clusters
+   checking count
+   download
+   locations
+
+transaction
+    date checking
+
+email
+   subscribe and unsubscribe
