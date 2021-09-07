@@ -25,7 +25,7 @@ public class BaseTest {
 
 	
 	public void setup() {
-		System.setProperty("webdriver.chrome.driver","resources/chromedriver");
+		System.setProperty("webdriver.chrome.driver","resources/chromedriver.exe");
 		ChromeOptions options = new ChromeOptions();
 		
 		options.setHeadless(true);
