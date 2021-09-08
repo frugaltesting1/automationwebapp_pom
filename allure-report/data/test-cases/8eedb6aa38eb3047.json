@@ -1,0 +1,94 @@
+{
+  "uid" : "8eedb6aa38eb3047",
+  "name" : "addInvalidEmail",
+  "fullName" : "tests.Squad.squadsCreate.addInvalidEmail",
+  "historyId" : "905a1c8678c6daaf5462ce69261cbf77",
+  "time" : {
+    "start" : 1631096464495,
+    "stop" : 1631096472628,
+    "duration" : 8133
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setupTests",
+    "time" : {
+      "start" : 1631096434338,
+      "stop" : 1631096464492,
+      "duration" : 30154
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "clearTests",
+    "time" : {
+      "start" : 1631096472629,
+      "stop" : 1631096473511,
+      "duration" : 882
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.Squad.squadsCreate"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.Squad.squadsCreate"
+  }, {
+    "name" : "testMethod",
+    "value" : "addInvalidEmail"
+  }, {
+    "name" : "parentSuite",
+    "value" : "All Test Suite"
+  }, {
+    "name" : "suite",
+    "value" : "automationwebapp_pom"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.Squad.squadsCreate"
+  }, {
+    "name" : "host",
+    "value" : "SacredGrovesTes"
+  }, {
+    "name" : "thread",
+    "value" : "11292@SacredGrovesTes.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "8eedb6aa38eb3047.json",
+  "parameterValues" : [ ]
+}
