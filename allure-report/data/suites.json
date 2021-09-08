@@ -1,0 +1,43 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "All Test Suite",
+    "children" : [ {
+      "name" : "automationwebapp_pom",
+      "children" : [ {
+        "name" : "tests.login",
+        "children" : [ {
+          "name" : "Test:Login Test With Correct Details",
+          "uid" : "4b86948eae289ab1",
+          "parentUid" : "56acaf66478bd5350b1d004508dd9fce",
+          "status" : "passed",
+          "time" : {
+            "start" : 1631093022913,
+            "stop" : 1631093034960,
+            "duration" : 12047
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Test:Login Test With Wrong Details",
+          "uid" : "f1dbf4c559c04631",
+          "parentUid" : "56acaf66478bd5350b1d004508dd9fce",
+          "status" : "passed",
+          "time" : {
+            "start" : 1631093042003,
+            "stop" : 1631093045234,
+            "duration" : 3231
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "56acaf66478bd5350b1d004508dd9fce"
+      } ],
+      "uid" : "79eba5fc9eca2a351b0d01513a92ac97"
+    } ],
+    "uid" : "7d0421919ebcae780c955830177c9415"
+  } ]
+}
