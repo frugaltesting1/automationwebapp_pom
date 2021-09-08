@@ -1,0 +1,94 @@
+{
+  "uid" : "16ae66da940fb0b9",
+  "name" : "clickSubmitButtonWithInvalidPhoneNumber",
+  "fullName" : "tests.signup.clickSubmitButtonWithInvalidPhoneNumber",
+  "historyId" : "d7aa19973d2c757d874ceac5c0c97fcb",
+  "time" : {
+    "start" : 1631097626872,
+    "stop" : 1631097630265,
+    "duration" : 3393
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setupTests",
+    "time" : {
+      "start" : 1631097619248,
+      "stop" : 1631097626869,
+      "duration" : 7621
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "clearTests",
+    "time" : {
+      "start" : 1631097630266,
+      "stop" : 1631097631092,
+      "duration" : 826
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.signup"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.signup"
+  }, {
+    "name" : "testMethod",
+    "value" : "clickSubmitButtonWithInvalidPhoneNumber"
+  }, {
+    "name" : "parentSuite",
+    "value" : "All Test Suite"
+  }, {
+    "name" : "suite",
+    "value" : "automationwebapp_pom"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.signup"
+  }, {
+    "name" : "host",
+    "value" : "SacredGrovesTes"
+  }, {
+    "name" : "thread",
+    "value" : "11292@SacredGrovesTes.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "16ae66da940fb0b9.json",
+  "parameterValues" : [ ]
+}

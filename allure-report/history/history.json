@@ -1,5 +1,5 @@
 {
-  "33502eed2027482018744b73b827643a" : {
+  "3773e7af36314bead2fafbf47d590d7a" : {
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
@@ -9,12 +9,1153 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "f1dbf4c559c04631",
+      "uid" : "8080951d5c763e5d",
       "status" : "passed",
       "time" : {
-        "start" : 1631093042003,
-        "stop" : 1631093045234,
-        "duration" : 3231
+        "start" : 1631095306249,
+        "stop" : 1631095323185,
+        "duration" : 16936
+      }
+    } ]
+  },
+  "65b30b803d605921cf6d7722ef93c6b1" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "227689fa8b680f45",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631098967441,
+        "stop" : 1631098973336,
+        "duration" : 5895
+      }
+    } ]
+  },
+  "4e6a753e434599febe296cd82e028098" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "4d755f67d42173d5",
+      "status" : "broken",
+      "statusDetails" : "Authenticate",
+      "time" : {
+        "start" : 1631097325382,
+        "stop" : 1631097331161,
+        "duration" : 5779
+      }
+    } ]
+  },
+  "66c793aa06b7109956046a0cd0ced352" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "65938a4d720f5fde",
+      "status" : "broken",
+      "statusDetails" : "invalid argument: File not found : /home/ashwin/Documents/projects/Frugal Testing/automation_POM-main/resources/pexels_photo.jpeg\n  (Session info: headless chrome=93.0.4577.63)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'SacredGrovesTes', ip: '172.16.0.7', os.name: 'Windows Server 2019', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.12'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 93.0.4577.63, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: C:\\Users\\SACRED~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:53664}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: dfb4071df2f1717d8b2a32c0068d1c81",
+      "time" : {
+        "start" : 1631094931955,
+        "stop" : 1631094931985,
+        "duration" : 30
+      }
+    } ]
+  },
+  "a1ebf695ef342c5775f5056130307f6b" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "fa248bd1f242ce05",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for element to be clickable: By.xpath: //a[contains(text(),'Try again')] (tried for 5 second(s) with 500 milliseconds interval)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'SacredGrovesTes', ip: '172.16.0.7', os.name: 'Windows Server 2019', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.12'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 93.0.4577.63, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: C:\\Users\\SACRED~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:64482}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 4e6faa576fc1881e174d18571bd1fd4d",
+      "time" : {
+        "start" : 1631095483230,
+        "stop" : 1631095509296,
+        "duration" : 26066
+      }
+    } ]
+  },
+  "b555974799b394947210c0105bf0ddcb" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "1733ab66be487c4a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631099118421,
+        "stop" : 1631099120528,
+        "duration" : 2107
+      }
+    } ]
+  },
+  "e32195708d97c9afbc81ca551c501c65" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ebbdc48eff0cbd8f",
+      "status" : "skipped",
+      "statusDetails" : "timeout: Timed out receiving message from renderer: 300.000\n  (Session info: headless chrome=93.0.4577.63)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'SacredGrovesTes', ip: '172.16.0.7', os.name: 'Windows Server 2019', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.12'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 93.0.4577.63, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: C:\\Users\\SACRED~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:64557}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: b7bccf6a861eabcb86a53cd6fa39c0de",
+      "time" : {
+        "start" : 1631099759705,
+        "stop" : 1631099759707,
+        "duration" : 2
+      }
+    } ]
+  },
+  "34366cd1c4bf283b43402ff8d21d598a" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c9d38fc567fe00be",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631095195046,
+        "stop" : 1631095211419,
+        "duration" : 16373
+      }
+    } ]
+  },
+  "5f588b8d1e38fcdd9499216f031ad6e2" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "9f028bf9dfa68ec7",
+      "status" : "broken",
+      "statusDetails" : "timeout: Timed out receiving message from renderer: 300.000\n  (Session info: headless chrome=93.0.4577.63)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'SacredGrovesTes', ip: '172.16.0.7', os.name: 'Windows Server 2019', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.12'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 93.0.4577.63, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: C:\\Users\\SACRED~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:64557}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: b7bccf6a861eabcb86a53cd6fa39c0de",
+      "time" : {
+        "start" : 1631099759673,
+        "stop" : 1631099759676,
+        "duration" : 3
+      }
+    } ]
+  },
+  "a2bfb518a8d5c663af9ca7028128ca1d" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "db57117531e27d9f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631097603789,
+        "stop" : 1631097606878,
+        "duration" : 3089
+      }
+    } ]
+  },
+  "d7aa19973d2c757d874ceac5c0c97fcb" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "16ae66da940fb0b9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631097626872,
+        "stop" : 1631097630265,
+        "duration" : 3393
+      }
+    } ]
+  },
+  "800e893d1d7915b9a2c9fd1130709888" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e165cf4a9f7b35f5",
+      "status" : "broken",
+      "statusDetails" : "element not interactable\n  (Session info: headless chrome=93.0.4577.63)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'SacredGrovesTes', ip: '172.16.0.7', os.name: 'Windows Server 2019', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.12'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 93.0.4577.63, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: C:\\Users\\SACRED~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:58299}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: df5f4ae8b069cf2e94b643f158297924",
+      "time" : {
+        "start" : 1631097013171,
+        "stop" : 1631097013824,
+        "duration" : 653
+      }
+    } ]
+  },
+  "2a42bcef740be748dafede63ff248c0e" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "49818716db156804",
+      "status" : "broken",
+      "statusDetails" : "invalid argument: File not found : /home/ashwin/Documents/projects/Frugal Testing/automation_POM-main/resources/TestCases.txt\n  (Session info: headless chrome=93.0.4577.63)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'SacredGrovesTes', ip: '172.16.0.7', os.name: 'Windows Server 2019', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.12'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 93.0.4577.63, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: C:\\Users\\SACRED~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:53616}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 34b043ae7af15909dca9bafcee4525fd",
+      "time" : {
+        "start" : 1631094970812,
+        "stop" : 1631094970850,
+        "duration" : 38
+      }
+    } ]
+  },
+  "980640354a023f9b44adf2836f273331" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "8473ab2f76d4a660",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631096687458,
+        "stop" : 1631096688044,
+        "duration" : 586
+      }
+    } ]
+  },
+  "bd3729a93996e05b564604387237f1ab" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "745a98280557ac69",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for element to be clickable: By.xpath: //a[contains(text(),'Try again')] (tried for 5 second(s) with 500 milliseconds interval)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'SacredGrovesTes', ip: '172.16.0.7', os.name: 'Windows Server 2019', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.12'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 93.0.4577.63, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: C:\\Users\\SACRED~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:55692}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: d5e87ef1574a2ca43dacaf252aeaaeb3",
+      "time" : {
+        "start" : 1631095362646,
+        "stop" : 1631095389601,
+        "duration" : 26955
+      }
+    } ]
+  },
+  "bec8c0ef676a78a106dd53ec43d25151" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "92bd46e16845296e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631097090760,
+        "stop" : 1631097107319,
+        "duration" : 16559
+      }
+    } ]
+  },
+  "6754166d39485d0469604cca6e2de6a2" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d3447daa0ef33df5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631095547939,
+        "stop" : 1631095624067,
+        "duration" : 76128
+      }
+    } ]
+  },
+  "20617435ee48143c12fa01ffc4a883e0" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "4d6a9072291390e1",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for element to be clickable: By.xpath: //a[text()='OK'] (tried for 3 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1631097742218,
+        "stop" : 1631097749255,
+        "duration" : 7037
+      }
+    } ]
+  },
+  "aa8207e77c3f59d21df9191602b954e3" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "1cc15b1d23a7961c",
+      "status" : "skipped",
+      "statusDetails" : "timeout: Timed out receiving message from renderer: 300.000\n  (Session info: headless chrome=93.0.4577.63)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'SacredGrovesTes', ip: '172.16.0.7', os.name: 'Windows Server 2019', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.12'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 93.0.4577.63, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: C:\\Users\\SACRED~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:64557}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: b7bccf6a861eabcb86a53cd6fa39c0de",
+      "time" : {
+        "start" : 1631099759712,
+        "stop" : 1631099759714,
+        "duration" : 2
+      }
+    } ]
+  },
+  "20c2d491f918866f854eba36bdf5577f" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "1aa00b92f8f2d8e1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631094634629,
+        "stop" : 1631094654188,
+        "duration" : 19559
+      }
+    } ]
+  },
+  "f7c6dd18cb69392ceaf7bb1b82e44a8a" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "fde34f3f8447558f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631095722551,
+        "stop" : 1631095741961,
+        "duration" : 19410
+      }
+    } ]
+  },
+  "b132b424c65988cac31a47812e6ac993" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f4eec3a8fa257307",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631096615798,
+        "stop" : 1631096626867,
+        "duration" : 11069
+      }
+    } ]
+  },
+  "8b813263d8fe93120f5a184cfacdf09c" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "68da9754b95100b4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631097197268,
+        "stop" : 1631097212273,
+        "duration" : 15005
+      }
+    } ]
+  },
+  "63b5ad9f2582cc914af88c5f0acb001b" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e847a7c6a413da46",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631096353155,
+        "stop" : 1631096353346,
+        "duration" : 191
+      }
+    } ]
+  },
+  "37c30551229c52e209ffa23343bd4508" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f22f3fd96953988a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631096832672,
+        "stop" : 1631096834687,
+        "duration" : 2015
+      }
+    } ]
+  },
+  "abe1625d39363f9a6095658306440597" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d8d5e557b461bd11",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631097365117,
+        "stop" : 1631097369690,
+        "duration" : 4573
+      }
+    } ]
+  },
+  "442a8fb41e467a5b094ab4a2048b1993" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "9f3819255c621d13",
+      "status" : "broken",
+      "statusDetails" : "timeout: Timed out receiving message from renderer: 300.000\n  (Session info: headless chrome=93.0.4577.63)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'SacredGrovesTes', ip: '172.16.0.7', os.name: 'Windows Server 2019', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.12'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 93.0.4577.63, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: C:\\Users\\SACRED~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:64557}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: b7bccf6a861eabcb86a53cd6fa39c0de",
+      "time" : {
+        "start" : 1631099158648,
+        "stop" : 1631099459649,
+        "duration" : 301001
+      }
+    } ]
+  },
+  "ff14998793db3526481020c89fb6c3c" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c8466c5fa81bc02e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631096203143,
+        "stop" : 1631096218133,
+        "duration" : 14990
+      }
+    } ]
+  },
+  "e6f47d3824c36015e19f58ebafc868b" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "41e172e91ad1dcc4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631095428433,
+        "stop" : 1631095444967,
+        "duration" : 16534
+      }
+    } ]
+  },
+  "844f53565bff6cbfc00b6a92447a6276" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "6c7133a5acde3375",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631095070264,
+        "stop" : 1631095094389,
+        "duration" : 24125
+      }
+    } ]
+  },
+  "6b5e5d1b2514dca8c1a28e6e6bb9825e" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "89a6672aca09732",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631095839355,
+        "stop" : 1631095839370,
+        "duration" : 15
+      }
+    } ]
+  },
+  "e2e0f8bdc829ef933d6ae3ccace80991" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "21134a81f740a24e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631096503311,
+        "stop" : 1631096546379,
+        "duration" : 43068
+      }
+    } ]
+  },
+  "fcbddfd25fbf612d04e3e91f1b15f24" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "2b365587e87b23be",
+      "status" : "broken",
+      "statusDetails" : "Authenticate",
+      "time" : {
+        "start" : 1631097351821,
+        "stop" : 1631097357771,
+        "duration" : 5950
+      }
+    } ]
+  },
+  "53fc602c6d9c50a9b12b59e36bd82248" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "5ccb39d0fa8f9777",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631096717396,
+        "stop" : 1631096722001,
+        "duration" : 4605
+      }
+    } ]
+  },
+  "d28224b16adf436c1febbd94afbf99c4" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "8b2e9ec588e6965f",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for element to be clickable: By.xpath: //a[text()='OK'] (tried for 3 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1631097681001,
+        "stop" : 1631097687476,
+        "duration" : 6475
+      }
+    } ]
+  },
+  "301199c730919b394ae6e1649b77811b" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "81e70856d927ae33",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631094752712,
+        "stop" : 1631094772939,
+        "duration" : 20227
+      }
+    } ]
+  },
+  "3e92fa231c8b47e29b94f6f207210103" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d9fd78845509a6b4",
+      "status" : "broken",
+      "statusDetails" : "element not interactable\n  (Session info: headless chrome=93.0.4577.63)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'SacredGrovesTes', ip: '172.16.0.7', os.name: 'Windows Server 2019', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.12'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 93.0.4577.63, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: C:\\Users\\SACRED~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:62360}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 68dd9e42ef1cb7f3d116a40463f5473e",
+      "time" : {
+        "start" : 1631096974395,
+        "stop" : 1631096975185,
+        "duration" : 790
+      }
+    } ]
+  },
+  "f7fb33e0c61fdc4f5da1e58aa4df7e74" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "862feed76b5f34c2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631097144757,
+        "stop" : 1631097161008,
+        "duration" : 16251
+      }
+    } ]
+  },
+  "ccf8423537e2231f53bfab4283a5eff9" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e83e2fc02de35c01",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631097562780,
+        "stop" : 1631097583703,
+        "duration" : 20923
+      }
+    } ]
+  },
+  "48bacfb917b79c919e7c08b970924086" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e675d17605ce8cf3",
+      "status" : "broken",
+      "statusDetails" : "element not interactable\n  (Session info: headless chrome=93.0.4577.63)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'SacredGrovesTes', ip: '172.16.0.7', os.name: 'Windows Server 2019', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.12'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 93.0.4577.63, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: C:\\Users\\SACRED~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:51124}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: dd8d447693cd81a3b4631a4288a3ff3a",
+      "time" : {
+        "start" : 1631097052050,
+        "stop" : 1631097052714,
+        "duration" : 664
+      }
+    } ]
+  },
+  "b81196357db8979a684f6df10c59cb2e" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "168965cc8e4a5fa0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631099011240,
+        "stop" : 1631099017793,
+        "duration" : 6553
+      }
+    } ]
+  },
+  "c5c80bf1b40a8a6fd0ed157a0bd633ec" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "6a24af106757703",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631096894925,
+        "stop" : 1631096897265,
+        "duration" : 2340
+      }
+    } ]
+  },
+  "4ef23f17606f2823118110b3820476a5" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "7eba79f93c0c4169",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for element to be clickable: By.xpath: //a[text()='OK'] (tried for 3 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1631097819427,
+        "stop" : 1631097826116,
+        "duration" : 6689
+      }
+    } ]
+  },
+  "b6f905a3c30adbc2ff77c48434af7b43" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "8b3e53776b460b2c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631095780008,
+        "stop" : 1631095800306,
+        "duration" : 20298
+      }
+    } ]
+  },
+  "b937d2b8ca4ef9d6ce95c3ae43b9a352" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "7be1435b2fa8eed2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631096576991,
+        "stop" : 1631096588822,
+        "duration" : 11831
+      }
+    } ]
+  },
+  "f30354a6d207602937a71f3d28fe8b98" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "73b8ec6c4fc563c7",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for element to be clickable: By.xpath: //a[text()='OK'] (tried for 3 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1631097757647,
+        "stop" : 1631097764525,
+        "duration" : 6878
+      }
+    } ]
+  },
+  "da43a65ffa9ce8ab553763af42d7cdb9" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d572bcf76f4c9f66",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631095132334,
+        "stop" : 1631095156441,
+        "duration" : 24107
+      }
+    } ]
+  },
+  "e1b23b4f77a52e53d21c023002fa5b2e" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "2cb7a16eb741e936",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631095932285,
+        "stop" : 1631095947931,
+        "duration" : 15646
+      }
+    } ]
+  },
+  "b073021fce85409763ecd9d26dfc626c" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "6f6c02f05c2964d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631098866633,
+        "stop" : 1631098891113,
+        "duration" : 24480
+      }
+    } ]
+  },
+  "65ca569909bfa0f2b0878679621b77d4" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ac52b277d963e032",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for element to be clickable: By.xpath: //a[text()='OK'] (tried for 3 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1631097696192,
+        "stop" : 1631097702803,
+        "duration" : 6611
+      }
+    } ]
+  },
+  "c6f7a90693254fae10ff452e4a30f075" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f398dbc2d4b18f16",
+      "status" : "broken",
+      "statusDetails" : "Authenticate",
+      "time" : {
+        "start" : 1631097298138,
+        "stop" : 1631097305030,
+        "duration" : 6892
+      }
+    } ]
+  },
+  "201181f0636abe0db2e95451425589a" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "fae71478839485fa",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631094575962,
+        "stop" : 1631094595622,
+        "duration" : 19660
+      }
+    } ]
+  },
+  "b543cec6dd6af9ca8ad33ef1f512aa1e" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "2f4c73f2176e51bf",
+      "status" : "skipped",
+      "statusDetails" : "timeout: Timed out receiving message from renderer: 300.000\n  (Session info: headless chrome=93.0.4577.63)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'SacredGrovesTes', ip: '172.16.0.7', os.name: 'Windows Server 2019', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.12'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 93.0.4577.63, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: C:\\Users\\SACRED~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:64557}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: b7bccf6a861eabcb86a53cd6fa39c0de",
+      "time" : {
+        "start" : 1631099759686,
+        "stop" : 1631099759686,
+        "duration" : 0
+      }
+    } ]
+  },
+  "985500a6ace73d49bd916fb007ebe8cb" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "7106b633d888d1c2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631096095138,
+        "stop" : 1631096110181,
+        "duration" : 15043
+      }
+    } ]
+  },
+  "ec0727c4d49f668d505061c79f3834b9" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "9141ed01aea8f3db",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631095249916,
+        "stop" : 1631095267014,
+        "duration" : 17098
+      }
+    } ]
+  },
+  "d460f6fa1e690f5bfb4e3364a5303ca8" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b958ccbae8cef61e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631095877802,
+        "stop" : 1631095893397,
+        "duration" : 15595
+      }
+    } ]
+  },
+  "f50c6555ea735d43d2798b29f8848a22" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "5ab49b8eddb839a1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631097592324,
+        "stop" : 1631097595305,
+        "duration" : 2981
+      }
+    } ]
+  },
+  "c702dde7a48f17004ceaeec871687e98" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "65e50932fc4e38f0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631096041198,
+        "stop" : 1631096057052,
+        "duration" : 15854
+      }
+    } ]
+  },
+  "f03190145a5ced1a8fed7819545b3e59" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "9b79bbc6ad6f6d7c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631094451992,
+        "stop" : 1631094474424,
+        "duration" : 22432
+      }
+    } ]
+  },
+  "efa64f0ff98f05d2de25aeeceb390279" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b04df0fee67d8079",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631097494754,
+        "stop" : 1631097516335,
+        "duration" : 21581
       }
     } ]
   },
@@ -28,12 +1169,804 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "4b86948eae289ab1",
+      "uid" : "ebc9305ddcfe2bda",
       "status" : "passed",
       "time" : {
-        "start" : 1631093022913,
-        "stop" : 1631093034960,
-        "duration" : 12047
+        "start" : 1631100107411,
+        "stop" : 1631100120378,
+        "duration" : 12967
+      }
+    } ]
+  },
+  "c7935df8ec27c6ef06814228836706b7" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "4880e841b2f6403e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631096898326,
+        "stop" : 1631096898327,
+        "duration" : 1
+      }
+    } ]
+  },
+  "fbcea264b18111fd5e18da16e759017" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "35dd0b4b8ba64af",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for element to be clickable: By.xpath: //a[text()='OK'] (tried for 3 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1631097726840,
+        "stop" : 1631097733576,
+        "duration" : 6736
+      }
+    } ]
+  },
+  "fa48ff40d73bfacf7a1fcff44a65a689" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "eb1c1800108db34e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631095663530,
+        "stop" : 1631095683409,
+        "duration" : 19879
+      }
+    } ]
+  },
+  "6fbec4416a26745532e449ab94e79926" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c430cd0c1f03388e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631096384941,
+        "stop" : 1631096394138,
+        "duration" : 9197
+      }
+    } ]
+  },
+  "b1e23ffef6fd16c8a941f5d36c5b0a0" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a1c2a55e7c62c06a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631097638765,
+        "stop" : 1631097641937,
+        "duration" : 3172
+      }
+    } ]
+  },
+  "c2281aeb4fdc2bb1de0dd5657ad69b76" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "8aaaea427604f458",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631096751414,
+        "stop" : 1631096758312,
+        "duration" : 6898
+      }
+    } ]
+  },
+  "f6ff49bb7acd25fd58126aaa24d1ff07" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "9066b87cd540c24b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631096786984,
+        "stop" : 1631096803154,
+        "duration" : 16170
+      }
+    } ]
+  },
+  "f476df30f93439896ee8fa27d4ae0645" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "64d12e2e11ec1536",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631097423996,
+        "stop" : 1631097454360,
+        "duration" : 30364
+      }
+    } ]
+  },
+  "2ac88d444dc1407feba8964552d0dbe7" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f2da026d10ecab80",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631095008958,
+        "stop" : 1631095031526,
+        "duration" : 22568
+      }
+    } ]
+  },
+  "bac7f52e1c3d2013e5357fa17d0b463" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a17826809a0a0a0b",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for element to be clickable: By.xpath: //a[text()='OK'] (tried for 3 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1631097788661,
+        "stop" : 1631097795827,
+        "duration" : 7166
+      }
+    } ]
+  },
+  "31931dd9475026cf036c03daf07e4ec1" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "6f8266b11ef17440",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631096257167,
+        "stop" : 1631096264552,
+        "duration" : 7385
+      }
+    } ]
+  },
+  "af4aedd8e77e7b17d0318933008ae345" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "4d4f27f34d4f7ce7",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for element to be clickable: By.xpath: //a[text()='OK'] (tried for 3 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1631097773593,
+        "stop" : 1631097780232,
+        "duration" : 6639
+      }
+    } ]
+  },
+  "37a81a69f2d8c6177510372d46fcfb33" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "4e5b2f26c69f9b4b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631096425278,
+        "stop" : 1631096433430,
+        "duration" : 8152
+      }
+    } ]
+  },
+  "bc9c45c2a01a44cb18ceb1fa863535e5" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c4a83945d0be3f2c",
+      "status" : "broken",
+      "statusDetails" : "Authenticate",
+      "time" : {
+        "start" : 1631097338618,
+        "stop" : 1631097344497,
+        "duration" : 5879
+      }
+    } ]
+  },
+  "8845ed58641bb10df8fc631c5e59beb3" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ac79a7a4d71095dc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631096303966,
+        "stop" : 1631096309889,
+        "duration" : 5923
+      }
+    } ]
+  },
+  "5e44c8e1f0840419e213edefbcd3e8e0" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "48cf08571bda90cf",
+      "status" : "skipped",
+      "statusDetails" : "timeout: Timed out receiving message from renderer: 300.000\n  (Session info: headless chrome=93.0.4577.63)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'SacredGrovesTes', ip: '172.16.0.7', os.name: 'Windows Server 2019', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.12'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 93.0.4577.63, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: C:\\Users\\SACRED~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:64557}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: b7bccf6a861eabcb86a53cd6fa39c0de",
+      "time" : {
+        "start" : 1631099759691,
+        "stop" : 1631099759692,
+        "duration" : 1
+      }
+    } ]
+  },
+  "9b06b8d74585c9038fbb260a80b0404a" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "408fe7d02f32a9d0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631097246092,
+        "stop" : 1631097260360,
+        "duration" : 14268
+      }
+    } ]
+  },
+  "5b1792b9b0d7da970ef4c0a506b4afe" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "5b813243838ad287",
+      "status" : "broken",
+      "statusDetails" : "Authenticate",
+      "time" : {
+        "start" : 1631097312348,
+        "stop" : 1631097318168,
+        "duration" : 5820
+      }
+    } ]
+  },
+  "4846792bdf8db3c88b191487499b760d" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "93a7018d35152af1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631096863927,
+        "stop" : 1631096865605,
+        "duration" : 1678
+      }
+    } ]
+  },
+  "8c02a55755ab4a5520da9b6ab150b581" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "eb517513ef42db4d",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//div[@id='disclosures']\"}\n  (Session info: headless chrome=93.0.4577.63)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'SacredGrovesTes', ip: '172.16.0.7', os.name: 'Windows Server 2019', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.12'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 93.0.4577.63, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: C:\\Users\\SACRED~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:58967}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 1b074c2c41117c38a03b945b5aa22c86\n*** Element info: {Using=xpath, value=//div[@id='disclosures']}",
+      "time" : {
+        "start" : 1631099034418,
+        "stop" : 1631099034443,
+        "duration" : 25
+      }
+    } ]
+  },
+  "4710c8d6b2c7e0e317592dc412365d51" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "12e7fd63c0760acb",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for element to be clickable: By.xpath: //a[text()='OK'] (tried for 3 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1631097711421,
+        "stop" : 1631097718107,
+        "duration" : 6686
+      }
+    } ]
+  },
+  "9bf04e21f16eb75c8360f8a7943e48f1" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c1d1392ccdf67336",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631094389748,
+        "stop" : 1631094413744,
+        "duration" : 23996
+      }
+    } ]
+  },
+  "e4eabe79fb6bf627e33b9a15668bd7e1" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "378d8d2dc1c97160",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631094812326,
+        "stop" : 1631094835362,
+        "duration" : 23036
+      }
+    } ]
+  },
+  "905a1c8678c6daaf5462ce69261cbf77" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "924825ae7e13f33a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631096464495,
+        "stop" : 1631096472628,
+        "duration" : 8133
+      }
+    } ]
+  },
+  "83dbcf2b275bf7bc38c571ba2dc60b80" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "aa78dcbf7426b360",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for element to be clickable: By.xpath: //a[text()='OK'] (tried for 3 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1631097650549,
+        "stop" : 1631097657302,
+        "duration" : 6753
+      }
+    } ]
+  },
+  "1721a272e2b33ad3b6f1e85910236ba1" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c3f26f386ce16aa",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631098928611,
+        "stop" : 1631098928822,
+        "duration" : 211
+      }
+    } ]
+  },
+  "fb4672562701e0ea8ba756e0877c4238" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a161d035b05f44d4",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for element to be clickable: By.xpath: //a[text()='OK'] (tried for 3 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1631097804496,
+        "stop" : 1631097811040,
+        "duration" : 6544
+      }
+    } ]
+  },
+  "99d6ea20afa8d75e666e8f947f833058" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "73719ef8ef8445f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631096657245,
+        "stop" : 1631096657532,
+        "duration" : 287
+      }
+    } ]
+  },
+  "742d119c6efc1393acff22b419779ead" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "864e039359351830",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631094693795,
+        "stop" : 1631094713755,
+        "duration" : 19960
+      }
+    } ]
+  },
+  "7c9639f4991f8c64aa1ceb3c96c18123" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ecb1f310a2c6c65f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631099075203,
+        "stop" : 1631099078717,
+        "duration" : 3514
+      }
+    } ]
+  },
+  "171342bbdbba0eb4140bad86ec195b05" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "561688ccbb8ac694",
+      "status" : "skipped",
+      "statusDetails" : "timeout: Timed out receiving message from renderer: 300.000\n  (Session info: headless chrome=93.0.4577.63)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'SacredGrovesTes', ip: '172.16.0.7', os.name: 'Windows Server 2019', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.12'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 93.0.4577.63, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: C:\\Users\\SACRED~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:64557}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: b7bccf6a861eabcb86a53cd6fa39c0de",
+      "time" : {
+        "start" : 1631099759721,
+        "stop" : 1631099759722,
+        "duration" : 1
+      }
+    } ]
+  },
+  "41be3d2899187840b88a2f86ca814ebc" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f75dc0179cfaeb83",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631097615425,
+        "stop" : 1631097618387,
+        "duration" : 2962
+      }
+    } ]
+  },
+  "33502eed2027482018744b73b827643a" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "dc818de889cf9e94",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631100128017,
+        "stop" : 1631100131684,
+        "duration" : 3667
+      }
+    } ]
+  },
+  "c71a1a29b73f8bdac37f04752ed11b9" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c7a7a090b3beff64",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631099798962,
+        "stop" : 1631099799082,
+        "duration" : 120
+      }
+    } ]
+  },
+  "84a71fcf18f6ce258df0b3d5c9382eac" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "da4011c35b5a662c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631094513859,
+        "stop" : 1631094536514,
+        "duration" : 22655
+      }
+    } ]
+  },
+  "632b87dd6e31eb33999f745c114d75bc" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e448987001231b22",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for element to be clickable: By.xpath: //a[text()='OK'] (tried for 3 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1631097665802,
+        "stop" : 1631097672640,
+        "duration" : 6838
+      }
+    } ]
+  },
+  "cd19b79dfcb2157757ae3c506a71b2de" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "3a218bacd1a59da8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631096898316,
+        "stop" : 1631096898317,
+        "duration" : 1
+      }
+    } ]
+  },
+  "1467e78495af083b589d005a0ccc347b" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "822b95f3cb7fb932",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631094874182,
+        "stop" : 1631094893647,
+        "duration" : 19465
+      }
+    } ]
+  },
+  "bc5da8132620ad40e69e2b469fee2a64" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "fb11812ca1acc600",
+      "status" : "broken",
+      "statusDetails" : "element not interactable\n  (Session info: headless chrome=93.0.4577.63)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'SacredGrovesTes', ip: '172.16.0.7', os.name: 'Windows Server 2019', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.12'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 93.0.4577.63, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: C:\\Users\\SACRED~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:54197}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 28825b36146c250e151ca9ce060e25b0",
+      "time" : {
+        "start" : 1631096935437,
+        "stop" : 1631096936168,
+        "duration" : 731
+      }
+    } ]
+  },
+  "629c80826df0f121ffcb6bf335173c06" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d349d506899e844a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631095986802,
+        "stop" : 1631096002136,
+        "duration" : 15334
+      }
+    } ]
+  },
+  "1fd0adb4a3fa52b213146c675cff8748" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c3899f4275e4f4b5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631096149701,
+        "stop" : 1631096164528,
+        "duration" : 14827
       }
     } ]
   }
