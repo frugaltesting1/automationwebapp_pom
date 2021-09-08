@@ -1,20 +1,20 @@
 [ {
-  "uid" : "5a9ea78888737fab",
+  "uid" : "fcaebfde73efd41",
   "name" : "Test:Login Test With Wrong Details",
   "time" : {
-    "start" : 1631085460143,
-    "stop" : 1631085466484,
-    "duration" : 6341
+    "start" : 1631092414864,
+    "stop" : 1631092417862,
+    "duration" : 2998
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "ffc682c0f8cfbdef",
+  "uid" : "6d471d4cd6e3a14d",
   "name" : "Test:Login Test With Correct Details",
   "time" : {
-    "start" : 1631085419332,
-    "stop" : 1631085440783,
-    "duration" : 21451
+    "start" : 1631092396303,
+    "stop" : 1631092408071,
+    "duration" : 11768
   },
   "status" : "passed",
   "severity" : "normal"
