@@ -12,7 +12,7 @@ public class demo  extends BaseTest {
 
 
     @BeforeMethod
-    public void setup() {
+    public void setupx() {
         System.out.println("Before Test");
     }
 
@@ -29,7 +29,6 @@ public class demo  extends BaseTest {
 
     @AfterMethod
     public void close() {
-        AllureReport.Screenshot(driver,this.getClass().getName());
         System.out.println("After Test");
     }
 
