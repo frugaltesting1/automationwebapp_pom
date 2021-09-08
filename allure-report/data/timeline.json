@@ -1,0 +1,99 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "DESKTOP-C0KUII6",
+    "children" : [ {
+      "name" : "6164@DESKTOP-C0KUII6.main(1)",
+      "children" : [ {
+        "name" : "Test:Login Test With Correct Details",
+        "uid" : "cba85b82731cf134",
+        "parentUid" : "37534f8bd3c124e680b5544699ef7ad8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631079222974,
+          "stop" : 1631079268150,
+          "duration" : 45176
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test:Login Test With Wrong Details",
+        "uid" : "e89312620a41305d",
+        "parentUid" : "37534f8bd3c124e680b5544699ef7ad8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631079321046,
+          "stop" : 1631079329004,
+          "duration" : 7958
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "37534f8bd3c124e680b5544699ef7ad8"
+    }, {
+      "name" : "6220@DESKTOP-C0KUII6.main(1)",
+      "children" : [ {
+        "name" : "Test:Login Test With Wrong Details",
+        "uid" : "c21be4314ba1adb9",
+        "parentUid" : "dfe2d2c5a347a7e6d330f32092c21750",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631077962539,
+          "stop" : 1631077968239,
+          "duration" : 5700
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test:Login Test With Correct Details",
+        "uid" : "aa1f680d0039a1bd",
+        "parentUid" : "dfe2d2c5a347a7e6d330f32092c21750",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631077925148,
+          "stop" : 1631077945604,
+          "duration" : 20456
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "dfe2d2c5a347a7e6d330f32092c21750"
+    }, {
+      "name" : "3520@DESKTOP-C0KUII6.main(1)",
+      "children" : [ {
+        "name" : "Test:Login Test With Wrong Details",
+        "uid" : "1c163826df8dbd68",
+        "parentUid" : "5d877f1e217a60a819aade23c28c69db",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631082978690,
+          "stop" : 1631082985954,
+          "duration" : 7264
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test:Login Test With Correct Details",
+        "uid" : "297c7f68fc29d53e",
+        "parentUid" : "5d877f1e217a60a819aade23c28c69db",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631082923304,
+          "stop" : 1631082954496,
+          "duration" : 31192
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "5d877f1e217a60a819aade23c28c69db"
+    } ],
+    "uid" : "e4771b9f4781e5abea1ce7214178a6fe"
+  } ]
+}

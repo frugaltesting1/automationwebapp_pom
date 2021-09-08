@@ -1,0 +1,92 @@
+{
+  "uid" : "aa1f680d0039a1bd",
+  "name" : "Test:Login Test With Correct Details",
+  "fullName" : "tests.login.loginWithCorrectDetails",
+  "historyId" : "7bce7eff05b659c834047156873d044c",
+  "time" : {
+    "start" : 1631077925148,
+    "stop" : 1631077945604,
+    "duration" : 20456
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setupTests",
+    "time" : {
+      "start" : 1631077881780,
+      "stop" : 1631077922913,
+      "duration" : 41133
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "clearTests",
+    "time" : {
+      "start" : 1631077945717,
+      "stop" : 1631077948932,
+      "duration" : 3215
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.login"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.login"
+  }, {
+    "name" : "testMethod",
+    "value" : "loginWithCorrectDetails"
+  }, {
+    "name" : "parentSuite",
+    "value" : "All Test Suite"
+  }, {
+    "name" : "suite",
+    "value" : "automationwebapp_pom"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.login"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-C0KUII6"
+  }, {
+    "name" : "thread",
+    "value" : "6220@DESKTOP-C0KUII6.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "aa1f680d0039a1bd.json",
+  "parameterValues" : [ ]
+}

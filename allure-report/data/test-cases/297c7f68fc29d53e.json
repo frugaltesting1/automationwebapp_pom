@@ -1,0 +1,110 @@
+{
+  "uid" : "297c7f68fc29d53e",
+  "name" : "Test:Login Test With Correct Details",
+  "fullName" : "tests.login.loginWithCorrectDetails",
+  "historyId" : "7bce7eff05b659c834047156873d044c",
+  "time" : {
+    "start" : 1631082923304,
+    "stop" : 1631082954496,
+    "duration" : 31192
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setupTests",
+    "time" : {
+      "start" : 1631082901026,
+      "stop" : 1631082921811,
+      "duration" : 20785
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "clearTests",
+    "time" : {
+      "start" : 1631082954829,
+      "stop" : 1631082959703,
+      "duration" : 4874
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.login"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.login"
+  }, {
+    "name" : "testMethod",
+    "value" : "loginWithCorrectDetails"
+  }, {
+    "name" : "parentSuite",
+    "value" : "All Test Suite"
+  }, {
+    "name" : "suite",
+    "value" : "automationwebapp_pom"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.login"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-C0KUII6"
+  }, {
+    "name" : "thread",
+    "value" : "3520@DESKTOP-C0KUII6.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "cba85b82731cf134",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631079222974,
+        "stop" : 1631079268150,
+        "duration" : 45176
+      }
+    }, {
+      "uid" : "aa1f680d0039a1bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631077925148,
+        "stop" : 1631077945604,
+        "duration" : 20456
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "297c7f68fc29d53e.json",
+  "parameterValues" : [ ]
+}

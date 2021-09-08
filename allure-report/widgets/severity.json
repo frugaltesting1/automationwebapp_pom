@@ -1,0 +1,21 @@
+[ {
+  "uid" : "1c163826df8dbd68",
+  "name" : "Test:Login Test With Wrong Details",
+  "time" : {
+    "start" : 1631082978690,
+    "stop" : 1631082985954,
+    "duration" : 7264
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "297c7f68fc29d53e",
+  "name" : "Test:Login Test With Correct Details",
+  "time" : {
+    "start" : 1631082923304,
+    "stop" : 1631082954496,
+    "duration" : 31192
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
