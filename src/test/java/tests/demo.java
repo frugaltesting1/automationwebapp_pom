@@ -24,7 +24,6 @@ public class demo  extends BaseTest {
     @Test
     public void demoTest2() {
         System.out.println("Running Test");
-        Assert.fail();
     }
 
     @AfterMethod
