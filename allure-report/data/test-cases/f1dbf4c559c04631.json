@@ -1,12 +1,12 @@
 {
-  "uid" : "6d471d4cd6e3a14d",
-  "name" : "Test:Login Test With Correct Details",
-  "fullName" : "tests.login.loginWithCorrectDetails",
-  "historyId" : "7bce7eff05b659c834047156873d044c",
+  "uid" : "f1dbf4c559c04631",
+  "name" : "Test:Login Test With Wrong Details",
+  "fullName" : "tests.login.loginWithWrongDetails",
+  "historyId" : "33502eed2027482018744b73b827643a",
   "time" : {
-    "start" : 1631092396303,
-    "stop" : 1631092408071,
-    "duration" : 11768
+    "start" : 1631093042003,
+    "stop" : 1631093045234,
+    "duration" : 3231
   },
   "status" : "passed",
   "flaky" : false,
@@ -14,25 +14,25 @@
   "beforeStages" : [ {
     "name" : "setupTests",
     "time" : {
-      "start" : 1631092389125,
-      "stop" : 1631092396146,
-      "duration" : 7021
+      "start" : 1631093035786,
+      "stop" : 1631093041996,
+      "duration" : 6210
     },
     "description" : "",
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "stepsCount" : 0,
     "hasContent" : false,
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
   } ],
   "afterStages" : [ {
     "name" : "clearTests",
     "time" : {
-      "start" : 1631092408081,
-      "stop" : 1631092408910,
+      "start" : 1631093045237,
+      "stop" : 1631093046066,
       "duration" : 829
     },
     "description" : "",
@@ -40,10 +40,10 @@
     "steps" : [ ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "stepsCount" : 0,
     "hasContent" : false,
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
   } ],
   "labels" : [ {
     "name" : "package",
@@ -53,7 +53,7 @@
     "value" : "tests.login"
   }, {
     "name" : "testMethod",
-    "value" : "loginWithCorrectDetails"
+    "value" : "loginWithWrongDetails"
   }, {
     "name" : "parentSuite",
     "value" : "All Test Suite"
@@ -68,7 +68,7 @@
     "value" : "SacredGrovesTes"
   }, {
     "name" : "thread",
-    "value" : "14188@SacredGrovesTes.main(1)"
+    "value" : "12632@SacredGrovesTes.main(1)"
   }, {
     "name" : "framework",
     "value" : "testng"
@@ -86,17 +86,25 @@
   "extra" : {
     "severity" : "normal",
     "retries" : [ {
-      "uid" : "f372190bcb4cea18",
+      "uid" : "b9b3ce834680a50a",
       "status" : "passed",
       "time" : {
-        "start" : 1631085419332,
-        "stop" : 1631085440783,
-        "duration" : 21451
+        "start" : 1631092414864,
+        "stop" : 1631092417862,
+        "duration" : 2998
+      }
+    }, {
+      "uid" : "2e840c00fc8808b3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631085460143,
+        "stop" : 1631085466484,
+        "duration" : 6341
       }
     } ],
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "6d471d4cd6e3a14d.json",
+  "source" : "f1dbf4c559c04631.json",
   "parameterValues" : [ ]
 }

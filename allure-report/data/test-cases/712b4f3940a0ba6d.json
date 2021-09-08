@@ -1,12 +1,12 @@
 {
-  "uid" : "fcaebfde73efd41",
-  "name" : "Test:Login Test With Wrong Details",
-  "fullName" : "tests.login.loginWithWrongDetails",
-  "historyId" : "33502eed2027482018744b73b827643a",
+  "uid" : "712b4f3940a0ba6d",
+  "name" : "Test:Login Test With Correct Details",
+  "fullName" : "tests.login.loginWithCorrectDetails",
+  "historyId" : "7bce7eff05b659c834047156873d044c",
   "time" : {
-    "start" : 1631092414864,
-    "stop" : 1631092417862,
-    "duration" : 2998
+    "start" : 1631092396303,
+    "stop" : 1631092408071,
+    "duration" : 11768
   },
   "status" : "passed",
   "flaky" : false,
@@ -14,36 +14,36 @@
   "beforeStages" : [ {
     "name" : "setupTests",
     "time" : {
-      "start" : 1631092408912,
-      "stop" : 1631092414858,
-      "duration" : 5946
+      "start" : 1631092389125,
+      "stop" : 1631092396146,
+      "duration" : 7021
     },
     "description" : "",
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "stepsCount" : 0,
     "hasContent" : false,
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
   } ],
   "afterStages" : [ {
     "name" : "clearTests",
     "time" : {
-      "start" : 1631092417865,
-      "stop" : 1631092418697,
-      "duration" : 832
+      "start" : 1631092408081,
+      "stop" : 1631092408910,
+      "duration" : 829
     },
     "description" : "",
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "stepsCount" : 0,
     "hasContent" : false,
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
   } ],
   "labels" : [ {
     "name" : "package",
@@ -53,7 +53,7 @@
     "value" : "tests.login"
   }, {
     "name" : "testMethod",
-    "value" : "loginWithWrongDetails"
+    "value" : "loginWithCorrectDetails"
   }, {
     "name" : "parentSuite",
     "value" : "All Test Suite"
@@ -81,22 +81,12 @@
   } ],
   "parameters" : [ ],
   "links" : [ ],
-  "hidden" : false,
-  "retry" : false,
+  "hidden" : true,
+  "retry" : true,
   "extra" : {
-    "severity" : "normal",
-    "retries" : [ {
-      "uid" : "17dd1e2261d7433b",
-      "status" : "passed",
-      "time" : {
-        "start" : 1631085460143,
-        "stop" : 1631085466484,
-        "duration" : 6341
-      }
-    } ],
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "fcaebfde73efd41.json",
+  "source" : "712b4f3940a0ba6d.json",
   "parameterValues" : [ ]
 }

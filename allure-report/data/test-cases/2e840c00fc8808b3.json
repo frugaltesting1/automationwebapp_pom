@@ -1,5 +1,5 @@
 {
-  "uid" : "17dd1e2261d7433b",
+  "uid" : "2e840c00fc8808b3",
   "name" : "Test:Login Test With Wrong Details",
   "fullName" : "tests.login.loginWithWrongDetails",
   "historyId" : "33502eed2027482018744b73b827643a",
@@ -23,10 +23,10 @@
     "steps" : [ ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "stepsCount" : 0,
     "hasContent" : false,
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
   } ],
   "afterStages" : [ {
     "name" : "clearTests",
@@ -40,10 +40,10 @@
     "steps" : [ ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "stepsCount" : 0,
     "hasContent" : false,
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
   } ],
   "labels" : [ {
     "name" : "package",
@@ -87,6 +87,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "17dd1e2261d7433b.json",
+  "source" : "2e840c00fc8808b3.json",
   "parameterValues" : [ ]
 }
