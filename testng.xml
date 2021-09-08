@@ -114,12 +114,12 @@
 <!--                    <include name="verifyIfYoutubeIconLeadsToYoutubePage"/>-->
 <!--                </methods>-->
 <!--            </class>-->
-            <class name="tests.demo">
-                <methods>
-                    <include name="demoTest1"/>
-                    <include name="demoTest2"/>
-                </methods>
-            </class>
+<!--            <class name="tests.demo">-->
+<!--                <methods>-->
+<!--                    <include name="demoTest1"/>-->
+<!--                    <include name="demoTest2"/>-->
+<!--                </methods>-->
+<!--            </class>-->
 <!--            <class name="tests.gifting">-->
 <!--                <methods>-->
 <!--                    <include name="sendGiftThroughEmail"/>-->
@@ -132,18 +132,18 @@
 <!--                    <include name="sendGiftsThroughPhoneWithPayNow"/>-->
 <!--                </methods>-->
 <!--            </class>-->
-<!--            <class name="tests.login">-->
-<!--                <methods>-->
-<!--                    <include name="loginWithCorrectDetails"/>-->
-<!--                    <include name="loginWithWrongDetails"/>-->
+            <class name="tests.login">
+                <methods>
+                    <include name="loginWithCorrectDetails"/>
+                    <include name="loginWithWrongDetails"/>
 <!--                    <include name="forgotPassword"/>-->
 <!--                    <include name="forgotPasswordWithWrongRePassword"/>-->
 <!--                    <include name="forgotPasswordWithOutSymbol"/>-->
 <!--                    <include name="forgotPasswordWithOutNumber"/>-->
 <!--                    <include name="forgotPasswordWithOutWords"/>-->
 <!--                    <include name="forgotPasswordWithWrongUser"/>-->
-<!--                </methods>-->
-<!--            </class>-->
+                </methods>
+            </class>
 <!--            <class name="tests.messaging">-->
 <!--                <methods>-->
 <!--                    <include name="sendMessage"/>-->
