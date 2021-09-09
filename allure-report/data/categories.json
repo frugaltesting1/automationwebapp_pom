@@ -7,7 +7,7 @@
       "name" : "invalid argument: File not found : /home/ashwin/Documents/projects/Frugal Testing/automation_POM-main/resources/pexels_photo.jpeg\n  (Session info: headless chrome=93.0.4577.63)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'SacredGrovesTes', ip: '172.16.0.7', os.name: 'Windows Server 2019', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.12'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 93.0.4577.63, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: C:\\Users\\SACRED~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:53664}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: dfb4071df2f1717d8b2a32c0068d1c81",
       "children" : [ {
         "name" : "uploadProfilePic",
-        "uid" : "e703320e5694d322",
+        "uid" : "43cd23c6f14f0287",
         "parentUid" : "7aa6801b0222c58534f14badf352f9e0",
         "status" : "broken",
         "time" : {
@@ -24,7 +24,7 @@
       "name" : "invalid argument: File not found : /home/ashwin/Documents/projects/Frugal Testing/automation_POM-main/resources/TestCases.txt\n  (Session info: headless chrome=93.0.4577.63)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'SacredGrovesTes', ip: '172.16.0.7', os.name: 'Windows Server 2019', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.12'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 93.0.4577.63, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: C:\\Users\\SACRED~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:53616}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 34b043ae7af15909dca9bafcee4525fd",
       "children" : [ {
         "name" : "uploadProfilePicWithTextFile",
-        "uid" : "71708697e3e58c45",
+        "uid" : "acfb9b8b3efb806c",
         "parentUid" : "0b5eab3f43d82cc6cdbf5d79764f6e75",
         "status" : "broken",
         "time" : {
@@ -41,7 +41,7 @@
       "name" : "Expected condition failed: waiting for element to be clickable: By.xpath: //a[contains(text(),'Try again')] (tried for 5 second(s) with 500 milliseconds interval)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'SacredGrovesTes', ip: '172.16.0.7', os.name: 'Windows Server 2019', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.12'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 93.0.4577.63, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: C:\\Users\\SACRED~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:55692}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: d5e87ef1574a2ca43dacaf252aeaaeb3",
       "children" : [ {
         "name" : "checkPasswordWithWrongOldPassword",
-        "uid" : "9462ef0f7a07b93c",
+        "uid" : "d37b9bca149c9ada",
         "parentUid" : "998f2c2a31ff4401839397e489f621b1",
         "status" : "broken",
         "time" : {
@@ -58,7 +58,7 @@
       "name" : "Expected condition failed: waiting for element to be clickable: By.xpath: //a[contains(text(),'Try again')] (tried for 5 second(s) with 500 milliseconds interval)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'SacredGrovesTes', ip: '172.16.0.7', os.name: 'Windows Server 2019', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.12'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 93.0.4577.63, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: C:\\Users\\SACRED~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:64482}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 4e6faa576fc1881e174d18571bd1fd4d",
       "children" : [ {
         "name" : "checkPasswordWithoutSpecialCharacter",
-        "uid" : "1b2abec9b709a504",
+        "uid" : "b462158b1627108f",
         "parentUid" : "a9a82376ee56195bc03d30b1e554373c",
         "status" : "broken",
         "time" : {
@@ -75,7 +75,7 @@
       "name" : "element not interactable\n  (Session info: headless chrome=93.0.4577.63)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'SacredGrovesTes', ip: '172.16.0.7', os.name: 'Windows Server 2019', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.12'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 93.0.4577.63, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: C:\\Users\\SACRED~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:54197}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 28825b36146c250e151ca9ce060e25b0",
       "children" : [ {
         "name" : "sendGiftThroughEmail",
-        "uid" : "82c399a8e986276",
+        "uid" : "c80e6d4119275c7a",
         "parentUid" : "69be0a1665e6959d65d66f83b5526785",
         "status" : "broken",
         "time" : {
@@ -92,7 +92,7 @@
       "name" : "element not interactable\n  (Session info: headless chrome=93.0.4577.63)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'SacredGrovesTes', ip: '172.16.0.7', os.name: 'Windows Server 2019', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.12'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 93.0.4577.63, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: C:\\Users\\SACRED~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:62360}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 68dd9e42ef1cb7f3d116a40463f5473e",
       "children" : [ {
         "name" : "sendGiftThroughPhone",
-        "uid" : "7319c156767a3b84",
+        "uid" : "bb5d4db3e5031851",
         "parentUid" : "8ac4ce7c3647ee251b4d541547e6117f",
         "status" : "broken",
         "time" : {
@@ -109,7 +109,7 @@
       "name" : "element not interactable\n  (Session info: headless chrome=93.0.4577.63)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'SacredGrovesTes', ip: '172.16.0.7', os.name: 'Windows Server 2019', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.12'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 93.0.4577.63, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: C:\\Users\\SACRED~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:58299}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: df5f4ae8b069cf2e94b643f158297924",
       "children" : [ {
         "name" : "sendGiftWithoutCardThroughPhone",
-        "uid" : "9f73e19af3edb202",
+        "uid" : "8869eb39523b24b5",
         "parentUid" : "7ab7de19dc0b6a18c882f0202cd943d5",
         "status" : "broken",
         "time" : {
@@ -126,7 +126,7 @@
       "name" : "element not interactable\n  (Session info: headless chrome=93.0.4577.63)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'SacredGrovesTes', ip: '172.16.0.7', os.name: 'Windows Server 2019', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.12'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 93.0.4577.63, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: C:\\Users\\SACRED~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:51124}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: dd8d447693cd81a3b4631a4288a3ff3a",
       "children" : [ {
         "name" : "sendGiftWithoutCardThroughEmail",
-        "uid" : "c57cf9096a97300",
+        "uid" : "b3032a783e63cad9",
         "parentUid" : "23e6a7b6d883ac4a1264eb8f32bc3342",
         "status" : "broken",
         "time" : {
@@ -143,7 +143,7 @@
       "name" : "Authenticate",
       "children" : [ {
         "name" : "forgotPassword",
-        "uid" : "d3eb29b8f26e906",
+        "uid" : "aaa63531a5539a55",
         "parentUid" : "0f54443ebcff1bc9f26b0ed974d9567f",
         "status" : "broken",
         "time" : {
@@ -156,7 +156,7 @@
         "parameters" : [ ]
       }, {
         "name" : "forgotPasswordWithWrongRePassword",
-        "uid" : "42ad6ee0340cebcf",
+        "uid" : "ba1ddacb587674f8",
         "parentUid" : "0f54443ebcff1bc9f26b0ed974d9567f",
         "status" : "broken",
         "time" : {
@@ -169,7 +169,7 @@
         "parameters" : [ ]
       }, {
         "name" : "forgotPasswordWithOutSymbol",
-        "uid" : "e3f1bff9553fc49e",
+        "uid" : "95e25ac41edbdf6c",
         "parentUid" : "0f54443ebcff1bc9f26b0ed974d9567f",
         "status" : "broken",
         "time" : {
@@ -182,7 +182,7 @@
         "parameters" : [ ]
       }, {
         "name" : "forgotPasswordWithOutNumber",
-        "uid" : "da4f996368bff5f9",
+        "uid" : "db126d3021f648c1",
         "parentUid" : "0f54443ebcff1bc9f26b0ed974d9567f",
         "status" : "broken",
         "time" : {
@@ -195,7 +195,7 @@
         "parameters" : [ ]
       }, {
         "name" : "forgotPasswordWithOutWords",
-        "uid" : "5c5d3d9019f1bc29",
+        "uid" : "6e0e7e82ed5056a3",
         "parentUid" : "0f54443ebcff1bc9f26b0ed974d9567f",
         "status" : "broken",
         "time" : {
@@ -212,7 +212,7 @@
       "name" : "Expected condition failed: waiting for element to be clickable: By.xpath: //a[text()='OK'] (tried for 3 second(s) with 500 milliseconds interval)",
       "children" : [ {
         "name" : "clickSubmitButtonWithEmailAndPassword",
-        "uid" : "5d5c7da3653d2627",
+        "uid" : "365f94b51317c916",
         "parentUid" : "63fcaab338a4604db4201c7d2a6e5f89",
         "status" : "broken",
         "time" : {
@@ -225,7 +225,7 @@
         "parameters" : [ ]
       }, {
         "name" : "creatingAccountWithoutFirstName",
-        "uid" : "87bda8b8e3dec098",
+        "uid" : "de2c4d54ddfe37f2",
         "parentUid" : "63fcaab338a4604db4201c7d2a6e5f89",
         "status" : "broken",
         "time" : {
@@ -238,7 +238,7 @@
         "parameters" : [ ]
       }, {
         "name" : "creatingAccountWithoutLastName",
-        "uid" : "f0333184da7853bc",
+        "uid" : "5a37d737ee2f53cf",
         "parentUid" : "63fcaab338a4604db4201c7d2a6e5f89",
         "status" : "broken",
         "time" : {
@@ -251,7 +251,7 @@
         "parameters" : [ ]
       }, {
         "name" : "creatingAccountWithoutDob",
-        "uid" : "2c00e808b43381d3",
+        "uid" : "450057b91a66c678",
         "parentUid" : "63fcaab338a4604db4201c7d2a6e5f89",
         "status" : "broken",
         "time" : {
@@ -264,7 +264,7 @@
         "parameters" : [ ]
       }, {
         "name" : "creatingAccountWithoutInvalidDob",
-        "uid" : "ad7b37680d413c37",
+        "uid" : "d0eb8615c1143412",
         "parentUid" : "63fcaab338a4604db4201c7d2a6e5f89",
         "status" : "broken",
         "time" : {
@@ -277,7 +277,7 @@
         "parameters" : [ ]
       }, {
         "name" : "creatingAccountByGivingAllInputs",
-        "uid" : "7d8a42b50df78197",
+        "uid" : "244e909f4b021c91",
         "parentUid" : "63fcaab338a4604db4201c7d2a6e5f89",
         "status" : "broken",
         "time" : {
@@ -290,7 +290,7 @@
         "parameters" : [ ]
       }, {
         "name" : "creatAccountWithoutEnterCountryName",
-        "uid" : "e9b6b93e0f2d00d1",
+        "uid" : "3a0c916216b9cddb",
         "parentUid" : "63fcaab338a4604db4201c7d2a6e5f89",
         "status" : "broken",
         "time" : {
@@ -303,7 +303,7 @@
         "parameters" : [ ]
       }, {
         "name" : "creatAccountWithoutEnterCityName",
-        "uid" : "bbed586c2baf178e",
+        "uid" : "14cc5ebf2f86f501",
         "parentUid" : "63fcaab338a4604db4201c7d2a6e5f89",
         "status" : "broken",
         "time" : {
@@ -316,7 +316,7 @@
         "parameters" : [ ]
       }, {
         "name" : "creatAccountWithoutEnterStateName",
-        "uid" : "5338916ae4308204",
+        "uid" : "281e54b142d72e2a",
         "parentUid" : "63fcaab338a4604db4201c7d2a6e5f89",
         "status" : "broken",
         "time" : {
@@ -329,7 +329,7 @@
         "parameters" : [ ]
       }, {
         "name" : "creatAccountWithoutRePassword",
-        "uid" : "3ffa45737a258359",
+        "uid" : "d86456cc25f9a719",
         "parentUid" : "63fcaab338a4604db4201c7d2a6e5f89",
         "status" : "broken",
         "time" : {
@@ -342,7 +342,7 @@
         "parameters" : [ ]
       }, {
         "name" : "creatAccount",
-        "uid" : "600c6a013f17ac80",
+        "uid" : "48f505682267d0b3",
         "parentUid" : "63fcaab338a4604db4201c7d2a6e5f89",
         "status" : "broken",
         "time" : {
@@ -355,7 +355,7 @@
         "parameters" : [ ]
       }, {
         "name" : "clickSubmitButtonWithWrongOtp",
-        "uid" : "afb1e5ccfb518d83",
+        "uid" : "21893ba976aaf1b0",
         "parentUid" : "63fcaab338a4604db4201c7d2a6e5f89",
         "status" : "broken",
         "time" : {
@@ -372,7 +372,7 @@
       "name" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//div[@id='disclosures']\"}\n  (Session info: headless chrome=93.0.4577.63)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'SacredGrovesTes', ip: '172.16.0.7', os.name: 'Windows Server 2019', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.12'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 93.0.4577.63, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: C:\\Users\\SACRED~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:58967}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 1b074c2c41117c38a03b945b5aa22c86\n*** Element info: {Using=xpath, value=//div[@id='disclosures']}",
       "children" : [ {
         "name" : "openPrivacyPolicyLink",
-        "uid" : "ebaec1ccb119c9df",
+        "uid" : "cfcbda730c76d158",
         "parentUid" : "c1b4d40c9f2fa6af32bd8d222e16e7f1",
         "status" : "broken",
         "time" : {
@@ -389,7 +389,7 @@
       "name" : "timeout: Timed out receiving message from renderer: 300.000\n  (Session info: headless chrome=93.0.4577.63)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'SacredGrovesTes', ip: '172.16.0.7', os.name: 'Windows Server 2019', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.12'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 93.0.4577.63, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: C:\\Users\\SACRED~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:64557}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: b7bccf6a861eabcb86a53cd6fa39c0de",
       "children" : [ {
         "name" : "openDataSources",
-        "uid" : "e3797b563e163337",
+        "uid" : "7495c121d80ac295",
         "parentUid" : "1321c03b383c336c808f8877e6c601b7",
         "status" : "broken",
         "time" : {
@@ -402,7 +402,7 @@
         "parameters" : [ ]
       }, {
         "name" : "clearTests",
-        "uid" : "551a2c4b499f360d",
+        "uid" : "d25d9da25814030e",
         "parentUid" : "1321c03b383c336c808f8877e6c601b7",
         "status" : "broken",
         "time" : {

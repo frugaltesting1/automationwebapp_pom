@@ -1,0 +1,92 @@
+{
+  "uid" : "1d6c76669970a608",
+  "name" : "Test:Login Test With Correct Details",
+  "fullName" : "tests.login.loginWithCorrectDetails",
+  "historyId" : "7bce7eff05b659c834047156873d044c",
+  "time" : {
+    "start" : 1631101544418,
+    "stop" : 1631101560758,
+    "duration" : 16340
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setupTests",
+    "time" : {
+      "start" : 1631101535196,
+      "stop" : 1631101544217,
+      "duration" : 9021
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "clearTests",
+    "time" : {
+      "start" : 1631101560770,
+      "stop" : 1631101561567,
+      "duration" : 797
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.login"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.login"
+  }, {
+    "name" : "testMethod",
+    "value" : "loginWithCorrectDetails"
+  }, {
+    "name" : "parentSuite",
+    "value" : "All Test Suite"
+  }, {
+    "name" : "suite",
+    "value" : "automationwebapp_pom"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.login"
+  }, {
+    "name" : "host",
+    "value" : "SacredGrovesTes"
+  }, {
+    "name" : "thread",
+    "value" : "13372@SacredGrovesTes.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1d6c76669970a608.json",
+  "parameterValues" : [ ]
+}

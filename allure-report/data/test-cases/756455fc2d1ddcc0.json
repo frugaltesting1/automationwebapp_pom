@@ -1,0 +1,94 @@
+{
+  "uid" : "756455fc2d1ddcc0",
+  "name" : "demoTest2",
+  "fullName" : "tests.demo.demoTest2",
+  "historyId" : "c7935df8ec27c6ef06814228836706b7",
+  "time" : {
+    "start" : 1631096898326,
+    "stop" : 1631096898327,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setupx",
+    "time" : {
+      "start" : 1631096898323,
+      "stop" : 1631096898323,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "close",
+    "time" : {
+      "start" : 1631096898328,
+      "stop" : 1631096898328,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.demo"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.demo"
+  }, {
+    "name" : "testMethod",
+    "value" : "demoTest2"
+  }, {
+    "name" : "parentSuite",
+    "value" : "All Test Suite"
+  }, {
+    "name" : "suite",
+    "value" : "automationwebapp_pom"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.demo"
+  }, {
+    "name" : "host",
+    "value" : "SacredGrovesTes"
+  }, {
+    "name" : "thread",
+    "value" : "11292@SacredGrovesTes.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "756455fc2d1ddcc0.json",
+  "parameterValues" : [ ]
+}

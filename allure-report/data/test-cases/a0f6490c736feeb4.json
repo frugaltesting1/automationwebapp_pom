@@ -1,0 +1,102 @@
+{
+  "uid" : "a0f6490c736feeb4",
+  "name" : "openGuardianTermsAndConditions",
+  "fullName" : "tests.Profile.Disclouser.openGuardianTermsAndConditions",
+  "historyId" : "b555974799b394947210c0105bf0ddcb",
+  "time" : {
+    "start" : 1631099118421,
+    "stop" : 1631099120528,
+    "duration" : 2107
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setupTests",
+    "time" : {
+      "start" : 1631099079438,
+      "stop" : 1631099118416,
+      "duration" : 38978
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "clearTests",
+    "time" : {
+      "start" : 1631099120530,
+      "stop" : 1631099121238,
+      "duration" : 708
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.Profile.Disclouser"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.Profile.Disclouser"
+  }, {
+    "name" : "testMethod",
+    "value" : "openGuardianTermsAndConditions"
+  }, {
+    "name" : "parentSuite",
+    "value" : "All Test Suite"
+  }, {
+    "name" : "suite",
+    "value" : "automationwebapp_pom"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.Profile.Disclouser"
+  }, {
+    "name" : "host",
+    "value" : "SacredGrovesTes"
+  }, {
+    "name" : "thread",
+    "value" : "11220@SacredGrovesTes.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "ca752685499798b8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631093672909,
+        "stop" : 1631093675485,
+        "duration" : 2576
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a0f6490c736feeb4.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,94 @@
+{
+  "uid" : "83e2860305aebf5c",
+  "name" : "changeFirstNameWithoutLastName",
+  "fullName" : "tests.Profile.personalDetails.changeFirstNameWithoutLastName",
+  "historyId" : "201181f0636abe0db2e95451425589a",
+  "time" : {
+    "start" : 1631094575962,
+    "stop" : 1631094595622,
+    "duration" : 19660
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setupTests",
+    "time" : {
+      "start" : 1631094537297,
+      "stop" : 1631094575958,
+      "duration" : 38661
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "clearTests",
+    "time" : {
+      "start" : 1631094595624,
+      "stop" : 1631094596417,
+      "duration" : 793
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.Profile.personalDetails"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.Profile.personalDetails"
+  }, {
+    "name" : "testMethod",
+    "value" : "changeFirstNameWithoutLastName"
+  }, {
+    "name" : "parentSuite",
+    "value" : "All Test Suite"
+  }, {
+    "name" : "suite",
+    "value" : "automationwebapp_pom"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.Profile.personalDetails"
+  }, {
+    "name" : "host",
+    "value" : "SacredGrovesTes"
+  }, {
+    "name" : "thread",
+    "value" : "11292@SacredGrovesTes.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "83e2860305aebf5c.json",
+  "parameterValues" : [ ]
+}
