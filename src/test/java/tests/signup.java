@@ -4,6 +4,9 @@ import base.BaseTest;
 import com.twilio.Twilio;
 import com.twilio.base.ResourceSet;
 import com.twilio.rest.api.v2010.account.Message;
+import io.qameta.allure.Severity;
+import io.qameta.allure.SeverityLevel;
+import io.qameta.allure.Story;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
@@ -27,14 +30,18 @@ public class signup extends BaseTest {
         driver.navigate().to(baseURL+"/signup");
     }
 
-    @Test
+    @Test(description="Test:click Submit Button With Empty Fields")
+    @Severity(SeverityLevel.CRITICAL)
+    @Story("This story belongs to the signup flow")
     public void clickSubmitButtonWithEmptyFields(){
         signupPage.clickContinueButton();
         Assert.assertTrue(signupPage.isTryAgainPopUpShown());
         signupPage.clickTryAgain();
     }
 
-    @Test
+    @Test(description="Test:click Submit Button Without email")
+    @Severity(SeverityLevel.CRITICAL)
+    @Story("This story belongs to the signup flow")
     public void clickSubmitButtonWithoutEmail(){
         signupPage.addPhoneNumber("9551574355");
         signupPage.clickCountryCodeSelector();
@@ -44,7 +51,9 @@ public class signup extends BaseTest {
         signupPage.clickTryAgain();
     }
 
-    @Test
+    @Test(description="Test:click Submit Button Without phone number")
+    @Severity(SeverityLevel.CRITICAL)
+    @Story("This story belongs to the signup flow")
     public void clickSubmitButtonWithoutPhoneNUmber(){
         signupPage.addGmailID("ashwin@frugaltesting.com");
         signupPage.clickContinueButton();
@@ -52,7 +61,9 @@ public class signup extends BaseTest {
         signupPage.clickTryAgain();
     }
 
-    @Test
+    @Test(description="Test:click Submit Button With invalid phone number")
+    @Severity(SeverityLevel.CRITICAL)
+    @Story("This story belongs to the signup flow")
     public void clickSubmitButtonWithInvalidPhoneNumber(){
         signupPage.addPhoneNumber("1234567890");
         signupPage.addGmailID("test@frugaltesting.com");
@@ -61,7 +72,9 @@ public class signup extends BaseTest {
         signupPage.clickTryAgain();
     }
 
-    @Test
+    @Test(description="Test:click Submit Button With invalid email")
+    @Severity(SeverityLevel.CRITICAL)
+    @Story("This story belongs to the signup flow")
     public void clickSubmitButtonWithInvalidEmail(){
         signupPage.addPhoneNumber("9999999999");
         signupPage.clickCountryCodeSelector();
@@ -72,7 +85,9 @@ public class signup extends BaseTest {
         signupPage.clickTryAgain();
     }
 
-    @Test
+    @Test(description="Test:click Submit Button With email and password")
+    @Severity(SeverityLevel.CRITICAL)
+    @Story("This story belongs to the signup flow")
     public void clickSubmitButtonWithEmailAndPassword(){
         signupPage.addPhoneNumber(twilioService.phoneNumber);
         signupPage.clickCountryCodeSelector();
@@ -86,7 +101,9 @@ public class signup extends BaseTest {
         Assert.assertTrue(signupPage.getUrl().contains("register"));
     }
 
-    @Test
+    @Test(description="Test:creating Account Without First Name")
+    @Severity(SeverityLevel.NORMAL)
+    @Story("This story belongs to the signup flow")
     public void creatingAccountWithoutFirstName(){
         clickSubmitButtonWithEmailAndPassword();
         signupPage.addMiddleName("Ashwin");
@@ -97,7 +114,9 @@ public class signup extends BaseTest {
         signupPage.clickTryAgain();
     }
 
-    @Test
+    @Test(description="Test:creating Account Without Last Name")
+    @Severity(SeverityLevel.NORMAL)
+    @Story("This story belongs to the signup flow")
     public void creatingAccountWithoutLastName(){
         clickSubmitButtonWithEmailAndPassword();
         signupPage.addFirstName("Ashwin");
@@ -107,7 +126,9 @@ public class signup extends BaseTest {
         signupPage.clickTryAgain();
     }
 
-    @Test
+    @Test(description="Test:creating Account Without DOB")
+    @Severity(SeverityLevel.NORMAL)
+    @Story("This story belongs to the signup flow")
     public void creatingAccountWithoutDob(){
         clickSubmitButtonWithEmailAndPassword();
         signupPage.addFirstName("Ashwin");
@@ -117,7 +138,9 @@ public class signup extends BaseTest {
         signupPage.clickTryAgain();
     }
 
-    @Test
+    @Test(description="Test:creating Account Without Invalid DOB")
+    @Severity(SeverityLevel.NORMAL)
+    @Story("This story belongs to the signup flow")
     public void creatingAccountWithoutInvalidDob(){
         clickSubmitButtonWithEmailAndPassword();
         signupPage.addFirstName("Ashwin");
@@ -128,7 +151,9 @@ public class signup extends BaseTest {
         signupPage.clickTryAgain();
     }
 
-    @Test
+    @Test(description="Test:creating Account by giving all inputs")
+    @Severity(SeverityLevel.NORMAL)
+    @Story("This story belongs to the signup flow")
     public void creatingAccountByGivingAllInputs(){
         clickSubmitButtonWithEmailAndPassword();
         signupPage.addFirstName("Ashwin");
@@ -138,7 +163,9 @@ public class signup extends BaseTest {
         Assert.assertTrue(signupPage.getUrl().contains("registeraddress"));
     }
 
-    @Test
+    @Test(description="Test:creating without enter country name")
+    @Severity(SeverityLevel.NORMAL)
+    @Story("This story belongs to the signup flow")
     public void creatAccountWithoutEnterCountryName(){
         creatingAccountByGivingAllInputs();
         signupPage.setCity("Chennai");
@@ -148,7 +175,9 @@ public class signup extends BaseTest {
         signupPage.clickTryAgain();
     }
 
-    @Test
+    @Test(description="Test:creating Account without city name")
+    @Severity(SeverityLevel.NORMAL)
+    @Story("This story belongs to the signup flow")
     public void creatAccountWithoutEnterCityName(){
         creatingAccountByGivingAllInputs();
         signupPage.setCountry("India");
@@ -158,7 +187,9 @@ public class signup extends BaseTest {
         signupPage.clickTryAgain();
     }
 
-    @Test
+    @Test(description="Test:creating Account without enter state name")
+    @Severity(SeverityLevel.NORMAL)
+    @Story("This story belongs to the signup flow")
     public void creatAccountWithoutEnterStateName(){
         creatingAccountByGivingAllInputs();
         signupPage.setCity("Chennai");
@@ -168,7 +199,9 @@ public class signup extends BaseTest {
         signupPage.clickTryAgain();
     }
 
-    @Test
+    @Test(description="Test:creating Account without re password")
+    @Severity(SeverityLevel.CRITICAL)
+    @Story("This story belongs to the signup flow")
     public void creatAccountWithoutRePassword(){
         creatingAccountByGivingAllInputs();
         signupPage.setCity("Chennai");
@@ -180,7 +213,9 @@ public class signup extends BaseTest {
         Assert.assertTrue(signupPage.isTryAgainPopUpShown());
     }
 
-    @Test
+    @Test(description="Test:creating Account correctly")
+    @Severity(SeverityLevel.CRITICAL)
+    @Story("This story belongs to the signup flow")
     public void creatAccount(){
         creatingAccountByGivingAllInputs();
         signupPage.setCity("Chennai");
@@ -193,7 +228,9 @@ public class signup extends BaseTest {
         signupPage.clickContinueButton();
     }
 
-    @Test
+    @Test(description="Test:clicking submit button with wrong OTP")
+    @Severity(SeverityLevel.CRITICAL)
+    @Story("This story belongs to the signup flow")
     public void clickSubmitButtonWithWrongOtp(){
         signupPage.addPhoneNumber("9999999999");
         signupPage.clickIndiaOption();
@@ -216,8 +253,3 @@ public class signup extends BaseTest {
     }
 
 }
-
-
-
-
-
