@@ -1,365 +1,5 @@
 [ {
-  "uid" : "d0eb8615c1143412",
-  "name" : "creatingAccountWithoutInvalidDob",
-  "time" : {
-    "start" : 1631097711421,
-    "stop" : 1631097718107,
-    "duration" : 6686
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "ec4ce566793c9b99",
-  "name" : "sendGiftWithoutMessageThroughPhone",
-  "time" : {
-    "start" : 1631097090760,
-    "stop" : 1631097107319,
-    "duration" : 16559
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "2b49e18da5bc8d16",
-  "name" : "sendMessageToMySelf",
-  "time" : {
-    "start" : 1631097562780,
-    "stop" : 1631097583703,
-    "duration" : 20923
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "a0f6490c736feeb4",
-  "name" : "openGuardianTermsAndConditions",
-  "time" : {
-    "start" : 1631099118421,
-    "stop" : 1631099120528,
-    "duration" : 2107
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "1391240d28236fac",
-  "name" : "addFakeParticipant",
-  "time" : {
-    "start" : 1631096384941,
-    "stop" : 1631096394138,
-    "duration" : 9197
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "c80334756ef826ec",
-  "name" : "changeCountry",
-  "time" : {
-    "start" : 1631095132334,
-    "stop" : 1631095156441,
-    "duration" : 24107
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "9ae6f6748573737e",
-  "name" : "clickSubmitButtonWithoutPhoneNUmber",
-  "time" : {
-    "start" : 1631097615425,
-    "stop" : 1631097618387,
-    "duration" : 2962
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "bf203b0e35bafec6",
-  "name" : "checkCaliforniaSection",
-  "time" : {
-    "start" : 1631096149701,
-    "stop" : 1631096164528,
-    "duration" : 14827
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "bd887380547f06d3",
-  "name" : "addRealParticipantWithoutMember",
-  "time" : {
-    "start" : 1631096615798,
-    "stop" : 1631096626867,
-    "duration" : 11069
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "7c63535c362b7033",
-  "name" : "checkPasswordWithUnmatchedNewPassword",
-  "time" : {
-    "start" : 1631095428433,
-    "stop" : 1631095444967,
-    "duration" : 16534
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "b3032a783e63cad9",
-  "name" : "sendGiftWithoutCardThroughEmail",
-  "time" : {
-    "start" : 1631097052050,
-    "stop" : 1631097052714,
-    "duration" : 664
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "8869eb39523b24b5",
-  "name" : "sendGiftWithoutCardThroughPhone",
-  "time" : {
-    "start" : 1631097013171,
-    "stop" : 1631097013824,
-    "duration" : 653
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "8ba933ddc7ab29b1",
-  "name" : "changeAddressWithoutCity",
-  "time" : {
-    "start" : 1631095663530,
-    "stop" : 1631095683409,
-    "duration" : 19879
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "343e204fb6bef558",
-  "name" : "downloadCluster",
-  "time" : {
-    "start" : 1631099011240,
-    "stop" : 1631099017793,
-    "duration" : 6553
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "243e1295e0d3d0b7",
-  "name" : "checkSquad",
-  "time" : {
-    "start" : 1631096353155,
-    "stop" : 1631096353346,
-    "duration" : 191
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "f69fc96e68b28f2f",
-  "name" : "changeMiddleName",
-  "time" : {
-    "start" : 1631094812326,
-    "stop" : 1631094835362,
-    "duration" : 23036
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "a56783de6128dfaf",
-  "name" : "addRealParticipant",
-  "time" : {
-    "start" : 1631096503311,
-    "stop" : 1631096546379,
-    "duration" : 43068
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "54ca0e82efc95a06",
-  "name" : "Test:Login Test With Correct Details",
-  "time" : {
-    "start" : 1631185223041,
-    "stop" : 1631185236989,
-    "duration" : 13948
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "c80e6d4119275c7a",
-  "name" : "sendGiftThroughEmail",
-  "time" : {
-    "start" : 1631096935437,
-    "stop" : 1631096936168,
-    "duration" : 731
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "12775d6020c7131f",
-  "name" : "addEmptyParticipant",
-  "time" : {
-    "start" : 1631096425278,
-    "stop" : 1631096433430,
-    "duration" : 8152
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "365f94b51317c916",
-  "name" : "clickSubmitButtonWithEmailAndPassword",
-  "time" : {
-    "start" : 1631097650549,
-    "stop" : 1631097657302,
-    "duration" : 6753
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "f8a350433df540f8",
-  "name" : "changeCity",
-  "time" : {
-    "start" : 1631095008958,
-    "stop" : 1631095031526,
-    "duration" : 22568
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "36abc39545e0799",
-  "name" : "changeState",
-  "time" : {
-    "start" : 1631095070264,
-    "stop" : 1631095094389,
-    "duration" : 24125
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "5bdaa1f42bf8ad39",
-  "name" : "clickAllInterestList",
-  "time" : {
-    "start" : 1631094389748,
-    "stop" : 1631094413744,
-    "duration" : 23996
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "de2c4d54ddfe37f2",
-  "name" : "creatingAccountWithoutFirstName",
-  "time" : {
-    "start" : 1631097665802,
-    "stop" : 1631097672640,
-    "duration" : 6838
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "7ea482a4b09f5a44",
-  "name" : "clickSubmitButtonWithEmptyFields",
-  "time" : {
-    "start" : 1631097592324,
-    "stop" : 1631097595305,
-    "duration" : 2981
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "ece4353af87f82d5",
-  "name" : "Test:Login Test With Wrong Details",
-  "time" : {
-    "start" : 1631185245882,
-    "stop" : 1631185250126,
-    "duration" : 4244
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "320d60d76d7f76e8",
-  "name" : "submitPasswordWithoutOldPassword",
-  "time" : {
-    "start" : 1631095195046,
-    "stop" : 1631095211419,
-    "duration" : 16373
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "750d9626915b6041",
-  "name" : "isProfilePageVisible",
-  "time" : {
-    "start" : 1631095839355,
-    "stop" : 1631095839370,
-    "duration" : 15
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "cfcbda730c76d158",
-  "name" : "openPrivacyPolicyLink",
-  "time" : {
-    "start" : 1631099034418,
-    "stop" : 1631099034443,
-    "duration" : 25
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "89069f0cc74290f6",
-  "name" : "checkInterestSection",
-  "time" : {
-    "start" : 1631095877802,
-    "stop" : 1631095893397,
-    "duration" : 15595
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "281e54b142d72e2a",
-  "name" : "creatAccountWithoutEnterStateName",
-  "time" : {
-    "start" : 1631097773593,
-    "stop" : 1631097780232,
-    "duration" : 6639
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "50dff3720481172d",
-  "name" : "Test:Click on Facebook Icon on Footer, verify if it is taking to facebook page or not.",
-  "time" : {
-    "start" : 1631096832672,
-    "stop" : 1631096834687,
-    "duration" : 2015
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "20b9d87c98a59509",
-  "name" : "openCookiePolicy",
-  "time" : {
-    "start" : 1631099075203,
-    "stop" : 1631099078717,
-    "duration" : 3514
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "5a37d737ee2f53cf",
-  "name" : "creatingAccountWithoutLastName",
-  "time" : {
-    "start" : 1631097681001,
-    "stop" : 1631097687476,
-    "duration" : 6475
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "d25d9da25814030e",
-  "name" : "clearTests",
-  "time" : {
-    "start" : 1631099759673,
-    "stop" : 1631099759676,
-    "duration" : 3
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "14cc5ebf2f86f501",
+  "uid" : "b8c6a30f1a6322b",
   "name" : "creatAccountWithoutEnterCityName",
   "time" : {
     "start" : 1631097757647,
@@ -369,157 +9,7 @@
   "status" : "broken",
   "severity" : "normal"
 }, {
-  "uid" : "b85b06c6565da043",
-  "name" : "addInvalidEmail",
-  "time" : {
-    "start" : 1631096464495,
-    "stop" : 1631096472628,
-    "duration" : 8133
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "cd2f0736be2e42df",
-  "name" : "Test:Click On find out how , verifying if it is taking to squads Create page",
-  "time" : {
-    "start" : 1631096751414,
-    "stop" : 1631096758312,
-    "duration" : 6898
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "d86456cc25f9a719",
-  "name" : "creatAccountWithoutRePassword",
-  "time" : {
-    "start" : 1631097788661,
-    "stop" : 1631097795827,
-    "duration" : 7166
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "aad1c0203f59705e",
-  "name" : "changeAddressWithoutCountry",
-  "time" : {
-    "start" : 1631095780008,
-    "stop" : 1631095800306,
-    "duration" : 20298
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "5ff6b430c53edcb0",
-  "name" : "checkPasswordSection",
-  "time" : {
-    "start" : 1631095547939,
-    "stop" : 1631095624067,
-    "duration" : 76128
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "21893ba976aaf1b0",
-  "name" : "clickSubmitButtonWithWrongOtp",
-  "time" : {
-    "start" : 1631097819427,
-    "stop" : 1631097826116,
-    "duration" : 6689
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "5bb21887376dc4c9",
-  "name" : "forgotPasswordWithWrongUser",
-  "time" : {
-    "start" : 1631097365117,
-    "stop" : 1631097369690,
-    "duration" : 4573
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "9b41e9022df0ce4e",
-  "name" : "openIncorporationDocuments",
-  "time" : {
-    "start" : 1631099759705,
-    "stop" : 1631099759707,
-    "duration" : 2
-  },
-  "status" : "skipped",
-  "severity" : "normal"
-}, {
-  "uid" : "4ddaf0442556760d",
-  "name" : "changeFirstNameWithSymbol",
-  "time" : {
-    "start" : 1631094752712,
-    "stop" : 1631094772939,
-    "duration" : 20227
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "edef34ca72e43ddf",
-  "name" : "sendGiftsThroughEmailWithPayNow",
-  "time" : {
-    "start" : 1631097197268,
-    "stop" : 1631097212273,
-    "duration" : 15005
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "9e994251b4a6eddb",
-  "name" : "Test:Click On GiftCard, verifying if it is taking to gifting page",
-  "time" : {
-    "start" : 1631096786984,
-    "stop" : 1631096803154,
-    "duration" : 16170
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "15d42cc39a1291d9",
-  "name" : "submitPasswordWithoutNewPassword",
-  "time" : {
-    "start" : 1631095249916,
-    "stop" : 1631095267014,
-    "duration" : 17098
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "4d4a66c6d28fe5b4",
-  "name" : "californiaToggle",
-  "time" : {
-    "start" : 1631098928611,
-    "stop" : 1631098928822,
-    "duration" : 211
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "60017c3a48de480b",
-  "name" : "clickSubmitButtonWithoutEmail",
-  "time" : {
-    "start" : 1631097603789,
-    "stop" : 1631097606878,
-    "duration" : 3089
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "5e469b29afc05659",
-  "name" : "checkEmailPrefSection",
-  "time" : {
-    "start" : 1631096095138,
-    "stop" : 1631096110181,
-    "duration" : 15043
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "bb5d4db3e5031851",
+  "uid" : "f5392f6ff8d10b39",
   "name" : "sendGiftThroughPhone",
   "time" : {
     "start" : 1631096974395,
@@ -529,7 +19,47 @@
   "status" : "broken",
   "severity" : "normal"
 }, {
-  "uid" : "ba1ddacb587674f8",
+  "uid" : "9fab59a25be822ab",
+  "name" : "californiaToggle",
+  "time" : {
+    "start" : 1631098928611,
+    "stop" : 1631098928822,
+    "duration" : 211
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "dffd7a44e9a2ca4f",
+  "name" : "changeCity",
+  "time" : {
+    "start" : 1631095008958,
+    "stop" : 1631095031526,
+    "duration" : 22568
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5ae20c6dde4c4e0f",
+  "name" : "Test:Click On find out how , verifying if it is taking to squads Create page",
+  "time" : {
+    "start" : 1631096751414,
+    "stop" : 1631096758312,
+    "duration" : 6898
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "284c04c55d3bb636",
+  "name" : "sendGiftsThroughEmailWithPayNow",
+  "time" : {
+    "start" : 1631097197268,
+    "stop" : 1631097212273,
+    "duration" : 15005
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "30e74761b59b1fb6",
   "name" : "forgotPasswordWithWrongRePassword",
   "time" : {
     "start" : 1631097312348,
@@ -539,157 +69,27 @@
   "status" : "broken",
   "severity" : "normal"
 }, {
-  "uid" : "43cd23c6f14f0287",
-  "name" : "uploadProfilePic",
+  "uid" : "e4fff8a21af7e070",
+  "name" : "openFinancialStatements",
   "time" : {
-    "start" : 1631094931955,
-    "stop" : 1631094931985,
-    "duration" : 30
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "450057b91a66c678",
-  "name" : "creatingAccountWithoutDob",
-  "time" : {
-    "start" : 1631097696192,
-    "stop" : 1631097702803,
-    "duration" : 6611
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "f28fc7c12e4414d3",
-  "name" : "openSurveyorReport",
-  "time" : {
-    "start" : 1631099759712,
-    "stop" : 1631099759714,
-    "duration" : 2
+    "start" : 1631099759686,
+    "stop" : 1631099759686,
+    "duration" : 0
   },
   "status" : "skipped",
   "severity" : "normal"
 }, {
-  "uid" : "83e2860305aebf5c",
-  "name" : "changeFirstNameWithoutLastName",
+  "uid" : "3463ffdb7984b304",
+  "name" : "sendGiftWithoutMessageThroughPhone",
   "time" : {
-    "start" : 1631094575962,
-    "stop" : 1631094595622,
-    "duration" : 19660
+    "start" : 1631097090760,
+    "stop" : 1631097107319,
+    "duration" : 16559
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "699b97a707e40934",
-  "name" : "demoTest1",
-  "time" : {
-    "start" : 1631096898316,
-    "stop" : 1631096898317,
-    "duration" : 1
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "244e909f4b021c91",
-  "name" : "creatingAccountByGivingAllInputs",
-  "time" : {
-    "start" : 1631097726840,
-    "stop" : 1631097733576,
-    "duration" : 6736
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "61ba8080ac596adc",
-  "name" : "Test:Click On blogs, verifying if it is taking to blogs page",
-  "time" : {
-    "start" : 1631096717396,
-    "stop" : 1631096722001,
-    "duration" : 4605
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "f21cf3866380a225",
-  "name" : "clickSubmitButtonWithInvalidEmail",
-  "time" : {
-    "start" : 1631097638765,
-    "stop" : 1631097641937,
-    "duration" : 3172
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "e62a35d7eccff7eb",
-  "name" : "submitPasswordWithoutReenterPassword",
-  "time" : {
-    "start" : 1631095306249,
-    "stop" : 1631095323185,
-    "duration" : 16936
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "df929c6841762f9d",
-  "name" : "Test:Purchase SGC through card",
-  "time" : {
-    "start" : 1631096657245,
-    "stop" : 1631096657532,
-    "duration" : 287
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "3c20636ca3728f13",
-  "name" : "clickAllInterestList",
-  "time" : {
-    "start" : 1631098866633,
-    "stop" : 1631098891113,
-    "duration" : 24480
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "84ddaffb19c43e12",
-  "name" : "changeLastNameWithoutFirstName",
-  "time" : {
-    "start" : 1631094634629,
-    "stop" : 1631094654188,
-    "duration" : 19559
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "48f505682267d0b3",
-  "name" : "creatAccount",
-  "time" : {
-    "start" : 1631097804496,
-    "stop" : 1631097811040,
-    "duration" : 6544
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "71485b295b7fe8ff",
-  "name" : "changeFirstName",
-  "time" : {
-    "start" : 1631094451992,
-    "stop" : 1631094474424,
-    "duration" : 22432
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "fbc92ea4cfb8b47a",
-  "name" : "addRealParticipantWithoutAddInterest",
-  "time" : {
-    "start" : 1631096576991,
-    "stop" : 1631096588822,
-    "duration" : 11831
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "2ba942b1387a5f61",
+  "uid" : "2204460a5321ec35",
   "name" : "changeLastNameWithSymbol",
   "time" : {
     "start" : 1631094693795,
@@ -699,147 +99,17 @@
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "d37b9bca149c9ada",
-  "name" : "checkPasswordWithWrongOldPassword",
+  "uid" : "b3b03532aaf19802",
+  "name" : "submitPasswordWithoutOldPassword",
   "time" : {
-    "start" : 1631095362646,
-    "stop" : 1631095389601,
-    "duration" : 26955
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "c7fb46aaec2efbd2",
-  "name" : "Test:Click on youtube Icon on Footer, verify if it is taking to youtube page or not.",
-  "time" : {
-    "start" : 1631096894925,
-    "stop" : 1631096897265,
-    "duration" : 2340
+    "start" : 1631095195046,
+    "stop" : 1631095211419,
+    "duration" : 16373
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "93441d22fb53049",
-  "name" : "clickSubmitButtonWithInvalidPhoneNumber",
-  "time" : {
-    "start" : 1631097626872,
-    "stop" : 1631097630265,
-    "duration" : 3393
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "95e25ac41edbdf6c",
-  "name" : "forgotPasswordWithOutSymbol",
-  "time" : {
-    "start" : 1631097325382,
-    "stop" : 1631097331161,
-    "duration" : 5779
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "db126d3021f648c1",
-  "name" : "forgotPasswordWithOutNumber",
-  "time" : {
-    "start" : 1631097338618,
-    "stop" : 1631097344497,
-    "duration" : 5879
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "b462158b1627108f",
-  "name" : "checkPasswordWithoutSpecialCharacter",
-  "time" : {
-    "start" : 1631095483230,
-    "stop" : 1631095509296,
-    "duration" : 26066
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "f60d0ddb97d3480b",
-  "name" : "changeAddressWithoutState",
-  "time" : {
-    "start" : 1631095722551,
-    "stop" : 1631095741961,
-    "duration" : 19410
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "6d6d206dc363a9ec",
-  "name" : "changeLastName",
-  "time" : {
-    "start" : 1631094513859,
-    "stop" : 1631094536514,
-    "duration" : 22655
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "d560beb79deb19a1",
-  "name" : "checkDisclosureSection",
-  "time" : {
-    "start" : 1631096203143,
-    "stop" : 1631096218133,
-    "duration" : 14990
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "f2d38fe91303564d",
-  "name" : "openCertificateIncorporation",
-  "time" : {
-    "start" : 1631099759691,
-    "stop" : 1631099759692,
-    "duration" : 1
-  },
-  "status" : "skipped",
-  "severity" : "normal"
-}, {
-  "uid" : "ad23c10729d9dbf",
-  "name" : "clickTransaction",
-  "time" : {
-    "start" : 1631096257167,
-    "stop" : 1631096264552,
-    "duration" : 7385
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "b4b02bc1f69a9f72",
-  "name" : "sendGiftsThroughPhoneWithPayNow",
-  "time" : {
-    "start" : 1631097246092,
-    "stop" : 1631097260360,
-    "duration" : 14268
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "7495c121d80ac295",
-  "name" : "openDataSources",
-  "time" : {
-    "start" : 1631099158648,
-    "stop" : 1631099459649,
-    "duration" : 301001
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "3a0c916216b9cddb",
-  "name" : "creatAccountWithoutEnterCountryName",
-  "time" : {
-    "start" : 1631097742218,
-    "stop" : 1631097749255,
-    "duration" : 7037
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "cd483faf4bd78bd2",
+  "uid" : "af5009f5440498d5",
   "name" : "openSurveyorCoed",
   "time" : {
     "start" : 1631099759721,
@@ -849,57 +119,7 @@
   "status" : "skipped",
   "severity" : "normal"
 }, {
-  "uid" : "a800c8c81c6f01ef",
-  "name" : "clickCluster",
-  "time" : {
-    "start" : 1631098967441,
-    "stop" : 1631098973336,
-    "duration" : 5895
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "ee9c56e541b14092",
-  "name" : "Test:Click on Instagram Icon on Footer, verify if it is taking to instagram page or not.",
-  "time" : {
-    "start" : 1631096863927,
-    "stop" : 1631096865605,
-    "duration" : 1678
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "acfb9b8b3efb806c",
-  "name" : "uploadProfilePicWithTextFile",
-  "time" : {
-    "start" : 1631094970812,
-    "stop" : 1631094970850,
-    "duration" : 38
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "6e0e7e82ed5056a3",
-  "name" : "forgotPasswordWithOutWords",
-  "time" : {
-    "start" : 1631097351821,
-    "stop" : 1631097357771,
-    "duration" : 5950
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "7d543ac5eeeed54",
-  "name" : "checkActivitySection",
-  "time" : {
-    "start" : 1631095932285,
-    "stop" : 1631095947931,
-    "duration" : 15646
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "3466ec0a7fdcb8d3",
+  "uid" : "362af7344bcdcb3d",
   "name" : "sendMessageToFakeUser",
   "time" : {
     "start" : 1631097494754,
@@ -909,87 +129,87 @@
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "4edd7b09c7d2465b",
-  "name" : "sendMessage",
+  "uid" : "5993042240896898",
+  "name" : "forgotPasswordWithOutWords",
   "time" : {
-    "start" : 1631097423996,
-    "stop" : 1631097454360,
-    "duration" : 30364
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "f45064b48d39b807",
-  "name" : "Test:Calculate SGC details and verify calculation",
-  "time" : {
-    "start" : 1631096687458,
-    "stop" : 1631096688044,
-    "duration" : 586
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "2ee903ac25918b99",
-  "name" : "changeMiddleNameWithSymbol",
-  "time" : {
-    "start" : 1631094874182,
-    "stop" : 1631094893647,
-    "duration" : 19465
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "58b35b01835be92",
-  "name" : "downloadTransaction",
-  "time" : {
-    "start" : 1631096303966,
-    "stop" : 1631096309889,
-    "duration" : 5923
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "fc62398bb99c5432",
-  "name" : "toggleEmail",
-  "time" : {
-    "start" : 1631099798962,
-    "stop" : 1631099799082,
-    "duration" : 120
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "c441ce1263713c6b",
-  "name" : "checkClusterHoldingSection",
-  "time" : {
-    "start" : 1631095986802,
-    "stop" : 1631096002136,
-    "duration" : 15334
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "aaa63531a5539a55",
-  "name" : "forgotPassword",
-  "time" : {
-    "start" : 1631097298138,
-    "stop" : 1631097305030,
-    "duration" : 6892
+    "start" : 1631097351821,
+    "stop" : 1631097357771,
+    "duration" : 5950
   },
   "status" : "broken",
   "severity" : "normal"
 }, {
-  "uid" : "756455fc2d1ddcc0",
-  "name" : "demoTest2",
+  "uid" : "f4f74033e3cafcb0",
+  "name" : "changeMiddleName",
   "time" : {
-    "start" : 1631096898326,
-    "stop" : 1631096898327,
-    "duration" : 1
+    "start" : 1631094812326,
+    "stop" : 1631094835362,
+    "duration" : 23036
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "6d8e63789770e3da",
+  "uid" : "a2d544bd88a3ca4a",
+  "name" : "changeState",
+  "time" : {
+    "start" : 1631095070264,
+    "stop" : 1631095094389,
+    "duration" : 24125
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7f34b20a59b2fc0a",
+  "name" : "clickSubmitButtonWithWrongOtp",
+  "time" : {
+    "start" : 1631097819427,
+    "stop" : 1631097826116,
+    "duration" : 6689
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "819416ea83326513",
+  "name" : "addInvalidEmail",
+  "time" : {
+    "start" : 1631096464495,
+    "stop" : 1631096472628,
+    "duration" : 8133
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "cc9cea634a7f7c12",
+  "name" : "checkInterestSection",
+  "time" : {
+    "start" : 1631095877802,
+    "stop" : 1631095893397,
+    "duration" : 15595
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f842f6a957cdacd5",
+  "name" : "creatingAccountByGivingAllInputs",
+  "time" : {
+    "start" : 1631097726840,
+    "stop" : 1631097733576,
+    "duration" : 6736
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "db029d1375471549",
+  "name" : "clickSubmitButtonWithoutEmail",
+  "time" : {
+    "start" : 1631097603789,
+    "stop" : 1631097606878,
+    "duration" : 3089
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b3c4adddb9e60ab8",
   "name" : "sendGiftWithoutMessageThroughEmail",
   "time" : {
     "start" : 1631097144757,
@@ -999,7 +219,697 @@
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "3370862828796251",
+  "uid" : "de46f8d8e52f9b89",
+  "name" : "clickTransaction",
+  "time" : {
+    "start" : 1631096257167,
+    "stop" : 1631096264552,
+    "duration" : 7385
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e0eed19c754b4cfd",
+  "name" : "downloadCluster",
+  "time" : {
+    "start" : 1631099011240,
+    "stop" : 1631099017793,
+    "duration" : 6553
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f177cc4a31bbebb1",
+  "name" : "Test:Login Test With Correct Details",
+  "time" : {
+    "start" : 1631707287396,
+    "stop" : 1631707301947,
+    "duration" : 14551
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "854c18ce390342d7",
+  "name" : "changeMiddleNameWithSymbol",
+  "time" : {
+    "start" : 1631094874182,
+    "stop" : 1631094893647,
+    "duration" : 19465
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "33714dc97e5a4a97",
+  "name" : "forgotPasswordWithWrongUser",
+  "time" : {
+    "start" : 1631097365117,
+    "stop" : 1631097369690,
+    "duration" : 4573
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "66fda932cb8263f9",
+  "name" : "Test:Login Test With Wrong Details",
+  "time" : {
+    "start" : 1631707311459,
+    "stop" : 1631707315598,
+    "duration" : 4139
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d098d491c98d34f1",
+  "name" : "creatAccountWithoutEnterCountryName",
+  "time" : {
+    "start" : 1631097742218,
+    "stop" : 1631097749255,
+    "duration" : 7037
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "681f4167d4eeb8dc",
+  "name" : "openCertificateIncorporation",
+  "time" : {
+    "start" : 1631099759691,
+    "stop" : 1631099759692,
+    "duration" : 1
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "15204d4a1e275516",
+  "name" : "creatAccountWithoutEnterStateName",
+  "time" : {
+    "start" : 1631097773593,
+    "stop" : 1631097780232,
+    "duration" : 6639
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "63be433e261dfe09",
+  "name" : "checkPasswordWithUnmatchedNewPassword",
+  "time" : {
+    "start" : 1631095428433,
+    "stop" : 1631095444967,
+    "duration" : 16534
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2ceb54de5a2a6ac5",
+  "name" : "changeLastNameWithoutFirstName",
+  "time" : {
+    "start" : 1631094634629,
+    "stop" : 1631094654188,
+    "duration" : 19559
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5436fc49acbb72b",
+  "name" : "checkCaliforniaSection",
+  "time" : {
+    "start" : 1631096149701,
+    "stop" : 1631096164528,
+    "duration" : 14827
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fc229972e26ad129",
+  "name" : "Test:Click on Facebook Icon on Footer, verify if it is taking to facebook page or not.",
+  "time" : {
+    "start" : 1631096832672,
+    "stop" : 1631096834687,
+    "duration" : 2015
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e4bd67c54f8886d0",
+  "name" : "uploadProfilePic",
+  "time" : {
+    "start" : 1631094931955,
+    "stop" : 1631094931985,
+    "duration" : 30
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "197720f036d42708",
+  "name" : "demoTest1",
+  "time" : {
+    "start" : 1631096898316,
+    "stop" : 1631096898317,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7b39b998d91b8bcf",
+  "name" : "Test:Click on youtube Icon on Footer, verify if it is taking to youtube page or not.",
+  "time" : {
+    "start" : 1631096894925,
+    "stop" : 1631096897265,
+    "duration" : 2340
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7720c23737fc3163",
+  "name" : "checkPasswordSection",
+  "time" : {
+    "start" : 1631095547939,
+    "stop" : 1631095624067,
+    "duration" : 76128
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b8cc8dc65aa98f95",
+  "name" : "Test:Click On GiftCard, verifying if it is taking to gifting page",
+  "time" : {
+    "start" : 1631096786984,
+    "stop" : 1631096803154,
+    "duration" : 16170
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "127f04b942eb79b9",
+  "name" : "forgotPassword",
+  "time" : {
+    "start" : 1631097298138,
+    "stop" : 1631097305030,
+    "duration" : 6892
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "929092bf98065836",
+  "name" : "toggleEmail",
+  "time" : {
+    "start" : 1631099798962,
+    "stop" : 1631099799082,
+    "duration" : 120
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7126bb3cca5ff8dd",
+  "name" : "clickSubmitButtonWithoutPhoneNUmber",
+  "time" : {
+    "start" : 1631097615425,
+    "stop" : 1631097618387,
+    "duration" : 2962
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e7e2910a5b793c38",
+  "name" : "changeFirstNameWithoutLastName",
+  "time" : {
+    "start" : 1631094575962,
+    "stop" : 1631094595622,
+    "duration" : 19660
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "824a499904595b73",
+  "name" : "addRealParticipantWithoutAddInterest",
+  "time" : {
+    "start" : 1631096576991,
+    "stop" : 1631096588822,
+    "duration" : 11831
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9177faa8bab304d8",
+  "name" : "sendGiftWithoutCardThroughEmail",
+  "time" : {
+    "start" : 1631097052050,
+    "stop" : 1631097052714,
+    "duration" : 664
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "2531f7dfa48bc4ee",
+  "name" : "creatingAccountWithoutLastName",
+  "time" : {
+    "start" : 1631097681001,
+    "stop" : 1631097687476,
+    "duration" : 6475
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "7768be6f54e96148",
+  "name" : "isProfilePageVisible",
+  "time" : {
+    "start" : 1631095839355,
+    "stop" : 1631095839370,
+    "duration" : 15
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a82b260a0951024b",
+  "name" : "clickCluster",
+  "time" : {
+    "start" : 1631098967441,
+    "stop" : 1631098973336,
+    "duration" : 5895
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "aee20c2362b21ca",
+  "name" : "checkPasswordWithWrongOldPassword",
+  "time" : {
+    "start" : 1631095362646,
+    "stop" : 1631095389601,
+    "duration" : 26955
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "1b04c2dbdd4fa1b8",
+  "name" : "Test:Purchase SGC through card",
+  "time" : {
+    "start" : 1631096657245,
+    "stop" : 1631096657532,
+    "duration" : 287
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5fcd078a31e9ec2",
+  "name" : "clickSubmitButtonWithInvalidPhoneNumber",
+  "time" : {
+    "start" : 1631097626872,
+    "stop" : 1631097630265,
+    "duration" : 3393
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "aea4e9c1e6854371",
+  "name" : "changeFirstName",
+  "time" : {
+    "start" : 1631094451992,
+    "stop" : 1631094474424,
+    "duration" : 22432
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "51bf5594d1de67df",
+  "name" : "demoTest2",
+  "time" : {
+    "start" : 1631096898326,
+    "stop" : 1631096898327,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "41e870a8b229e805",
+  "name" : "changeLastName",
+  "time" : {
+    "start" : 1631094513859,
+    "stop" : 1631094536514,
+    "duration" : 22655
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "61c5800e74f16e9d",
+  "name" : "creatingAccountWithoutFirstName",
+  "time" : {
+    "start" : 1631097665802,
+    "stop" : 1631097672640,
+    "duration" : 6838
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "424540d1d65ebaf1",
+  "name" : "checkDisclosureSection",
+  "time" : {
+    "start" : 1631096203143,
+    "stop" : 1631096218133,
+    "duration" : 14990
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f5ea17da955094c1",
+  "name" : "changeAddressWithoutCountry",
+  "time" : {
+    "start" : 1631095780008,
+    "stop" : 1631095800306,
+    "duration" : 20298
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7925c24945582b97",
+  "name" : "openIncorporationDocuments",
+  "time" : {
+    "start" : 1631099759705,
+    "stop" : 1631099759707,
+    "duration" : 2
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "53a08dff66f5a736",
+  "name" : "Test:Calculate SGC details and verify calculation",
+  "time" : {
+    "start" : 1631096687458,
+    "stop" : 1631096688044,
+    "duration" : 586
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "af5d441dc4858bc8",
+  "name" : "Test:Click On blogs, verifying if it is taking to blogs page",
+  "time" : {
+    "start" : 1631096717396,
+    "stop" : 1631096722001,
+    "duration" : 4605
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c1c9aaa3cceb7f6e",
+  "name" : "clearTests",
+  "time" : {
+    "start" : 1631099759673,
+    "stop" : 1631099759676,
+    "duration" : 3
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "948ed243cd5ddc38",
+  "name" : "sendGiftThroughEmail",
+  "time" : {
+    "start" : 1631096935437,
+    "stop" : 1631096936168,
+    "duration" : 731
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "a43d738f9aad33be",
+  "name" : "creatingAccountWithoutDob",
+  "time" : {
+    "start" : 1631097696192,
+    "stop" : 1631097702803,
+    "duration" : 6611
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "5f60373538f69bd5",
+  "name" : "submitPasswordWithoutReenterPassword",
+  "time" : {
+    "start" : 1631095306249,
+    "stop" : 1631095323185,
+    "duration" : 16936
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c372829457550bdb",
+  "name" : "creatAccount",
+  "time" : {
+    "start" : 1631097804496,
+    "stop" : 1631097811040,
+    "duration" : 6544
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "87046e582ce0d988",
+  "name" : "sendGiftsThroughPhoneWithPayNow",
+  "time" : {
+    "start" : 1631097246092,
+    "stop" : 1631097260360,
+    "duration" : 14268
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fa6f86fb79f05ba",
+  "name" : "clickAllInterestList",
+  "time" : {
+    "start" : 1631094389748,
+    "stop" : 1631094413744,
+    "duration" : 23996
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7552d33e41c434e3",
+  "name" : "checkActivitySection",
+  "time" : {
+    "start" : 1631095932285,
+    "stop" : 1631095947931,
+    "duration" : 15646
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ebd9c77d91314b14",
+  "name" : "creatingAccountWithoutInvalidDob",
+  "time" : {
+    "start" : 1631097711421,
+    "stop" : 1631097718107,
+    "duration" : 6686
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "ef0d6ff445a7f22c",
+  "name" : "forgotPasswordWithOutNumber",
+  "time" : {
+    "start" : 1631097338618,
+    "stop" : 1631097344497,
+    "duration" : 5879
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "d4dc099785f2fe2c",
+  "name" : "addRealParticipant",
+  "time" : {
+    "start" : 1631096503311,
+    "stop" : 1631096546379,
+    "duration" : 43068
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3de120c35be7e83",
+  "name" : "clickSubmitButtonWithInvalidEmail",
+  "time" : {
+    "start" : 1631097638765,
+    "stop" : 1631097641937,
+    "duration" : 3172
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b35cb0ba1833204e",
+  "name" : "changeFirstNameWithSymbol",
+  "time" : {
+    "start" : 1631094752712,
+    "stop" : 1631094772939,
+    "duration" : 20227
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "582fdac48b93b9ec",
+  "name" : "downloadTransaction",
+  "time" : {
+    "start" : 1631096303966,
+    "stop" : 1631096309889,
+    "duration" : 5923
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5e22cbbfeafbf325",
+  "name" : "addFakeParticipant",
+  "time" : {
+    "start" : 1631096384941,
+    "stop" : 1631096394138,
+    "duration" : 9197
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5e6ed750a0f8822e",
+  "name" : "Test:Click on Instagram Icon on Footer, verify if it is taking to instagram page or not.",
+  "time" : {
+    "start" : 1631096863927,
+    "stop" : 1631096865605,
+    "duration" : 1678
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fe9c60205fbe8d8b",
+  "name" : "sendMessageToMySelf",
+  "time" : {
+    "start" : 1631097562780,
+    "stop" : 1631097583703,
+    "duration" : 20923
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b9d3daa51c09f0da",
+  "name" : "sendMessage",
+  "time" : {
+    "start" : 1631097423996,
+    "stop" : 1631097454360,
+    "duration" : 30364
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "acb4628accbd166a",
+  "name" : "openSurveyorReport",
+  "time" : {
+    "start" : 1631099759712,
+    "stop" : 1631099759714,
+    "duration" : 2
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "be6ce36f66f02213",
+  "name" : "openCookiePolicy",
+  "time" : {
+    "start" : 1631099075203,
+    "stop" : 1631099078717,
+    "duration" : 3514
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9a27d9671d5067c5",
+  "name" : "submitPasswordWithoutNewPassword",
+  "time" : {
+    "start" : 1631095249916,
+    "stop" : 1631095267014,
+    "duration" : 17098
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d27b2a755a3d8cb7",
+  "name" : "addRealParticipantWithoutMember",
+  "time" : {
+    "start" : 1631096615798,
+    "stop" : 1631096626867,
+    "duration" : 11069
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "474295aee347cd32",
+  "name" : "openDataSources",
+  "time" : {
+    "start" : 1631099158648,
+    "stop" : 1631099459649,
+    "duration" : 301001
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "23b57f4615a32196",
+  "name" : "checkPasswordWithoutSpecialCharacter",
+  "time" : {
+    "start" : 1631095483230,
+    "stop" : 1631095509296,
+    "duration" : 26066
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "fda018ce83afa44c",
+  "name" : "changeAddressWithoutCity",
+  "time" : {
+    "start" : 1631095663530,
+    "stop" : 1631095683409,
+    "duration" : 19879
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "970df98cd6f2acf5",
+  "name" : "clickAllInterestList",
+  "time" : {
+    "start" : 1631098866633,
+    "stop" : 1631098891113,
+    "duration" : 24480
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "df60b535c54bf7b2",
+  "name" : "addEmptyParticipant",
+  "time" : {
+    "start" : 1631096425278,
+    "stop" : 1631096433430,
+    "duration" : 8152
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bc30d2e18a841b28",
+  "name" : "checkClusterHoldingSection",
+  "time" : {
+    "start" : 1631095986802,
+    "stop" : 1631096002136,
+    "duration" : 15334
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "66702204f602770e",
+  "name" : "creatAccountWithoutRePassword",
+  "time" : {
+    "start" : 1631097788661,
+    "stop" : 1631097795827,
+    "duration" : 7166
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "e9599b7513d8459",
+  "name" : "uploadProfilePicWithTextFile",
+  "time" : {
+    "start" : 1631094970812,
+    "stop" : 1631094970850,
+    "duration" : 38
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "be18a8f463fe55db",
   "name" : "checkTransactionSection",
   "time" : {
     "start" : 1631096041198,
@@ -1009,13 +919,103 @@
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "196a9aff0aade8db",
-  "name" : "openFinancialStatements",
+  "uid" : "e752e7628b66fe53",
+  "name" : "changeCountry",
   "time" : {
-    "start" : 1631099759686,
-    "stop" : 1631099759686,
-    "duration" : 0
+    "start" : 1631095132334,
+    "stop" : 1631095156441,
+    "duration" : 24107
   },
-  "status" : "skipped",
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "90bb33c8570c5449",
+  "name" : "clickSubmitButtonWithEmptyFields",
+  "time" : {
+    "start" : 1631097592324,
+    "stop" : 1631097595305,
+    "duration" : 2981
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "541a45c6162d00ad",
+  "name" : "clickSubmitButtonWithEmailAndPassword",
+  "time" : {
+    "start" : 1631097650549,
+    "stop" : 1631097657302,
+    "duration" : 6753
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "a372832482223e68",
+  "name" : "sendGiftWithoutCardThroughPhone",
+  "time" : {
+    "start" : 1631097013171,
+    "stop" : 1631097013824,
+    "duration" : 653
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "aafa1ad059b42f93",
+  "name" : "forgotPasswordWithOutSymbol",
+  "time" : {
+    "start" : 1631097325382,
+    "stop" : 1631097331161,
+    "duration" : 5779
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "d5ec54b707145aa7",
+  "name" : "checkEmailPrefSection",
+  "time" : {
+    "start" : 1631096095138,
+    "stop" : 1631096110181,
+    "duration" : 15043
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6b85e864e0eabc1b",
+  "name" : "checkSquad",
+  "time" : {
+    "start" : 1631096353155,
+    "stop" : 1631096353346,
+    "duration" : 191
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9d45a9d08af811b6",
+  "name" : "openPrivacyPolicyLink",
+  "time" : {
+    "start" : 1631099034418,
+    "stop" : 1631099034443,
+    "duration" : 25
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "6af5b8a427e3bf5d",
+  "name" : "changeAddressWithoutState",
+  "time" : {
+    "start" : 1631095722551,
+    "stop" : 1631095741961,
+    "duration" : 19410
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d85fa5029dd9a021",
+  "name" : "openGuardianTermsAndConditions",
+  "time" : {
+    "start" : 1631099118421,
+    "stop" : 1631099120528,
+    "duration" : 2107
+  },
+  "status" : "passed",
   "severity" : "normal"
 } ]

@@ -1,0 +1,94 @@
+{
+  "uid" : "5e22cbbfeafbf325",
+  "name" : "addFakeParticipant",
+  "fullName" : "tests.Squad.squadsCreate.addFakeParticipant",
+  "historyId" : "6fbec4416a26745532e449ab94e79926",
+  "time" : {
+    "start" : 1631096384941,
+    "stop" : 1631096394138,
+    "duration" : 9197
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setupTests",
+    "time" : {
+      "start" : 1631096354505,
+      "stop" : 1631096384937,
+      "duration" : 30432
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "clearTests",
+    "time" : {
+      "start" : 1631096394139,
+      "stop" : 1631096394997,
+      "duration" : 858
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.Squad.squadsCreate"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.Squad.squadsCreate"
+  }, {
+    "name" : "testMethod",
+    "value" : "addFakeParticipant"
+  }, {
+    "name" : "parentSuite",
+    "value" : "All Test Suite"
+  }, {
+    "name" : "suite",
+    "value" : "automationwebapp_pom"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.Squad.squadsCreate"
+  }, {
+    "name" : "host",
+    "value" : "SacredGrovesTes"
+  }, {
+    "name" : "thread",
+    "value" : "11292@SacredGrovesTes.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5e22cbbfeafbf325.json",
+  "parameterValues" : [ ]
+}
