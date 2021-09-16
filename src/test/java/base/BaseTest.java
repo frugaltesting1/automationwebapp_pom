@@ -6,6 +6,8 @@ import org.openqa.selenium.chrome.ChromeOptions;
 
 import utility.Config;
 
+import java.util.concurrent.TimeUnit;
+
 public class BaseTest {
 	public WebDriver driver;
 	public String baseURL;
@@ -22,7 +24,19 @@ public class BaseTest {
 	public String city = "Chennai";
 	public String state = "Tamil Nadu";
 	public String country = "India";
-
+/*	public static ThreadLocal<WebDriver> tdriver =new ThreadLocal<WebDriver>();
+	public WebDriver initialize_driver(){
+		System.setProperty("webdriver.chrome.driver","resources/chromedriver.exe");
+		driver = new ChromeDriver();
+		driver.manage().timeouts().pageLoadTimeout(20, TimeUnit.SECONDS);
+		driver.manage().deleteAllCookies();
+		driver.manage().window().fullscreen();
+		tdriver.set(driver);
+		return getDriver();
+	}
+	public static synchronized WebDriver getDriver(){
+		return tdriver.get();
+	} */
 	
 	public void setup() {
 		System.setProperty("webdriver.chrome.driver","resources/chromedriver.exe");

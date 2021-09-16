@@ -1,6 +1,9 @@
 package tests;
 
 
+import io.qameta.allure.Severity;
+import io.qameta.allure.SeverityLevel;
+import io.qameta.allure.Story;
 import org.testng.Assert;
 import org.testng.annotations.*;
 
@@ -8,30 +11,33 @@ import base.BaseTest;
 import pages.*;
 import utility.AllureReport;
 import utility.TwilioService;
-
+import Listeners.TestAllureListener;
+@Listeners({TestAllureListener.class})
 public class login extends BaseTest {
-	
+
 	private LoginPage loginPage;
 	private DashboardPage dashboardPage;
 	private TwilioService twilioService = new TwilioService();
 
-	
+
 	@BeforeMethod
 	public void setupTests() {
 		super.setup();
 		loginPage = new LoginPage(driver);
 		driver.navigate().to(baseURL+"/login");
 	}
-	
+
 	@AfterMethod
 	public void clearTests() {
 		AllureReport.Screenshot(driver,this.getClass().getName());
 		driver.quit();
 	}
 
-	
-	
+
+
 	@Test(description="Test:Login Test With Correct Details")
+	@Severity(SeverityLevel.BLOCKER)
+	@Story("This story belongs to the login flow")
 	public void loginWithCorrectDetails() {
 		dashboardPage = loginPage.nativeLogin(userEmail,userPassword);
 		if(dashboardPage.isDashboardPage()) {
@@ -40,18 +46,22 @@ public class login extends BaseTest {
 			System.out.println("Unable to Login or Not redirected to DashboardPage");
 		}
 	}
-	
-	
+
+
 	@Test(description="Test:Login Test With Wrong Details")
+	@Severity(SeverityLevel.CRITICAL)
+	@Story("This story belongs to the login flow")
 	public void loginWithWrongDetails() {
 		loginPage.nativeLogin("wrong@email.com","wrongpassword");
 		if(!loginPage.verifyWrongUserNameOrPasswordPopup()) {
 			System.out.println("Error: No Popup for Wrong Username and password");
 		}
-		
+
 	}
 
-	@Test
+	@Test(description="Test:Forgot password")
+	@Severity(SeverityLevel.BLOCKER)
+	@Story("This story belongs to the login flow")
 	public void forgotPassword(){
 		loginPage.clickForgetPassword();
 		loginPage.clickSelectCountryButton();
@@ -71,7 +81,9 @@ public class login extends BaseTest {
 		Assert.assertTrue(loginPage.isOkPopUpShown());
 	}
 
-	@Test
+	@Test(description="Test:Forgot password with wrong re password")
+	@Severity(SeverityLevel.CRITICAL)
+	@Story("This story belongs to the login flow")
 	public void forgotPasswordWithWrongRePassword(){
 		loginPage.clickForgetPassword();
 		loginPage.clickSelectCountryButton();
@@ -91,7 +103,9 @@ public class login extends BaseTest {
 		Assert.assertTrue(loginPage.isTryAgainShown());
 	}
 
-	@Test
+	@Test(description="Test:Forgot password without special character")
+	@Severity(SeverityLevel.CRITICAL)
+	@Story("This story belongs to the login flow")
 	public void forgotPasswordWithOutSymbol(){
 		loginPage.clickForgetPassword();
 		loginPage.clickSelectCountryButton();
@@ -111,7 +125,9 @@ public class login extends BaseTest {
 		Assert.assertTrue(loginPage.isTryAgainShown());
 	}
 
-	@Test
+	@Test(description="Test:Forgot password without numericals")
+	@Severity(SeverityLevel.CRITICAL)
+	@Story("This story belongs to the login flow")
 	public void forgotPasswordWithOutNumber(){
 		loginPage.clickForgetPassword();
 		loginPage.clickSelectCountryButton();
@@ -131,7 +147,9 @@ public class login extends BaseTest {
 		Assert.assertTrue(loginPage.isTryAgainShown());
 	}
 
-	@Test
+	@Test(description="Test:Forgot password without alphabet characters")
+	@Severity(SeverityLevel.CRITICAL)
+	@Story("This story belongs to the login flow")
 	public void forgotPasswordWithOutWords(){
 		loginPage.clickForgetPassword();
 		loginPage.clickSelectCountryButton();
@@ -154,7 +172,9 @@ public class login extends BaseTest {
 
 
 
-	@Test
+	@Test(description="Test:Forgot password with wrong user")
+	@Severity(SeverityLevel.CRITICAL)
+	@Story("This story belongs to the login flow")
 	public void forgotPasswordWithWrongUser(){
 		loginPage.clickForgetPassword();
 		loginPage.clickSelectCountryButton();
@@ -165,4 +185,3 @@ public class login extends BaseTest {
 
 	}
 }
-

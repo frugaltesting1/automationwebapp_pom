@@ -1,12 +1,16 @@
 package tests;
 
 import base.BaseTest;
+import io.qameta.allure.Severity;
+import io.qameta.allure.SeverityLevel;
+import io.qameta.allure.Story;
 import org.testng.Assert;
 import org.testng.annotations.*;
 import pages.LoginPage;
 import pages.MessagePage;
 import utility.AllureReport;
-
+import Listeners.TestAllureListener;
+@Listeners({TestAllureListener.class})
 public class messaging extends BaseTest {
 
     private MessagePage messagePage;
@@ -26,7 +30,9 @@ public class messaging extends BaseTest {
     }
 
 
-    @Test
+    @Test(description="Test:Sending message")
+    @Severity(SeverityLevel.CRITICAL)
+    @Story("This story belongs to the messaging flow")
     public void sendMessage(){
         messagePage.clickFirstChat();
         messagePage.enterMessage("Test Message");
@@ -34,16 +40,20 @@ public class messaging extends BaseTest {
         reload();
     }
 
-    @Test
+    @Test(description="Test:Sending message to fake user")
+    @Severity(SeverityLevel.CRITICAL)
+    @Story("This story belongs to the messaging flow")
     public void sendMessageToFakeUser(){
-         messagePage.clickAddNewMessage();
-         messagePage.enterEmailID("fake@test.com");
-         messagePage.clickAddButton();
-         Assert.assertTrue(messagePage.isNoUserErrorShown());
-         reload();
+        messagePage.clickAddNewMessage();
+        messagePage.enterEmailID("fake@test.com");
+        messagePage.clickAddButton();
+        Assert.assertTrue(messagePage.isNoUserErrorShown());
+        reload();
     }
 
-    @Test
+    @Test(description="Test:Sending message to Myself")
+    @Severity(SeverityLevel.CRITICAL)
+    @Story("This story belongs to the messaging flow")
     public void sendMessageToMySelf(){
         messagePage.clickAddNewMessage();
         messagePage.enterEmailID(userEmail);

@@ -1,11 +1,15 @@
 package tests.Profile;
 
 import base.BaseTest;
+import io.qameta.allure.Severity;
+import io.qameta.allure.SeverityLevel;
+import io.qameta.allure.Story;
 import org.testng.annotations.*;
 import pages.LoginPage;
 import pages.ProfilePage;
 import utility.AllureReport;
-
+import Listeners.TestAllureListener;
+@Listeners({TestAllureListener.class})
 public class ClusterHolding extends BaseTest {
     private ProfilePage profilePage;
 
@@ -19,15 +23,19 @@ public class ClusterHolding extends BaseTest {
         profilePage = new ProfilePage(driver);
     }
 
-    @Test
+    @Test(description="Test:Click cluster.")
+    @Severity(SeverityLevel.NORMAL)
+    @Story("This story belongs to the profile flow")
     public void clickCluster(){
-            profilePage.openClusterSection();
-            profilePage.clickFirstCluster();
-            profilePage.goBackCluster();
+        profilePage.openClusterSection();
+        profilePage.clickFirstCluster();
+        profilePage.goBackCluster();
 
     }
 
-    @Test
+    @Test(description="Test:download cluster.")
+    @Severity(SeverityLevel.NORMAL)
+    @Story("This story belongs to the profile flow")
     public void downloadCluster(){
         profilePage.openClusterSection();
         profilePage.clickDownloadCluster();

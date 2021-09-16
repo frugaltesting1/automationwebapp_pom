@@ -1,11 +1,15 @@
 package tests.Profile;
 
 import base.BaseTest;
+import io.qameta.allure.Severity;
+import io.qameta.allure.SeverityLevel;
+import io.qameta.allure.Story;
 import org.testng.annotations.*;
 import pages.LoginPage;
 import pages.ProfilePage;
 import utility.AllureReport;
-
+import Listeners.TestAllureListener;
+@Listeners({TestAllureListener.class})
 public class interest extends BaseTest {
 
     private ProfilePage profilePage;
@@ -20,7 +24,9 @@ public class interest extends BaseTest {
         profilePage = new ProfilePage(driver);
     }
 
-    @Test
+    @Test(description="Test:Click all interest list")
+    @Severity(SeverityLevel.NORMAL)
+    @Story("This story belongs to the profile flow")
     public void clickAllInterestList(){
         profilePage.openInterestSection();
         profilePage.clickAllInterestList();

@@ -1,11 +1,15 @@
 package tests.Profile;
 
 import base.BaseTest;
+import io.qameta.allure.Severity;
+import io.qameta.allure.SeverityLevel;
+import io.qameta.allure.Story;
 import org.testng.annotations.*;
 import pages.LoginPage;
 import pages.ProfilePage;
 import utility.AllureReport;
-
+import Listeners.TestAllureListener;
+@Listeners({TestAllureListener.class})
 public class California extends BaseTest {
     private ProfilePage profilePage;
 
@@ -21,7 +25,9 @@ public class California extends BaseTest {
 
 
 
-    @Test
+    @Test(description="Test:Calfornia toggle.")
+    @Severity(SeverityLevel.NORMAL)
+    @Story("This story belongs to the profile flow")
     public void californiaToggle(){
         profilePage.openCaliforniaSection();
         profilePage.toggleCalifornia();
