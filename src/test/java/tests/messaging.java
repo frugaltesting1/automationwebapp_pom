@@ -9,8 +9,7 @@ import org.testng.annotations.*;
 import pages.LoginPage;
 import pages.MessagePage;
 import utility.AllureReport;
-import Listeners.TestAllureListener;
-@Listeners({TestAllureListener.class})
+
 public class messaging extends BaseTest {
 
     private MessagePage messagePage;

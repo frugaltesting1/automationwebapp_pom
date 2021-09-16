@@ -9,8 +9,7 @@ import pages.LoginPage;
 import pages.ProfilePage;
 import utility.AllureReport;
 
-import Listeners.TestAllureListener;
-@Listeners({TestAllureListener.class})
+
 public class Activites extends BaseTest {
 
     private ProfilePage profilePage;

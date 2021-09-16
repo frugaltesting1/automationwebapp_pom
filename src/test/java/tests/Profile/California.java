@@ -8,8 +8,7 @@ import org.testng.annotations.*;
 import pages.LoginPage;
 import pages.ProfilePage;
 import utility.AllureReport;
-import Listeners.TestAllureListener;
-@Listeners({TestAllureListener.class})
+
 public class California extends BaseTest {
     private ProfilePage profilePage;
 

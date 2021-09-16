@@ -10,8 +10,7 @@ import pages.LoginPage;
 import pages.ProfilePage;
 import pages.SquadPage;
 import utility.AllureReport;
-import Listeners.TestAllureListener;
-@Listeners({TestAllureListener.class})
+
 public class squadsCreate extends BaseTest {
 
     private SquadPage squadsPage;

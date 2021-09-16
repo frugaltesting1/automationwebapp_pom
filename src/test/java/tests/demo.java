@@ -8,8 +8,6 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 import utility.AllureReport;
-import Listeners.TestAllureListener;
-@Listeners({TestAllureListener.class})
 public class demo  extends BaseTest {
 
 

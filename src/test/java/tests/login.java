@@ -11,8 +11,7 @@ import base.BaseTest;
 import pages.*;
 import utility.AllureReport;
 import utility.TwilioService;
-import Listeners.TestAllureListener;
-@Listeners({TestAllureListener.class})
+
 public class login extends BaseTest {
 
 	private LoginPage loginPage;

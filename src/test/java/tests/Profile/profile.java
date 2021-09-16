@@ -8,8 +8,7 @@ import org.testng.Assert;
 import org.testng.annotations.*;
 import pages.*;
 import utility.AllureReport;
-import Listeners.TestAllureListener;
-@Listeners({TestAllureListener.class})
+
 public class profile extends BaseTest {
 
     private ProfilePage profilePage;

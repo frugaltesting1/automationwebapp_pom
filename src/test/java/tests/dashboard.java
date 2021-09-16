@@ -12,8 +12,7 @@ import pages.GiftingPage;
 import pages.LoginPage;
 import pages.SquadPage;
 import utility.AllureReport;
-import Listeners.TestAllureListener;
-@Listeners({TestAllureListener.class})
+
 public class dashboard extends BaseTest {
 
 	private LoginPage loginPage;

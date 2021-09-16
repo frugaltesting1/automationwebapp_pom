@@ -17,8 +17,7 @@ import pages.MessagePage;
 import pages.SignupPage;
 import utility.AllureReport;
 import utility.TwilioService;
-import Listeners.TestAllureListener;
-@Listeners({TestAllureListener.class})
+
 public class signup extends BaseTest {
 
     private SignupPage signupPage;
