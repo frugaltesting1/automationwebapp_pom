@@ -14,8 +14,8 @@ public class BaseTest {
 	Config config = new Config();
 	
 	
-	protected String userEmail="sumanth@frugaltesting.com";
-	protected String userPassword="Tesla@2021";
+	protected String userEmail="sgfunctionaltest1@mailinator.com";
+	protected String userPassword="Frugal@1234";
 
 	public String userFirstName = "Ashwin";
 	public String userLastName = "R";
