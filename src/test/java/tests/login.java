@@ -33,7 +33,6 @@ public class login extends BaseTest {
 	}
 
 
-
 	@Test(description="Test:Login Test With Correct Details")
 	@Severity(SeverityLevel.BLOCKER)
 	@Story("This story belongs to the login flow")
