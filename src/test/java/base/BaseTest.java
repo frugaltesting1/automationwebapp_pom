@@ -29,7 +29,7 @@ public class BaseTest {
 		System.setProperty("webdriver.chrome.driver","resources/chromedriver.exe");
 		ChromeOptions options = new ChromeOptions();
 		
-		options.setHeadless(true);
+//		options.setHeadless(true);
 		options.addArguments("--start-maximized");
 		options.addArguments("--lang=en_US");
 

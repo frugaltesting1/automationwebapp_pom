@@ -34,8 +34,8 @@ public class signup extends BaseTest {
     @Test(description="Test:click Submit Button With Empty Fields")
     @Severity(SeverityLevel.CRITICAL)
     @Story("This story belongs to the signup flow")
-    public void clickSubmitButtonWithEmptyFields(){
-        signupPage.clickContinueButton();
+    public void continueWithEmptyFields(){
+        signupPage.clickNext1Button();
         Assert.assertTrue(signupPage.isTryAgainPopUpShown());
         signupPage.clickTryAgain();
     }
@@ -47,7 +47,7 @@ public class signup extends BaseTest {
         signupPage.addPhoneNumber("9551574355");
         signupPage.clickCountryCodeSelector();
         signupPage.clickIndiaOption();
-        signupPage.clickContinueButton();
+        signupPage.clickNext1Button();
         Assert.assertTrue(signupPage.isTryAgainPopUpShown());
         signupPage.clickTryAgain();
     }
@@ -57,18 +57,18 @@ public class signup extends BaseTest {
     @Story("This story belongs to the signup flow")
     public void clickSubmitButtonWithoutPhoneNUmber(){
         signupPage.addGmailID("ashwin@frugaltesting.com");
-        signupPage.clickContinueButton();
+        signupPage.clickNext1Button();
         Assert.assertTrue(signupPage.isTryAgainPopUpShown());
         signupPage.clickTryAgain();
     }
 
-    @Test(description="Test:click Submit Button With invalid phone number")
+  /*  @Test(description="Test:click Submit Button With invalid phone number")
     @Severity(SeverityLevel.CRITICAL)
     @Story("This story belongs to the signup flow")
     public void clickSubmitButtonWithInvalidPhoneNumber(){
         signupPage.addPhoneNumber("1234567890");
         signupPage.addGmailID("test@frugaltesting.com");
-        signupPage.clickContinueButton();
+        signupPage.clickNext1Button();
         Assert.assertTrue(signupPage.isTryAgainPopUpShown());
         signupPage.clickTryAgain();
     }
@@ -246,11 +246,13 @@ public class signup extends BaseTest {
     }
 
 
-
+*/
     @AfterMethod
     public void clearTests() {
         AllureReport.Screenshot(driver,this.getClass().getName());
         driver.quit();
     }
+
+
 
 }
