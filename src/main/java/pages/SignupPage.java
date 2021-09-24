@@ -59,6 +59,9 @@ public class SignupPage {
     public void clickNext1Button(){
         driver.findElement(next1).submit();
     }
+    public void clickNext2Button(){
+        driver.findElement(next2).submit();
+    }
 
     public boolean isTryAgainPopUpShown(){
         try {
@@ -71,9 +74,13 @@ public class SignupPage {
     }
 
     public boolean isOkPopUpShown(){
-        WebElement element = (new WebDriverWait(driver, 3))
-                .until(ExpectedConditions.elementToBeClickable(okPopUp));
-        return element.isDisplayed();
+        try {
+            WebElement element = (new WebDriverWait(driver, 3))
+                    .until(ExpectedConditions.elementToBeClickable(okPopUp));
+            return true;
+        }catch(Exception e){
+            return false;
+        }
     }
 
     public void clickTryAgain(){
@@ -83,9 +90,7 @@ public class SignupPage {
     }
 
     public void clickOk(){
-        WebElement element = (new WebDriverWait(driver, 3))
-                .until(ExpectedConditions.elementToBeClickable(okPopUp));
-        element.click();
+        driver.findElement(okPopUp).click();
     }
 
     public void clickCountryCodeSelector(){
