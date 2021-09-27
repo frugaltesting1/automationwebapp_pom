@@ -1,10 +1,13 @@
 package pages;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+
+import java.util.List;
 
 public class SignupPage {
 
@@ -24,7 +27,7 @@ public class SignupPage {
 
     private By emailField = By.xpath("//input[@id='email']");
     private By next1 = By.xpath("//body/div[1]/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/form[1]/fieldset[1]/button[1]");
-    private By next2 = By.xpath("//body/div[1]/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/form[1]/fieldset[2]/div[2]/button[1]");
+    private By next2 = By.xpath("//*[@id=\"sendotp\"]/div[2]/button");
 
     private By sendAgain =By.xpath("//a[@id='sendAgain']");
     private By otp1= (By.xpath("//input[@id='codeBox1']"));
@@ -57,17 +60,21 @@ public class SignupPage {
     }
 
     public void clickNext1Button(){
-        driver.findElement(next1).submit();
+        driver.findElement(next1).click();
     }
     public void clickNext2Button(){
-        driver.findElement(next2).submit();
+        wait= new WebDriverWait(driver,10);
+        wait.until(ExpectedConditions.visibilityOfElementLocated(next2));
+        JavascriptExecutor js = (JavascriptExecutor) driver;
+        js.executeScript("arguments[0].click();",driver.findElement(next2));
+
+
     }
 
     public boolean isTryAgainPopUpShown(){
         try {
-            WebElement element = (new WebDriverWait(driver, 3))
-                    .until(ExpectedConditions.elementToBeClickable(tryAgainPopUp));
-            return element.isDisplayed();
+            clickTryAgain();
+            return true;
         }catch (Exception e){
             return false;
         }
@@ -75,8 +82,7 @@ public class SignupPage {
 
     public boolean isOkPopUpShown(){
         try {
-            WebElement element = (new WebDriverWait(driver, 3))
-                    .until(ExpectedConditions.elementToBeClickable(okPopUp));
+            clickOk();
             return true;
         }catch(Exception e){
             return false;
@@ -84,9 +90,8 @@ public class SignupPage {
     }
 
     public void clickTryAgain(){
-        WebElement element = (new WebDriverWait(driver, 5))
-                .until(ExpectedConditions.elementToBeClickable(tryAgainPopUp));
-        element.click();
+
+        driver.findElement(tryAgainPopUp).click();
     }
 
     public void clickOk(){

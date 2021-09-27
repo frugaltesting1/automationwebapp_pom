@@ -45,6 +45,8 @@ public class signup extends BaseTest {
     @Severity(SeverityLevel.CRITICAL)
     @Story("This story belongs to the signup flow")
     public void clickSubmitButtonWithoutEmail(){
+        signupPage.addFirstName("ABC");
+        signupPage.addLastName("XYZ");
         signupPage.addPhoneNumber("9551574355");
         signupPage.clickCountryCodeSelector();
         signupPage.clickIndiaOption();
@@ -59,6 +61,8 @@ public class signup extends BaseTest {
     @Story("This story belongs to the signup flow")
     public void clickSubmitButtonWithoutPhoneNUmber(){
         signupPage.addGmailID("ashwin@frugaltesting.com");
+        signupPage.addFirstName("ABC");
+        signupPage.addLastName("XYZ");
         signupPage.clickNext1Button();
         if(signupPage.isOkPopUpShown()){
             Assert.fail();
@@ -83,173 +87,91 @@ public class signup extends BaseTest {
         }
     }
 
-    @Test(description="Test:click Submit Button With email and password")
-    @Severity(SeverityLevel.CRITICAL)
-    @Story("This story belongs to the signup flow")
-    public void clickSubmitButtonWithEmailAndPassword() throws InterruptedException{
-        signupPage.addFirstName("Frugal");
-        signupPage.addLastName("Testing");
-        signupPage.addGmailID("ilovefrugal@gmail.com");
-        signupPage.clickCountryCodeSelector();
-        signupPage.clickUsaOption();
-        signupPage.addPhoneNumber(twilioService.phoneNumber);
-        signupPage.clickNext1Button();
-        Thread.sleep(3000);
-        if(signupPage.isOkPopUpShown()){
-            signupPage.clickOk();
-            signupPage.enterOtp(twilioService.getOtp());
-            signupPage.clickUserAgreement();
-            signupPage.clickNext2Button();
-        }else{
-            Assert.fail();
-        }
-    }
-/*
+
+
     @Test(description="Test:creating Account Without First Name")
     @Severity(SeverityLevel.NORMAL)
     @Story("This story belongs to the signup flow")
     public void creatingAccountWithoutFirstName(){
-        clickSubmitButtonWithEmailAndPassword();
-        signupPage.addMiddleName("Ashwin");
-        signupPage.addLastName("R");
-        signupPage.setDob("01/12/2000");
-        signupPage.clickContinueButton();
-        Assert.assertTrue(signupPage.isTryAgainPopUpShown());
-        signupPage.clickTryAgain();
+
+        signupPage.addLastName("XYZ");
+        signupPage.clickCountryCodeSelector();
+        signupPage.clickIndiaOption();
+        signupPage.addPhoneNumber("9999999999");
+        signupPage.addGmailID("frugal@testing.com");
+        signupPage.clickNext1Button();
+        if(signupPage.isOkPopUpShown()) {
+            Assert.fail();
+        }
     }
 
     @Test(description="Test:creating Account Without Last Name")
     @Severity(SeverityLevel.NORMAL)
     @Story("This story belongs to the signup flow")
     public void creatingAccountWithoutLastName(){
-        clickSubmitButtonWithEmailAndPassword();
-        signupPage.addFirstName("Ashwin");
-        signupPage.setDob("01/12/2000");
-        signupPage.clickContinueButton();
-        Assert.assertTrue(signupPage.isTryAgainPopUpShown());
-        signupPage.clickTryAgain();
-    }
-
-    @Test(description="Test:creating Account Without DOB")
-    @Severity(SeverityLevel.NORMAL)
-    @Story("This story belongs to the signup flow")
-    public void creatingAccountWithoutDob(){
-        clickSubmitButtonWithEmailAndPassword();
-        signupPage.addFirstName("Ashwin");
-        signupPage.addLastName("R");
-        signupPage.clickContinueButton();
-        Assert.assertTrue(signupPage.isTryAgainPopUpShown());
-        signupPage.clickTryAgain();
-    }
-
-    @Test(description="Test:creating Account Without Invalid DOB")
-    @Severity(SeverityLevel.NORMAL)
-    @Story("This story belongs to the signup flow")
-    public void creatingAccountWithoutInvalidDob(){
-        clickSubmitButtonWithEmailAndPassword();
-        signupPage.addFirstName("Ashwin");
-        signupPage.addLastName("R");
-        signupPage.setDob("Dob");
-        signupPage.clickContinueButton();
-        Assert.assertTrue(signupPage.isTryAgainPopUpShown());
-        signupPage.clickTryAgain();
-    }
-
-    @Test(description="Test:creating Account by giving all inputs")
-    @Severity(SeverityLevel.NORMAL)
-    @Story("This story belongs to the signup flow")
-    public void creatingAccountByGivingAllInputs(){
-        clickSubmitButtonWithEmailAndPassword();
-        signupPage.addFirstName("Ashwin");
-        signupPage.addLastName("R");
-        signupPage.setDob("01/12/2000");
-        signupPage.clickContinueButton();
-        Assert.assertTrue(signupPage.getUrl().contains("registeraddress"));
-    }
-
-    @Test(description="Test:creating without enter country name")
-    @Severity(SeverityLevel.NORMAL)
-    @Story("This story belongs to the signup flow")
-    public void creatAccountWithoutEnterCountryName(){
-        creatingAccountByGivingAllInputs();
-        signupPage.setCity("Chennai");
-        signupPage.setState("Tamil Nadu");
-        signupPage.clickContinueButton();
-        Assert.assertTrue(signupPage.isTryAgainPopUpShown());
-        signupPage.clickTryAgain();
-    }
-
-    @Test(description="Test:creating Account without city name")
-    @Severity(SeverityLevel.NORMAL)
-    @Story("This story belongs to the signup flow")
-    public void creatAccountWithoutEnterCityName(){
-        creatingAccountByGivingAllInputs();
-        signupPage.setCountry("India");
-        signupPage.setState("Tamil Nadu");
-        signupPage.clickContinueButton();
-        Assert.assertTrue(signupPage.isTryAgainPopUpShown());
-        signupPage.clickTryAgain();
-    }
-
-    @Test(description="Test:creating Account without enter state name")
-    @Severity(SeverityLevel.NORMAL)
-    @Story("This story belongs to the signup flow")
-    public void creatAccountWithoutEnterStateName(){
-        creatingAccountByGivingAllInputs();
-        signupPage.setCity("Chennai");
-        signupPage.setCountry("India");
-        signupPage.clickContinueButton();
-        Assert.assertTrue(signupPage.isTryAgainPopUpShown());
-        signupPage.clickTryAgain();
-    }
-
-    @Test(description="Test:creating Account without re password")
-    @Severity(SeverityLevel.CRITICAL)
-    @Story("This story belongs to the signup flow")
-    public void creatAccountWithoutRePassword(){
-        creatingAccountByGivingAllInputs();
-        signupPage.setCity("Chennai");
-        signupPage.setCountry("India");
-        signupPage.setState("Tamil Nadu");
-        signupPage.clickContinueButton();
-        signupPage.setPassword("Ashwin@111");
-        signupPage.clickContinueButton();
-        Assert.assertTrue(signupPage.isTryAgainPopUpShown());
-    }
-
-    @Test(description="Test:creating Account correctly")
-    @Severity(SeverityLevel.CRITICAL)
-    @Story("This story belongs to the signup flow")
-    public void creatAccount(){
-        creatingAccountByGivingAllInputs();
-        signupPage.setCity("Chennai");
-        signupPage.setCountry("India");
-        signupPage.setState("Tamil Nadu");
-        signupPage.clickContinueButton();
-        signupPage.setPassword("Ashwin@111");
-        signupPage.setRePassword("Ashwin@111");
-        signupPage.clickUserAgreement();
-        signupPage.clickContinueButton();
-    }
-
-    @Test(description="Test:clicking submit button with wrong OTP")
-    @Severity(SeverityLevel.CRITICAL)
-    @Story("This story belongs to the signup flow")
-    public void clickSubmitButtonWithWrongOtp(){
-        signupPage.addPhoneNumber("9999999999");
+        signupPage.addFirstName("XYZ");
+        signupPage.clickCountryCodeSelector();
         signupPage.clickIndiaOption();
-        signupPage.addGmailID("test@frugaltesting.com");
-        signupPage.clickContinueButton();
-        Assert.assertTrue(signupPage.isOkPopUpShown());
-        signupPage.clickOk();
-        signupPage.enterOtp("1234");
-        signupPage.clickContinueButton();
-        Assert.assertTrue(signupPage.isTryAgainPopUpShown());
-        signupPage.clickTryAgain();
+        signupPage.addPhoneNumber("9999999999");
+        signupPage.addGmailID("frugal@testing.com");
+        signupPage.clickNext1Button();
+        if(signupPage.isOkPopUpShown()) {
+            Assert.fail();
+        }
+
+       }
+
+    @Test(description="Test:click Submit Button With email and password")
+    @Severity(SeverityLevel.CRITICAL)
+    @Story("This story belongs to the signup flow")
+    public void signUpWithValidDetails() throws InterruptedException{
+        signupPage.addFirstName("Frugal");
+        signupPage.addLastName("Testing");
+       signupPage.addGmailID("ilovefrugal@gmail.com");
+        signupPage.clickCountryCodeSelector();
+        signupPage.clickUsaOption();
+        signupPage.addPhoneNumber(twilioService.phoneNumber);
+       signupPage.clickNext1Button();
+        Thread.sleep(5000);
+        if(signupPage.isOkPopUpShown()){
+            signupPage.clickOk();
+        }else{
+            Assert.fail();
+        }
     }
 
 
-*/
+    @Test(description = "clicking on next without entering the otp ")
+
+    public void clickOnNextWithoutOtp() throws InterruptedException{
+
+        signUpWithValidDetails();
+        signupPage.clickNext2Button();
+        Thread.sleep(5000);
+       // System.out.println(twilioService.getOtp());
+        if(!signupPage.isTryAgainPopUpShown()){
+            Assert.fail();
+        }
+    }
+
+    @Test(description = "entering correct otp ")
+
+    public  void clickOnNextWithOtp() throws InterruptedException{
+        signUpWithValidDetails();
+        signupPage.enterOtp(twilioService.getOtp());
+        signupPage.clickNext2Button();
+        if(signupPage.isOkPopUpShown()){
+            signupPage.clickOk();
+        }else{
+            Assert.fail();
+        }
+
+
+    }
+
+
+
+
     @AfterMethod
     public void clearTests() {
         AllureReport.Screenshot(driver,this.getClass().getName());
