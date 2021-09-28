@@ -10,7 +10,8 @@ public class TwilioService {
     public String countryCode = "+1";
 
     static String account_id = "ACe87c16897670ea46c8f365c63b00a5e9";
-    static String auth_token = "534455780bfaeceaec234ff32d3526a0";
+    static String auth_token = "58741d1d474dffe55eae8b6de912716e";
+
 
     public TwilioService(){
         Twilio.init(account_id, auth_token);

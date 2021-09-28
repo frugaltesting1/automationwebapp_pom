@@ -24,7 +24,7 @@ public class SignupPage {
     private By phoneNumberField = By.xpath("//input[@id='phone_number']");
     private By indiaOption = By.xpath("//body/div[1]/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/form[1]/fieldset[1]/div[4]/div[1]/div[1]/div[1]/ul[1]/li[5]");
     private By usaOption = By.xpath("//body/div[1]/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/form[1]/fieldset[1]/div[4]/div[1]/div[1]/div[1]/ul[1]/li[3]");
-
+    private By Canada=By.xpath("//*[@id=\"basic\"]/div[4]/div/div/div/ul/li[4]/span[1]");
     private By emailField = By.xpath("//input[@id='email']");
     private By next1 = By.xpath("//body/div[1]/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/form[1]/fieldset[1]/button[1]");
     private By next2 = By.xpath("//*[@id=\"sendotp\"]/div[2]/button");
@@ -113,6 +113,9 @@ public class SignupPage {
         driver.findElement(usaOption).click();
 
     }
+    public void clickCanadaOption(){
+        driver.findElement(Canada).click();
+    }
 
     public void addPhoneNumber(String phoneNumber){
         driver.findElement(phoneNumberField).sendKeys(phoneNumber);
@@ -133,40 +136,32 @@ public class SignupPage {
         driver.findElement(firstName).sendKeys(name);
     }
 
-  /*  public void addMiddleName(String name){
-        driver.findElement(middleName).sendKeys(name);
-    }*/
 
     public void addLastName(String name){
         driver.findElement(lastName).sendKeys(name);
     }
 
-  /*  public void setDob(String date){
-        driver.findElement(dob).sendKeys(date);
-    }
 
-    public void setCity(String text){
-        driver.findElement(enterCity).sendKeys(text);
-    }
-
-    public void setState(String text){
-        driver.findElement(enterState).sendKeys(text);
-    }
-
-    public void setCountry(String text){
-        driver.findElement(enterCountry).sendKeys(text);
-    }
-*/
     public void setPassword(String text){
         driver.findElement(password).sendKeys(text);
     }
 
     public void clickUserAgreement(){
-        driver.findElement(userAgreement).click();
+        JavascriptExecutor js = (JavascriptExecutor) driver;
+        js.executeScript("arguments[0].click();",driver.findElement(userAgreement));
+
+
     }
 
     public void setRePassword(String text){
         driver.findElement(rePassword).sendKeys(text);
+    }
+
+    public void clickOnFinalSignUp(){
+        JavascriptExecutor js = (JavascriptExecutor) driver;
+        js.executeScript("arguments[0].click();",driver.findElement(finalSignUpButton));
+
+
     }
 
 }

@@ -7,6 +7,7 @@ import com.twilio.rest.api.v2010.account.Message;
 import io.qameta.allure.Severity;
 import io.qameta.allure.SeverityLevel;
 import io.qameta.allure.Story;
+import org.openqa.selenium.By;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
@@ -130,7 +131,7 @@ public class signup extends BaseTest {
        signupPage.addGmailID("ilovefrugal@gmail.com");
         signupPage.clickCountryCodeSelector();
         signupPage.clickUsaOption();
-        signupPage.addPhoneNumber(twilioService.phoneNumber);
+       signupPage.addPhoneNumber(twilioService.phoneNumber);
        signupPage.clickNext1Button();
         Thread.sleep(5000);
         if(signupPage.isOkPopUpShown()){
@@ -154,15 +155,123 @@ public class signup extends BaseTest {
         }
     }
 
+    @Test(description = "entering wrong otp")
+    public void clickOnNextWithWrongOtp() throws InterruptedException{
+        signUpWithValidDetails();
+        signupPage.enterOtp("0000");
+        signupPage.clickNext2Button();
+        Thread.sleep(5000);
+        if(!signupPage.isTryAgainPopUpShown()){
+            Assert.fail();
+        }else{
+
+            signupPage.clickTryAgain();
+        }
+    }
+
     @Test(description = "entering correct otp ")
 
-    public  void clickOnNextWithOtp() throws InterruptedException{
+    public  void clickOnNextWithValidOtp() throws InterruptedException{
         signUpWithValidDetails();
         signupPage.enterOtp(twilioService.getOtp());
         signupPage.clickNext2Button();
+        Thread.sleep(5000);
         if(signupPage.isOkPopUpShown()){
+
             signupPage.clickOk();
         }else{
+            Assert.fail();
+        }
+
+
+    }
+
+
+@Test(description = "signing up with empty password fields")
+    public void clickOmSignUpWithEmptyPasswordFields() throws InterruptedException{
+        String before= driver.getCurrentUrl();
+        clickOnNextWithValidOtp();
+        signupPage.clickUserAgreement();
+        signupPage.clickOnFinalSignUp();
+        Thread.sleep(20000);
+        String after= driver.getCurrentUrl();
+        if(before.equals(after)){
+            System.out.println("Test passed!");
+        }else{
+            Assert.fail();
+        }
+
+    }
+
+    @Test(description = "entering different passwords in create password and retype password")
+    public  void clickOnSignUpWithDifferentPasswords() throws InterruptedException{
+        clickOnNextWithValidOtp();
+        Thread.sleep(5000);
+        String before= driver.getCurrentUrl();
+        signupPage.setPassword("Frugal@123");
+        signupPage.setRePassword("Frugal@234");
+        signupPage.clickOnFinalSignUp();
+        Thread.sleep(2000);
+        String after= driver.getCurrentUrl();
+        if(before.equals(after)){
+            System.out.println("Test Passed");
+        }else{
+            Assert.fail();
+        }
+
+
+    }
+
+    @Test(description = "creating passwords which doesn't meet the required criteria")
+public void clickOnSignUpWithInvalidPassword() throws InterruptedException{
+        clickOnNextWithValidOtp();
+        Thread.sleep(5000);
+        String before= driver.getCurrentUrl();
+        signupPage.setPassword("frugal testing");
+        signupPage.setRePassword("frugal testing");
+        signupPage.clickUserAgreement();
+        signupPage.clickOnFinalSignUp();
+        Thread.sleep(2000);
+        String after= driver.getCurrentUrl();
+        if(before.equals(after)){
+            System.out.println("Test Passed");
+        }else{
+            Assert.fail();
+        }
+
+
+    }
+
+    @Test(description = "signing up without checking terms and conditions")
+
+    public void clickOnSignUpWithoutUserAgreement() throws InterruptedException{
+        clickOnNextWithValidOtp();
+        Thread.sleep(3000);
+        String before= driver.getCurrentUrl();
+        signupPage.setPassword("Frugal@123");
+        signupPage.setRePassword("Frugal@123");
+        signupPage.clickOnFinalSignUp();
+        Thread.sleep(5000);
+        String after= driver.getCurrentUrl();
+        if(!before.equals(after)){
+            Assert.fail();
+        }
+
+    }
+
+    @Test(description = "creating an account successfully with all valid details")
+
+    public void createAnAccountSuccessfully() throws InterruptedException{
+        clickOnNextWithValidOtp();
+        Thread.sleep(3000);
+        String before= driver.getCurrentUrl();
+        signupPage.setPassword("Frugal@123");
+        signupPage.setRePassword("Frugal@123");
+        signupPage.clickUserAgreement();
+        signupPage.clickOnFinalSignUp();
+        Thread.sleep(20000);
+        String after= driver.getCurrentUrl();
+        if(before.equals(after)){
             Assert.fail();
         }
 
