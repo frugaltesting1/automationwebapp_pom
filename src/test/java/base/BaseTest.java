@@ -26,7 +26,7 @@ public class BaseTest {
 	public String country = "India";
 
 	public void setup() {
-		System.setProperty("webdriver.chrome.driver","resources/chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver","resources/chromedriverversion94.exe");
 		ChromeOptions options = new ChromeOptions();
 		
 //		options.setHeadless(true);
