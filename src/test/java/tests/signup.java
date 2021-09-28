@@ -38,6 +38,7 @@ public class signup extends BaseTest {
     public void continueWithEmptyFields(){
         signupPage.clickNext1Button();
         if(signupPage.isOkPopUpShown()){
+            System.out.println("Failed to click on next with empty fields");
             Assert.fail();
         }
     }
@@ -53,6 +54,7 @@ public class signup extends BaseTest {
         signupPage.clickIndiaOption();
         signupPage.clickNext1Button();
         if(signupPage.isOkPopUpShown()){
+            System.out.println("Failed to click on next without email");
             Assert.fail();
         }
     }
@@ -66,6 +68,7 @@ public class signup extends BaseTest {
         signupPage.addLastName("XYZ");
         signupPage.clickNext1Button();
         if(signupPage.isOkPopUpShown()){
+            System.out.println("Failed to click on submit without phone number");
             Assert.fail();
 
         }
@@ -84,6 +87,7 @@ public class signup extends BaseTest {
         signupPage.addGmailID("frugaltesting.com");
         signupPage.clickNext1Button();
         if(signupPage.isOkPopUpShown()) {
+            System.out.println("Failed to click on next with invalid email");
             Assert.fail();
         }
     }
@@ -102,6 +106,7 @@ public class signup extends BaseTest {
         signupPage.addGmailID("frugal@testing.com");
         signupPage.clickNext1Button();
         if(signupPage.isOkPopUpShown()) {
+            System.out.println("Failed while leaving first name empty");
             Assert.fail();
         }
     }
@@ -117,6 +122,7 @@ public class signup extends BaseTest {
         signupPage.addGmailID("frugal@testing.com");
         signupPage.clickNext1Button();
         if(signupPage.isOkPopUpShown()) {
+            System.out.println("Failed while leaving last name empty");
             Assert.fail();
         }
 
@@ -137,6 +143,7 @@ public class signup extends BaseTest {
         if(signupPage.isOkPopUpShown()){
             signupPage.clickOk();
         }else{
+            System.out.println("Failed to sign in with valid details");
             Assert.fail();
         }
     }
@@ -151,6 +158,7 @@ public class signup extends BaseTest {
         Thread.sleep(5000);
        // System.out.println(twilioService.getOtp());
         if(!signupPage.isTryAgainPopUpShown()){
+            System.out.println("Failed to click on next without otp");
             Assert.fail();
         }
     }
@@ -162,6 +170,7 @@ public class signup extends BaseTest {
         signupPage.clickNext2Button();
         Thread.sleep(5000);
         if(!signupPage.isTryAgainPopUpShown()){
+            System.out.println("Failed to click on next with wrong otp");
             Assert.fail();
         }else{
 
@@ -180,6 +189,7 @@ public class signup extends BaseTest {
 
             signupPage.clickOk();
         }else{
+            System.out.println("Failed to click on next after entering valid otp");
             Assert.fail();
         }
 
@@ -198,6 +208,7 @@ public class signup extends BaseTest {
         if(before.equals(after)){
             System.out.println("Test passed!");
         }else{
+            System.out.println("Failed in clicking on sign up with empty password fields ");
             Assert.fail();
         }
 
@@ -216,6 +227,7 @@ public class signup extends BaseTest {
         if(before.equals(after)){
             System.out.println("Test Passed");
         }else{
+            System.out.println("Failed in clicking on signup with different passwords");
             Assert.fail();
         }
 
@@ -236,6 +248,7 @@ public void clickOnSignUpWithInvalidPassword() throws InterruptedException{
         if(before.equals(after)){
             System.out.println("Test Passed");
         }else{
+            System.out.println("Failed in clicking on signup with invalid password");
             Assert.fail();
         }
 
@@ -254,6 +267,7 @@ public void clickOnSignUpWithInvalidPassword() throws InterruptedException{
         Thread.sleep(5000);
         String after= driver.getCurrentUrl();
         if(!before.equals(after)){
+            System.out.println("Failed in clicking on sign up without checking user agreement");
             Assert.fail();
         }
 
@@ -272,6 +286,7 @@ public void clickOnSignUpWithInvalidPassword() throws InterruptedException{
         Thread.sleep(20000);
         String after= driver.getCurrentUrl();
         if(before.equals(after)){
+            System.out.println("Failed in creating an account successfully");
             Assert.fail();
         }
 
