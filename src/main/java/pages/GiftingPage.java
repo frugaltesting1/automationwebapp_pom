@@ -17,6 +17,8 @@ public class GiftingPage {
 	
 	private By selectCardButton = By.xpath("//*[@id=\"selectCardButton\"]");
 	private By nameField = By.xpath("//*[@id=\"txtName\"]");
+	//private By nameField = By.xpath("//*[@id='txtName']");
+	//private By nameField = By.id("txtName");
 	private By emailField = By.xpath("//*[@id=\"txtEmail\"]");
 	private By phoneField = By.xpath("//*[@id=\"txtPhone\"]");
 	private By messageField = By.xpath("//*[@id=\"giftMessage\"]");

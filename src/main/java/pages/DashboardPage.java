@@ -3,23 +3,27 @@ package pages;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.util.ArrayList;
+import java.util.concurrent.TimeUnit;
 
 public class DashboardPage {
-	
+
 	public WebDriver driver;
 	public WebDriverWait wait;
 
 	public DashboardPage(WebDriver driver) {
 		this.driver = driver;
-		wait = new WebDriverWait(driver,120);
+		wait = new WebDriverWait(driver,10);
 	}
 	
 	//popup
 	private By laterButtonInPendingGiftsPopup = By.xpath("//*[contains(text(),'Later')]");
+	private By showButtonInPendingGiftsPopup = By.xpath("//*[contains(text(),'Show')]");
+	private By pendingGiftsPopup = By.xpath("//*[contains(text(),'pending gifts')]");
 	
 	//sections
 	private By yourDashboardSection = By.xpath("//*[@id=\"yourDashboard\"]");
@@ -48,17 +52,43 @@ public class DashboardPage {
 	private By firstBlog = By.xpath("//*[@id=\"blogs\"]/div/div/a[1]");
 	private By firstGiftSection = By.xpath("//*[@id=\"slick-slide31\"]/a");
 
+	private By embeddedPlayButton = By.xpath("//*[@id=\"newOne\"]/div/div[2]/div/div/div/div/a/div");
+	private By youtubeVideo = By.xpath("//iframe[contains(@src,'https://www.youtube.com/embed/gpQL1bJURs0')]");
+	private By playButton = By.xpath("//button[@aria-label='Play']");
+
 
 	public boolean isDashboardPage() {
 		String currUrl = driver.getCurrentUrl();
 		return currUrl.contains("dashboard") || currUrl.endsWith("/user");
 	}
+
+	public boolean isElementPresent(By by) {
+		try {
+			driver.findElement(by);
+			return true;
+		}
+		catch (org.openqa.selenium.NoSuchElementException e) {
+			return false;
+		}
+	}
 	
 	public void clickLaterOnPendingGiftsPopup() {
-		if(driver.findElement(laterButtonInPendingGiftsPopup).isDisplayed()) {
-			driver.findElement(laterButtonInPendingGiftsPopup).click();
-		} else {
-			System.out.println("Pending Gifts Popup is not present");
+		if (isElementPresent(pendingGiftsPopup)){
+			if (driver.findElement(laterButtonInPendingGiftsPopup).isDisplayed()) {
+				driver.findElement(laterButtonInPendingGiftsPopup).click();
+			} else {
+				System.out.println("Pending Gifts Popup is not present");
+			}
+		}
+	}
+
+	public void clickShowOnPendingGiftsPopup() {
+		if (driver.findElement(pendingGiftsPopup).isDisplayed()) {
+			if (driver.findElement(showButtonInPendingGiftsPopup).isDisplayed()) {
+				driver.findElement(showButtonInPendingGiftsPopup).click();
+			} else {
+				System.out.println("Pending Gifts Popup is not present");
+			}
 		}
 	}
 
@@ -87,6 +117,7 @@ public class DashboardPage {
 
 	public void clickCheckOut(){
 		driver.findElement(checkout).click();
+		//driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 	}
 
 	public void clickSelectCurrency(){
@@ -114,7 +145,10 @@ public class DashboardPage {
 	}
 
 	public void clickFirstBlog(){
-		driver.findElement(firstBlog).click();
+		WebElement element = driver.findElement(firstBlog);
+		Actions actions = new Actions(driver);
+		actions.moveToElement(element).click().perform();
+		//driver.findElement(firstBlog).click();
 	}
 
 	public void clickFirstGiftCard(){
@@ -151,5 +185,12 @@ public class DashboardPage {
 		driver.findElement(youtubeIcon).click();
 	}
 
-	
+	public void clickOnSacredGrovesVideo() {
+		driver.findElement(embeddedPlayButton).click();
+		WebElement frameElement = driver.findElement(youtubeVideo);
+		driver.switchTo().frame(frameElement);
+		driver.findElement(playButton).click();
+		WebDriverWait(driver, 10).until(ExpectedConditions.elementToBeClickable(playButton).click();
+
+	}
 }

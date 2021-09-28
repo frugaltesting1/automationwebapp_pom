@@ -4,6 +4,7 @@ import base.BaseTest;
 import com.twilio.Twilio;
 import com.twilio.base.ResourceSet;
 import com.twilio.rest.api.v2010.account.Message;
+//import jdk.jfr.Description;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
@@ -27,14 +28,14 @@ public class signup extends BaseTest {
         driver.navigate().to(baseURL+"/signup");
     }
 
-    @Test
+    @Test(description = "Test if signup page is accepting empty fields")
     public void clickSubmitButtonWithEmptyFields(){
         signupPage.clickContinueButton();
         Assert.assertTrue(signupPage.isTryAgainPopUpShown());
         signupPage.clickTryAgain();
     }
 
-    @Test
+    @Test(description = "Test if signup is working without email")
     public void clickSubmitButtonWithoutEmail(){
         signupPage.addPhoneNumber("9551574355");
         signupPage.clickCountryCodeSelector();

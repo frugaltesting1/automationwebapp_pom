@@ -10,8 +10,11 @@ import pages.LoginPage;
 import pages.SquadPage;
 import utility.AllureReport;
 
+import java.sql.SQLOutput;
+import java.util.Random;
+import java.util.concurrent.TimeUnit;
+
 public class dashboard extends BaseTest {
-	
 	private LoginPage loginPage;
 	private DashboardPage dashboardPage;
 	private GiftingPage giftingPage;
@@ -24,39 +27,55 @@ public class dashboard extends BaseTest {
 		loginPage = new LoginPage(driver);
 		driver.navigate().to(baseURL+"/login");
 		dashboardPage = loginPage.nativeLogin(userEmail, userPassword);
-		driver.navigate().refresh();
+		//driver.navigate().refresh();
+		dashboardPage.clickLaterOnPendingGiftsPopup();
 	}
 	
 	@AfterMethod
 	public void clearTests() throws InterruptedException {
 		AllureReport.Screenshot(driver,this.getClass().getName());
-		driver.quit();
+		//driver.quit();
 	}
 	
 	@Test(description="Test:Purchase SGC through card")
-	public void purchaseSGCThroughCard() {
-		dashboardPage.addAmount("10");
+	public void purchaseSGCThroughCard() throws InterruptedException{
+		Random rand = new Random();
+		int maxSGC=100;
+		int n = rand.nextInt(maxSGC);
+		String sgc = String.valueOf(n);
+		dashboardPage.addAmount(sgc);
+		dashboardPage.clickCalculate();
 		dashboardPage.clickPurchaseAgreement();
 		dashboardPage.clickCheckOut();
+		Thread.sleep(10000);
+		String url = driver.getCurrentUrl();
+		if(!url.contains("checkout.stripe.com")){
+			System.out.println("Error : The payment page is not opening");
+			Assert.fail();
+		}
+		dashboardPage.closeTab();
 	}
 	
 	@Test(description="Test:Calculate SGC details and verify calculation")
 	public void verifySGCCalculation() {
-		dashboardPage.addAmount("10");
+		Random rand = new Random();
+		int maxSGC=100;
+		int n = rand.nextInt(maxSGC);
+		String sgc = String.valueOf(n);
+		dashboardPage.addAmount(sgc);
 		dashboardPage.clickSelectCurrency();
 		dashboardPage.clickGbd();
 		dashboardPage.clickCalculate();
-
-		Assert.assertEquals(dashboardPage.getResultAmount(),"400");
-
+		String amount=dashboardPage.getResultAmount().replace(",","");
+		Assert.assertEquals(amount,String.valueOf(n*40));
 		dashboardPage.clickUSD();
 		dashboardPage.clickCalculate();
-		Assert.assertEquals(dashboardPage.getResultAmount(),"500");
-
+		amount=dashboardPage.getResultAmount().replace(",","");
+		Assert.assertEquals(amount,String.valueOf(n*50));
 		dashboardPage.clickEURO();
 		dashboardPage.clickCalculate();
-		Assert.assertEquals(dashboardPage.getResultAmount(),"450");
-
+		amount=dashboardPage.getResultAmount().replace(",","");
+		Assert.assertEquals(amount,String.valueOf(n*45));
 	}
 	
 	@Test(description="Test:Click On blogs, verifying if it is taking to blogs page")
@@ -64,6 +83,7 @@ public class dashboard extends BaseTest {
 		dashboardPage.clickFirstBlog();
 		String url = dashboardPage.getNextTabUrl();
 		if(!url.contains("blog")){
+			System.out.println("Error : Blogs page is not opening");
 			Assert.fail();
 		}
 		dashboardPage.closeTab();
@@ -74,7 +94,7 @@ public class dashboard extends BaseTest {
 		
 		squadPage = dashboardPage.clickOnFindOutHowButton();
 		if(squadPage.isSquadCreatePage()) {
-			System.out.println("Sqaud Create Page Opened");
+			System.out.println("Squad Create Page Opened");
 		} else {
 			System.out.println("ERROR: It should Open Squad Create Page, But Not opened now.");
 			Assert.fail();
@@ -86,6 +106,7 @@ public class dashboard extends BaseTest {
 		dashboardPage.clickFirstGiftCard();
 		String url = dashboardPage.getCurrentUrl();
 		if(!url.contains("gift")){
+			System.out.println("Error : Gifting card is not leading to gift page");
 			Assert.fail();
 		}
 		dashboardPage.closeTab();
@@ -96,6 +117,7 @@ public class dashboard extends BaseTest {
 		dashboardPage.clickOnFacebookIcon();
 		String url = dashboardPage.getNextTabUrl();
 		if(!url.contains("facebook")){
+			System.out.println("Error : Facebook icon is not leading to facebook page");
 			Assert.fail();
 		}
 		dashboardPage.closeTab();
@@ -106,20 +128,37 @@ public class dashboard extends BaseTest {
 		dashboardPage.clickOnInstagramIcon();
 		String url = dashboardPage.getNextTabUrl();
 		if(!url.contains("instagram")){
+			System.out.println("Error : Instagram icon is not leading to instagram page");
 			Assert.fail();
 		}
 		dashboardPage.closeTab();
 	}
-	
-	  
-	
+
 	@Test(description="Test:Click on youtube Icon on Footer, verify if it is taking to youtube page or not.")
 	public void verifyIfYoutubeIconLeadsToYoutubePage() {
 		dashboardPage.clickOnYoutubeIcon();
 		String url = dashboardPage.getNextTabUrl();
 		if(!url.contains("youtube")){
+			System.out.println("Error : Youtube icon is not leading to youtube page");
 			Assert.fail();
 		}
 		dashboardPage.closeTab();
 	}
-}
+
+	@Test(description = "Test if sacred groves video is working")
+	public void verifyIfSacredGrovesVideoWorking(){
+		dashboardPage.clickOnSacredGrovesVideo();
+	}
+
+	@Test(description="Test:Popup of pending gifts is working")
+	public void pendingGiftsPopupIsWorking() {
+			dashboardPage.clickLaterOnPendingGiftsPopup();
+		    dashboardPage.closeTab();
+		/*driver.navigate().refresh();
+		dashboardPage.clickShowOnPendingGiftsPopup();
+		String url = dashboardPage.getNextTabUrl();
+		if(!url.contains("gifting")){
+			Assert.fail();*/
+		}
+	}
+

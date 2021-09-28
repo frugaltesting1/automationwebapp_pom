@@ -67,8 +67,14 @@
 			<artifactId>allure-testng-adaptor</artifactId>
 			<version>1.5.4</version>
 		</dependency>
+        <dependency>
+            <groupId>org.testng</groupId>
+            <artifactId>testng</artifactId>
+            <version>RELEASE</version>
+            <scope>test</scope>
+        </dependency>
 
-	</dependencies>
+    </dependencies>
 
 	<build>
 		<plugins>
