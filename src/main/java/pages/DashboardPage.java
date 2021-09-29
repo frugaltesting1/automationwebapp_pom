@@ -82,14 +82,12 @@ public class DashboardPage {
 		}
 	}
 
-	public void clickShowOnPendingGiftsPopup() {
-		if (driver.findElement(pendingGiftsPopup).isDisplayed()) {
-			if (driver.findElement(showButtonInPendingGiftsPopup).isDisplayed()) {
-				driver.findElement(showButtonInPendingGiftsPopup).click();
-			} else {
-				System.out.println("Pending Gifts Popup is not present");
-			}
-		}
+	public void clickShowOnPendingGiftsPopup(){
+		driver.findElement(showButtonInPendingGiftsPopup).click();
+	}
+
+	public boolean isPendingGiftsPopupPresent(){
+		return isElementPresent(pendingGiftsPopup);
 	}
 
 	public String getCurrentUrl() {
@@ -185,12 +183,14 @@ public class DashboardPage {
 		driver.findElement(youtubeIcon).click();
 	}
 
-	public void clickOnSacredGrovesVideo() {
+	public void clickOnSacredGrovesVideo() throws InterruptedException{
 		driver.findElement(embeddedPlayButton).click();
 		WebElement frameElement = driver.findElement(youtubeVideo);
 		driver.switchTo().frame(frameElement);
+		Thread.sleep(10000);
+		//WebDriverWait(driver, 10).until(ExpectedConditions.elementToBeClickable(playButton));
 		driver.findElement(playButton).click();
-		WebDriverWait(driver, 10).until(ExpectedConditions.elementToBeClickable(playButton).click();
+		//WebDriverWait(driver, 10).until(ExpectedConditions.elementToBeClickable(playButton).click();
 
 	}
 }
