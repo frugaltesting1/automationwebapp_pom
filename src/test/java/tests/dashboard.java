@@ -27,7 +27,7 @@ public class dashboard extends BaseTest {
 		loginPage = new LoginPage(driver);
 		driver.navigate().to(baseURL + "/login");
 		dashboardPage = loginPage.nativeLogin(userEmail, userPassword);
-		//driver.navigate().refresh();
+		driver.navigate().refresh();
 	}
 
 	@AfterMethod
