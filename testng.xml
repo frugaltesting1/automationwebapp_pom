@@ -98,8 +98,8 @@
                     <include name="addEmptyParticipant"/>
                     <include name="addInvalidEmail"/>
                     <include name="addRealParticipant"/>
-                    <include name="addRealParticipantWithoutAddInterest"/>
-                    <include name="addRealParticipantWithoutMember"/>
+ <!--                   <include name="addRealParticipantWithoutAddInterest"/>
+                    <include name="addRealParticipantWithoutMember"/>-->
                 </methods>
             </class>
             <class name="tests.dashboard">
@@ -137,11 +137,11 @@
                     <include name="loginWithCorrectDetails"/>
                     <include name="loginWithWrongDetails"/>
                      <include name="forgotPassword"/>
-                    <include name="forgotPasswordWithWrongRePassword"/>
+ <!--                   <include name="forgotPasswordWithWrongRePassword"/>
                     <include name="forgotPasswordWithOutSymbol"/>
                     <include name="forgotPasswordWithOutNumber"/>
                     <include name="forgotPasswordWithOutWords"/>
-                    <include name="forgotPasswordWithWrongUser"/> 
+                    <include name="forgotPasswordWithWrongUser"/> -->
                 </methods>
             </class>
              <class name="tests.messaging">

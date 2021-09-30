@@ -101,20 +101,7 @@ public class ProfilePage {
 
 	private By downloadCluster = By.xpath("//*[@id=\"downloadHoldings\"]");
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+	private By txtFileUploadMessage = By.xpath("/html/body/div[1]/div[2]/strong");
 
 	public ProfilePage(WebDriver driver) {
 		this.driver = driver;
@@ -312,6 +299,7 @@ public class ProfilePage {
 
 	public void clickDataSources(){
 		driver.findElement(dataSources).click();
+		//Thread.sleep(10000);
 	}
 
 	public void clickFinancialStatements(){
@@ -404,6 +392,10 @@ public class ProfilePage {
 
 	public boolean isAlertVisible(){
 	    return driver.findElement(alert).isDisplayed();
+	}
+
+	public String getTheIncorrectFormatProfilePicUploadText(){
+		return driver.findElement(txtFileUploadMessage).getText();
 	}
 
 }
