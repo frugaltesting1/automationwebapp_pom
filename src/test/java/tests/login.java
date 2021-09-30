@@ -57,18 +57,18 @@ public class login extends BaseTest {
 
 	}
 
-	@Test(description="Test:Forgot password")
+	@Test(description="Test:Forgot password when the account does not exist")
 	@Severity(SeverityLevel.BLOCKER)
 	@Story("This story belongs to the login flow")
 	public void forgotPassword(){
 		loginPage.clickForgetPassword();
 		loginPage.clickSelectCountryButton();
-		loginPage.setPhoneNumber(twilioService.phoneNumber);
 		loginPage.selectCountryCode(twilioService.countryCode);
+		loginPage.setPhoneNumber(twilioService.phoneNumber);
 		loginPage.clickSubmitButton();
-		Assert.assertTrue(loginPage.isOkPopUpShown());
+		Assert.assertTrue(loginPage.isTryAgainShown());
 		loginPage.clickOkPopUp();
-		loginPage.enterOtp(twilioService.getOtp());
+		/*loginPage.enterOtp(twilioService.getOtp());
 		loginPage.clickSubmitButton();
 
 		loginPage.enterNewPassword("Ashwin@123");
@@ -76,7 +76,7 @@ public class login extends BaseTest {
 
 		loginPage.clickSubmitButton();
 
-		Assert.assertTrue(loginPage.isOkPopUpShown());
+		Assert.assertTrue(loginPage.isOkPopUpShown());*/
 	}
 
 	@Test(description="Test:Forgot password with wrong re password")

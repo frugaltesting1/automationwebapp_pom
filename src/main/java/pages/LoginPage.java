@@ -21,19 +21,19 @@ public class LoginPage {
 	private By facebookLink = By.xpath("/html/body/div[2]/div/div[2]/div/div/div[2]/div/form/div[4]/a[1]/button/i");
 	private By gmailLink = By.xpath("/html/body/div[2]/div/div[2]/div/div/div[2]/div/form/div[4]/a[2]/button/img");
 	private By signupTextLink = By.xpath("/html/body/div[2]/div/div[2]/div/div/div[2]/div/form/div[5]/a");
-	private By forgetpasswordTextLink = By.xpath("/html/body/div[2]/div/div[2]/div/div/div[2]/div/form/div[2]/a");
+	private By forgetpasswordTextLink = By.xpath("//a[contains(text(),'Forgot password?')]");
 	private By eyeButton = By.xpath("//*[@id=\"show_hide_password\"]/i");
 	private By sgIcon = By.xpath("/html/body/div[2]/div/div[2]/div/div/div[1]/div/img");
 
-	private By selectCountryCode = By.xpath("/html/body/div[2]/div/div[2]/div/div/div[2]/div/form/div/div/select");
+	private By selectCountryCode = By.xpath("//div[contains(text(),'+91')]");
 
-	private By selectPhoneNumber = By.xpath("/html/body/div[2]/div/div[2]/div/div/div[2]/div/form/div/div/input");
+	private By selectPhoneNumber = By.xpath("//*[@id='phone_number']");
 	
 	private By WrongUsernameAndPasswordPopupText =By.xpath("//*[@id=\"exampleModal\"]/div/div/div[1]");
 
-	private By submitButtonPhoneNumber = By.xpath("/html/body/div[2]/div/div[2]/div/div/div[2]/div/form/button");
+	private By submitButtonPhoneNumber = By.xpath("//button[contains(text(),'Submit')]");
 
-	private By okPopUp = By.xpath("//a[text()='OK']");
+	private By okPopUp = By.xpath("//a[text()='Try again']");
 	private By tryAgainPopUp =  By.xpath("//a[contains(text(),'Try again')]");
 
 	private By otp1= (By.xpath("//*[@id=\"codeBox1\"]"));
@@ -63,19 +63,25 @@ public class LoginPage {
 	}
 
 	public void selectCountryCode(String str){
-		driver.findElement(By.xpath("/html/body/div[2]/div/div[2]/div/div/div[2]/div/form/div/div/select/optgroup/option[@value='"+str+"']")).click();
+		driver.findElement(By.xpath("//*[@id='forgotform']/div/div/div/div/ul/li[5]")).click();
+		//driver.findElement(By.xpath("/html/body/div[2]/div/div[2]/div/div/div[2]/div/form/div/div/select/optgroup/option[@value='"+str+"']")).click();
 	}
 
 	public void clickForgetPassword() {
 		driver.findElement(forgetpasswordTextLink).click();
 	}
 
-	public void setPhoneNumber(String number){
+	public void setPhoneNumber(String number) {
+		driver.findElement(selectPhoneNumber).click();
+		//number.replaceAll("//D","");
+		System.out.println("number");
 		driver.findElement(selectPhoneNumber).sendKeys(number);
 	}
 
 	public void clickSubmitButton(){
-		driver.findElement(submitButtonPhoneNumber).submit();
+		WebElement element = (new WebDriverWait(driver, 3))
+				.until(ExpectedConditions.elementToBeClickable(submitButtonPhoneNumber));
+		driver.findElement(submitButtonPhoneNumber).click();
 	}
 
 	public void clickEyeButton() {

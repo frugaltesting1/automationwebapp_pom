@@ -4,6 +4,7 @@ import base.BaseTest;
 import io.qameta.allure.Severity;
 import io.qameta.allure.SeverityLevel;
 import io.qameta.allure.Story;
+import org.testng.Assert;
 import org.testng.annotations.*;
 import pages.LoginPage;
 import pages.ProfilePage;
@@ -112,7 +113,7 @@ public class personalDetails extends BaseTest {
     @Severity(SeverityLevel.NORMAL)
     @Story("This story belongs to the personal details flow")
     public void uploadProfilePic(){
-        profilePage.uploadProfilePicture("/home/ashwin/Documents/projects/Frugal Testing/automation_POM-main/resources/pexels_photo.jpeg");
+        profilePage.uploadProfilePicture("D:\\TheSGAutomation\\automationwebapp_pom\\resources\\pexels_photo.jpeg");
         profilePage.clickSaveProfile();
         profilePage.clickOk();
     }
@@ -121,8 +122,12 @@ public class personalDetails extends BaseTest {
     @Severity(SeverityLevel.NORMAL)
     @Story("This story belongs to the personal details flow")
     public void uploadProfilePicWithTextFile() {
-        profilePage.uploadProfilePicture("/home/ashwin/Documents/projects/Frugal Testing/automation_POM-main/resources/TestCases.txt");
-        profilePage.clickTryAgain();
+        profilePage.uploadProfilePicture("D:\\TheSGAutomation\\automationwebapp_pom\\resources\\TestCases.txt");
+        String message = profilePage.getTheIncorrectFormatProfilePicUploadText();
+        if(!message.equals("Only jpg and png images are allowed."))
+        {
+            Assert.fail("Error : The text file is getting uploaded in profile pic");
+        }
     }
 
     @Test(description="Test:changing city")
@@ -187,7 +192,7 @@ public class personalDetails extends BaseTest {
     public void submitPasswordWithoutReenterPassword() throws InterruptedException {
         profilePage.openPasswordSection();
         profilePage.enterCurrentPassword(userPassword);
-        profilePage.enterNewPassword("Ashwin@321");
+        profilePage.enterNewPassword("Frugal@321");
         profilePage.clickSavePassword();
         Thread.sleep(1000);
         profilePage.clickTryAgain();
@@ -200,8 +205,8 @@ public class personalDetails extends BaseTest {
     public void checkPasswordWithWrongOldPassword() throws InterruptedException {
         profilePage.openPasswordSection();
         profilePage.enterCurrentPassword(userPassword+"@@@");
-        profilePage.enterNewPassword("Ashwin@321");
-        profilePage.reEnterNewtPassword("Ashwin@321");
+        profilePage.enterNewPassword("Frugal@321");
+        profilePage.reEnterNewtPassword("Frugal@321");
         profilePage.clickSavePassword();
         Thread.sleep(1000);
         profilePage.clickTryAgain();
@@ -214,8 +219,8 @@ public class personalDetails extends BaseTest {
     public void checkPasswordWithUnmatchedNewPassword() throws InterruptedException {
         profilePage.openPasswordSection();
         profilePage.enterCurrentPassword(userPassword);
-        profilePage.enterNewPassword("Ashwin@123");
-        profilePage.reEnterNewtPassword("Ashwin@321");
+        profilePage.enterNewPassword("Frugal@123");
+        profilePage.reEnterNewtPassword("Frugal@321");
         profilePage.clickSavePassword();
         Thread.sleep(1000);
         profilePage.clickTryAgain();
@@ -228,11 +233,15 @@ public class personalDetails extends BaseTest {
     public void checkPasswordWithoutSpecialCharacter() throws InterruptedException {
         profilePage.openPasswordSection();
         profilePage.enterCurrentPassword(userPassword);
-        profilePage.enterNewPassword("AshwinAshwin");
-        profilePage.reEnterNewtPassword("AshwinAshwin");
+        profilePage.enterNewPassword("Frugal1234");
+        profilePage.reEnterNewtPassword("Frugal1234");
         profilePage.clickSavePassword();
         Thread.sleep(1000);
-        profilePage.clickTryAgain();
+        try{
+            driver.switchTo().alert();
+            // If it reaches here, it found a popup
+            Assert.fail("Error : It is giving alert that invalid password");
+        } catch(Exception e){}
         reload();
     }
 
@@ -242,8 +251,8 @@ public class personalDetails extends BaseTest {
     public void checkPasswordSection(){
         profilePage.openPasswordSection();
         profilePage.enterCurrentPassword(userPassword);
-        profilePage.enterNewPassword("Ashwin@321");
-        profilePage.reEnterNewtPassword("Ashwin@321");
+        profilePage.enterNewPassword("Frugal@321");
+        profilePage.reEnterNewtPassword("Frugal@321");
         profilePage.clickSavePassword();
         profilePage.clickOk();
         reload();
@@ -252,7 +261,7 @@ public class personalDetails extends BaseTest {
 
     public void resetPassword(){
         profilePage.openPasswordSection();
-        profilePage.enterCurrentPassword("Ashwin@321");
+        profilePage.enterCurrentPassword("Frugal@321");
         profilePage.enterNewPassword(userPassword);
         profilePage.reEnterNewtPassword(userPassword);
         profilePage.clickSavePassword();
