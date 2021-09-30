@@ -1,7 +1,11 @@
 package tests;
 
+import io.qameta.allure.Severity;
+import io.qameta.allure.SeverityLevel;
+import io.qameta.allure.Story;
 import org.testng.Assert;
 import org.testng.annotations.*;
+
 
 import base.BaseTest;
 import pages.DashboardPage;
@@ -27,7 +31,6 @@ public class dashboard extends BaseTest {
 		loginPage = new LoginPage(driver);
 		driver.navigate().to(baseURL + "/login");
 		dashboardPage = loginPage.nativeLogin(userEmail, userPassword);
-		driver.navigate().refresh();
 	}
 
 	@AfterMethod
@@ -36,7 +39,9 @@ public class dashboard extends BaseTest {
 		driver.quit();
 	}
 
-	@Test(description = "Test:Purchase SGC through card")
+	@Test(description="Test:Purchase SGC through card")
+	@Severity(SeverityLevel.CRITICAL)
+	@Story("This story belongs to the purchasing and gifting flow")
 	public void purchaseSGCThroughCard() throws InterruptedException {
 		dashboardPage.clickLaterOnPendingGiftsPopup();
 		Random rand = new Random();
@@ -56,7 +61,9 @@ public class dashboard extends BaseTest {
 		dashboardPage.closeTab();
 	}
 
-	@Test(description = "Test:Calculate SGC details and verify calculation")
+	@Test(description="Test:Calculate SGC details and verify calculation")
+	@Severity(SeverityLevel.CRITICAL)
+	@Story("This story belongs to the purchasing and gifting flow")
 	public void verifySGCCalculation() {
 		dashboardPage.clickLaterOnPendingGiftsPopup();
 		Random rand = new Random();
@@ -79,7 +86,9 @@ public class dashboard extends BaseTest {
 		Assert.assertEquals(amount, String.valueOf(n * 45));
 	}
 
-	@Test(description = "Test:Click On blogs, verifying if it is taking to blogs page")
+	@Test(description="Test:Click On blogs, verifying if it is taking to blogs page")
+	@Severity(SeverityLevel.NORMAL)
+	@Story("This story belongs to the blogs flow")
 	public void verifyIfBlogLeadToBlogsPage() {
 		dashboardPage.clickLaterOnPendingGiftsPopup();
 		dashboardPage.clickFirstBlog();
@@ -91,7 +100,9 @@ public class dashboard extends BaseTest {
 		dashboardPage.closeTab();
 	}
 
-	@Test(description = "Test:Click On find out how , verifying if it is taking to squads Create page")
+	@Test(description="Test:Click On find out how , verifying if it is taking to squads Create page")
+	@Severity(SeverityLevel.CRITICAL)
+	@Story("This story belongs to the squads flow")
 	public void verifyIfClickOnFindOutHowLeadsToSquadsPage() {
 		dashboardPage.clickLaterOnPendingGiftsPopup();
 		squadPage = dashboardPage.clickOnFindOutHowButton();
@@ -103,7 +114,9 @@ public class dashboard extends BaseTest {
 		}
 	}
 
-	@Test(description = "Test:Click On GiftCard, verifying if it is taking to gifting page")
+	@Test(description="Test:Click On GiftCard, verifying if it is taking to gifting page")
+	@Severity(SeverityLevel.CRITICAL)
+	@Story("This story belongs to the purchasing and gifting flow")
 	public void verifyIfClickOnGiftCardLeadsToGiftingPage() {
 		dashboardPage.clickLaterOnPendingGiftsPopup();
 		dashboardPage.clickFirstGiftCard();
@@ -115,7 +128,9 @@ public class dashboard extends BaseTest {
 		dashboardPage.closeTab();
 	}
 
-	@Test(description = "Test:Click on Facebook Icon on Footer, verify if it is taking to facebook page or not.")
+	@Test(description="Test:Click on Facebook Icon on Footer, verify if it is taking to facebook page or not.")
+	@Severity(SeverityLevel.NORMAL)
+	@Story("This story belongs to the socialmedia flow")
 	public void verifyIfFacebookIconLeadsToFacebookPage() {
 		dashboardPage.clickLaterOnPendingGiftsPopup();
 		dashboardPage.clickOnFacebookIcon();
@@ -127,7 +142,9 @@ public class dashboard extends BaseTest {
 		dashboardPage.closeTab();
 	}
 
-	@Test(description = "Test:Click on Instagram Icon on Footer, verify if it is taking to instagram page or not.")
+	@Test(description="Test:Click on Instagram Icon on Footer, verify if it is taking to instagram page or not.")
+	@Severity(SeverityLevel.NORMAL)
+	@Story("This story belongs to the socialmedia flow")
 	public void verifyIfInstagramIconLeadsToInstagramPage() {
 		dashboardPage.clickLaterOnPendingGiftsPopup();
 		dashboardPage.clickOnInstagramIcon();
@@ -139,7 +156,9 @@ public class dashboard extends BaseTest {
 		dashboardPage.closeTab();
 	}
 
-	@Test(description = "Test:Click on youtube Icon on Footer, verify if it is taking to youtube page or not.")
+	@Test(description="Test:Click on youtube Icon on Footer, verify if it is taking to youtube page or not.")
+	@Severity(SeverityLevel.NORMAL)
+	@Story("This story belongs to the socialmedia flow")
 	public void verifyIfYoutubeIconLeadsToYoutubePage() {
 		dashboardPage.clickLaterOnPendingGiftsPopup();
 		dashboardPage.clickOnYoutubeIcon();
@@ -151,7 +170,9 @@ public class dashboard extends BaseTest {
 		dashboardPage.closeTab();
 	}
 
-	@Test(description = "Test if sacred groves video is working")
+	@Test(description="Test : Check if sacred groves video is working")
+	@Severity(SeverityLevel.NORMAL)
+	@Story("This story belongs to the socialmedia flow")
 	public void verifyIfSacredGrovesVideoWorking() {
 		dashboardPage.clickLaterOnPendingGiftsPopup();
 		try {
@@ -162,6 +183,8 @@ public class dashboard extends BaseTest {
 	}
 
 	@Test(description = "Test:Popup of pending gifts is working")
+	@Severity(SeverityLevel.CRITICAL)
+	@Story("This story belongs to the purchasing and gifting flow")
 	public void pendingGiftsPopupIsWorking() {
 		if (dashboardPage.isPendingGiftsPopupPresent()){
 			dashboardPage.clickShowOnPendingGiftsPopup();

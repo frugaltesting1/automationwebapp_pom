@@ -4,9 +4,13 @@ import base.BaseTest;
 import com.twilio.Twilio;
 import com.twilio.base.ResourceSet;
 import com.twilio.rest.api.v2010.account.Message;
+import io.qameta.allure.Severity;
+import io.qameta.allure.SeverityLevel;
+import io.qameta.allure.Story;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 import pages.LoginPage;
 import pages.MessagePage;
@@ -27,185 +31,144 @@ public class signup extends BaseTest {
         driver.navigate().to(baseURL+"/signup");
     }
 
-    @Test
-    public void clickSubmitButtonWithEmptyFields(){
-        signupPage.clickContinueButton();
-        Assert.assertTrue(signupPage.isTryAgainPopUpShown());
-        signupPage.clickTryAgain();
+    @Test(description="Test:click Submit Button With Empty Fields")
+    @Severity(SeverityLevel.CRITICAL)
+    @Story("This story belongs to the signup flow")
+    public void continueWithEmptyFields(){
+        signupPage.clickNext1Button();
+        if(signupPage.isOkPopUpShown()){
+            Assert.fail();
+        }
     }
 
-    @Test
+    @Test(description="Test:click Submit Button Without email")
+    @Severity(SeverityLevel.CRITICAL)
+    @Story("This story belongs to the signup flow")
     public void clickSubmitButtonWithoutEmail(){
+        signupPage.addFirstName("ABC");
+        signupPage.addLastName("XYZ");
         signupPage.addPhoneNumber("9551574355");
         signupPage.clickCountryCodeSelector();
         signupPage.clickIndiaOption();
-        signupPage.clickContinueButton();
-        Assert.assertTrue(signupPage.isTryAgainPopUpShown());
-        signupPage.clickTryAgain();
+        signupPage.clickNext1Button();
+        if(signupPage.isOkPopUpShown()){
+            Assert.fail();
+        }
     }
 
-    @Test
+    @Test(description="Test:click Submit Button Without phone number")
+    @Severity(SeverityLevel.CRITICAL)
+    @Story("This story belongs to the signup flow")
     public void clickSubmitButtonWithoutPhoneNUmber(){
         signupPage.addGmailID("ashwin@frugaltesting.com");
-        signupPage.clickContinueButton();
-        Assert.assertTrue(signupPage.isTryAgainPopUpShown());
-        signupPage.clickTryAgain();
+        signupPage.addFirstName("ABC");
+        signupPage.addLastName("XYZ");
+        signupPage.clickNext1Button();
+        if(signupPage.isOkPopUpShown()){
+            Assert.fail();
+
+        }
     }
 
-    @Test
-    public void clickSubmitButtonWithInvalidPhoneNumber(){
-        signupPage.addPhoneNumber("1234567890");
-        signupPage.addGmailID("test@frugaltesting.com");
-        signupPage.clickContinueButton();
-        Assert.assertTrue(signupPage.isTryAgainPopUpShown());
-        signupPage.clickTryAgain();
-    }
 
-    @Test
+    @Test(description="Test:click Submit Button With invalid email")
+    @Severity(SeverityLevel.CRITICAL)
+    @Story("This story belongs to the signup flow")
     public void clickSubmitButtonWithInvalidEmail(){
         signupPage.addPhoneNumber("9999999999");
+        signupPage.addFirstName("ABC");
+        signupPage.addLastName("XYZ");
         signupPage.clickCountryCodeSelector();
         signupPage.clickIndiaOption();
         signupPage.addGmailID("frugaltesting.com");
-        signupPage.clickContinueButton();
-        Assert.assertTrue(signupPage.isTryAgainPopUpShown());
-        signupPage.clickTryAgain();
+        signupPage.clickNext1Button();
+        if(signupPage.isOkPopUpShown()) {
+            Assert.fail();
+        }
     }
 
-    @Test
-    public void clickSubmitButtonWithEmailAndPassword(){
-        signupPage.addPhoneNumber(twilioService.phoneNumber);
+
+
+    @Test(description="Test:creating Account Without First Name")
+    @Severity(SeverityLevel.NORMAL)
+    @Story("This story belongs to the signup flow")
+    public void creatingAccountWithoutFirstName(){
+
+        signupPage.addLastName("XYZ");
+        signupPage.clickCountryCodeSelector();
+        signupPage.clickIndiaOption();
+        signupPage.addPhoneNumber("9999999999");
+        signupPage.addGmailID("frugal@testing.com");
+        signupPage.clickNext1Button();
+        if(signupPage.isOkPopUpShown()) {
+            Assert.fail();
+        }
+    }
+
+    @Test(description="Test:creating Account Without Last Name")
+    @Severity(SeverityLevel.NORMAL)
+    @Story("This story belongs to the signup flow")
+    public void creatingAccountWithoutLastName(){
+        signupPage.addFirstName("XYZ");
+        signupPage.clickCountryCodeSelector();
+        signupPage.clickIndiaOption();
+        signupPage.addPhoneNumber("9999999999");
+        signupPage.addGmailID("frugal@testing.com");
+        signupPage.clickNext1Button();
+        if(signupPage.isOkPopUpShown()) {
+            Assert.fail();
+        }
+
+    }
+
+    @Test(description="Test:click Submit Button With email and password")
+    @Severity(SeverityLevel.CRITICAL)
+    @Story("This story belongs to the signup flow")
+    public void signUpWithValidDetails() throws InterruptedException{
+        signupPage.addFirstName("Frugal");
+        signupPage.addLastName("Testing");
+        signupPage.addGmailID("ilovefrugal@gmail.com");
         signupPage.clickCountryCodeSelector();
         signupPage.clickUsaOption();
-        signupPage.addGmailID("test@frugaltesting.com");
-        signupPage.clickContinueButton();
-        Assert.assertTrue(signupPage.isOkPopUpShown());
-        signupPage.clickOk();
+        signupPage.addPhoneNumber(twilioService.phoneNumber);
+        signupPage.clickNext1Button();
+        Thread.sleep(5000);
+        if(signupPage.isOkPopUpShown()){
+            signupPage.clickOk();
+        }else{
+            Assert.fail();
+        }
+    }
+
+
+    @Test(description = "clicking on next without entering the otp ")
+
+    public void clickOnNextWithoutOtp() throws InterruptedException{
+
+        signUpWithValidDetails();
+        signupPage.clickNext2Button();
+        Thread.sleep(5000);
+        // System.out.println(twilioService.getOtp());
+        if(!signupPage.isTryAgainPopUpShown()){
+            Assert.fail();
+        }
+    }
+
+    @Test(description = "entering correct otp ")
+
+    public  void clickOnNextWithOtp() throws InterruptedException{
+        signUpWithValidDetails();
         signupPage.enterOtp(twilioService.getOtp());
-        signupPage.clickContinueButton();
-        Assert.assertTrue(signupPage.getUrl().contains("register"));
+        signupPage.clickNext2Button();
+        if(signupPage.isOkPopUpShown()){
+            signupPage.clickOk();
+        }else{
+            Assert.fail();
+        }
+
+
     }
 
-    @Test
-    public void creatingAccountWithoutFirstName(){
-        clickSubmitButtonWithEmailAndPassword();
-        signupPage.addMiddleName("Ashwin");
-        signupPage.addLastName("R");
-        signupPage.setDob("01/12/2000");
-        signupPage.clickContinueButton();
-        Assert.assertTrue(signupPage.isTryAgainPopUpShown());
-        signupPage.clickTryAgain();
-    }
-
-    @Test
-    public void creatingAccountWithoutLastName(){
-        clickSubmitButtonWithEmailAndPassword();
-        signupPage.addFirstName("Ashwin");
-        signupPage.setDob("01/12/2000");
-        signupPage.clickContinueButton();
-        Assert.assertTrue(signupPage.isTryAgainPopUpShown());
-        signupPage.clickTryAgain();
-    }
-
-    @Test
-    public void creatingAccountWithoutDob(){
-        clickSubmitButtonWithEmailAndPassword();
-        signupPage.addFirstName("Ashwin");
-        signupPage.addLastName("R");
-        signupPage.clickContinueButton();
-        Assert.assertTrue(signupPage.isTryAgainPopUpShown());
-        signupPage.clickTryAgain();
-    }
-
-    @Test
-    public void creatingAccountWithoutInvalidDob(){
-        clickSubmitButtonWithEmailAndPassword();
-        signupPage.addFirstName("Ashwin");
-        signupPage.addLastName("R");
-        signupPage.setDob("Dob");
-        signupPage.clickContinueButton();
-        Assert.assertTrue(signupPage.isTryAgainPopUpShown());
-        signupPage.clickTryAgain();
-    }
-
-    @Test
-    public void creatingAccountByGivingAllInputs(){
-        clickSubmitButtonWithEmailAndPassword();
-        signupPage.addFirstName("Ashwin");
-        signupPage.addLastName("R");
-        signupPage.setDob("01/12/2000");
-        signupPage.clickContinueButton();
-        Assert.assertTrue(signupPage.getUrl().contains("registeraddress"));
-    }
-
-    @Test
-    public void creatAccountWithoutEnterCountryName(){
-        creatingAccountByGivingAllInputs();
-        signupPage.setCity("Chennai");
-        signupPage.setState("Tamil Nadu");
-        signupPage.clickContinueButton();
-        Assert.assertTrue(signupPage.isTryAgainPopUpShown());
-        signupPage.clickTryAgain();
-    }
-
-    @Test
-    public void creatAccountWithoutEnterCityName(){
-        creatingAccountByGivingAllInputs();
-        signupPage.setCountry("India");
-        signupPage.setState("Tamil Nadu");
-        signupPage.clickContinueButton();
-        Assert.assertTrue(signupPage.isTryAgainPopUpShown());
-        signupPage.clickTryAgain();
-    }
-
-    @Test
-    public void creatAccountWithoutEnterStateName(){
-        creatingAccountByGivingAllInputs();
-        signupPage.setCity("Chennai");
-        signupPage.setCountry("India");
-        signupPage.clickContinueButton();
-        Assert.assertTrue(signupPage.isTryAgainPopUpShown());
-        signupPage.clickTryAgain();
-    }
-
-    @Test
-    public void creatAccountWithoutRePassword(){
-        creatingAccountByGivingAllInputs();
-        signupPage.setCity("Chennai");
-        signupPage.setCountry("India");
-        signupPage.setState("Tamil Nadu");
-        signupPage.clickContinueButton();
-        signupPage.setPassword("Ashwin@111");
-        signupPage.clickContinueButton();
-        Assert.assertTrue(signupPage.isTryAgainPopUpShown());
-    }
-
-    @Test
-    public void creatAccount(){
-        creatingAccountByGivingAllInputs();
-        signupPage.setCity("Chennai");
-        signupPage.setCountry("India");
-        signupPage.setState("Tamil Nadu");
-        signupPage.clickContinueButton();
-        signupPage.setPassword("Ashwin@111");
-        signupPage.setRePassword("Ashwin@111");
-        signupPage.clickUserAgreement();
-        signupPage.clickContinueButton();
-    }
-
-    @Test
-    public void clickSubmitButtonWithWrongOtp(){
-        signupPage.addPhoneNumber("9999999999");
-        signupPage.clickIndiaOption();
-        signupPage.addGmailID("test@frugaltesting.com");
-        signupPage.clickContinueButton();
-        Assert.assertTrue(signupPage.isOkPopUpShown());
-        signupPage.clickOk();
-        signupPage.enterOtp("1234");
-        signupPage.clickContinueButton();
-        Assert.assertTrue(signupPage.isTryAgainPopUpShown());
-        signupPage.clickTryAgain();
-    }
 
 
 
@@ -215,9 +178,6 @@ public class signup extends BaseTest {
         driver.quit();
     }
 
+
+
 }
-
-
-
-
-

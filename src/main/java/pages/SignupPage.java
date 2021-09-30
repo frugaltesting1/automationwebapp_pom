@@ -15,7 +15,7 @@ public class SignupPage {
     public WebDriverWait wait;
 
 //    private By continueButton = By.xpath("/html/body/div[2]/div/div[2]/div/div/div[2]/div/form/button");
-  //  private By continueButton = By.xpath("//button[text()='Continue']");
+    //  private By continueButton = By.xpath("//button[text()='Continue']");
 
     private By tryAgainPopUp = By.xpath("//button[contains(text(),'Try again')]");
     private By okPopUp = By.xpath("//button[contains(text(),'Ok')]");
@@ -36,12 +36,12 @@ public class SignupPage {
     private By otp4= (By.xpath("//input[@id='codeBox4']"));
 
     private By firstName = By.xpath("//input[@id='first_name']");
-  //  private By middleName = By.xpath("//*[@id=\"txtMiddleName\"]");
+    //  private By middleName = By.xpath("//*[@id=\"txtMiddleName\"]");
     private By lastName = By.xpath("//input[@id='last_name']");
- //   private By dob = By.xpath("//*[@id=\"txtDob\"]");
+    //   private By dob = By.xpath("//*[@id=\"txtDob\"]");
 
-  //  private By enterCity = By.xpath("//*[@id=\"locality\"]");
-   // private By enterState = By.xpath("//*[@id=\"state\"]");
+    //  private By enterCity = By.xpath("//*[@id=\"locality\"]");
+    // private By enterState = By.xpath("//*[@id=\"state\"]");
     //private By enterCountry = By.xpath("//*[@id=\"country\"]");
     private By signUpWithGoogle = By.xpath("//body/div[1]/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/form[1]/div[2]/a[1]/button[1]/img[1]");
     private By password = By.xpath("//input[@id='password']");
@@ -56,7 +56,7 @@ public class SignupPage {
     }
 
     public String getUrl(){
-       return driver.getCurrentUrl();
+        return driver.getCurrentUrl();
     }
 
     public void clickNext1Button(){
@@ -141,22 +141,19 @@ public class SignupPage {
         driver.findElement(lastName).sendKeys(name);
     }
 
-  /*  public void setDob(String date){
-        driver.findElement(dob).sendKeys(date);
-    }
-
-    public void setCity(String text){
-        driver.findElement(enterCity).sendKeys(text);
-    }
-
-    public void setState(String text){
-        driver.findElement(enterState).sendKeys(text);
-    }
-
-    public void setCountry(String text){
-        driver.findElement(enterCountry).sendKeys(text);
-    }
-*/
+    /*  public void setDob(String date){
+          driver.findElement(dob).sendKeys(date);
+      }
+      public void setCity(String text){
+          driver.findElement(enterCity).sendKeys(text);
+      }
+      public void setState(String text){
+          driver.findElement(enterState).sendKeys(text);
+      }
+      public void setCountry(String text){
+          driver.findElement(enterCountry).sendKeys(text);
+      }
+  */
     public void setPassword(String text){
         driver.findElement(password).sendKeys(text);
     }
@@ -170,5 +167,3 @@ public class SignupPage {
     }
 
 }
-
-
