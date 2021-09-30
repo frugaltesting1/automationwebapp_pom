@@ -3,7 +3,7 @@
 <suite name="All Test Suite">
     <test verbose="2" preserve-order="true" name="automationwebapp_pom">
         <classes>
-           <!--  <class name="tests.Profile.Activites">
+             <class name="tests.Profile.Activites">
                 <methods>
                     <include name="clickAllInterestList"/>
                 </methods>
@@ -131,20 +131,20 @@
                     <include name="sendGiftsThroughEmailWithPayNow"/>
                     <include name="sendGiftsThroughPhoneWithPayNow"/>
                 </methods>
-            </class> -->
+            </class> 
             <class name="tests.login">
                 <methods>
                     <include name="loginWithCorrectDetails"/>
                     <include name="loginWithWrongDetails"/>
-<!--                     <include name="forgotPassword"/>
+                     <include name="forgotPassword"/>
                     <include name="forgotPasswordWithWrongRePassword"/>
                     <include name="forgotPasswordWithOutSymbol"/>
                     <include name="forgotPasswordWithOutNumber"/>
                     <include name="forgotPasswordWithOutWords"/>
-                    <include name="forgotPasswordWithWrongUser"/> -->
+                    <include name="forgotPasswordWithWrongUser"/> 
                 </methods>
             </class>
-<!--             <class name="tests.messaging">
+             <class name="tests.messaging">
                 <methods>
                     <include name="sendMessage"/>
                     <include name="sendMessageToFakeUser"/>
@@ -171,7 +171,7 @@
                     <include name="creatAccount"/>
                     <include name="clickSubmitButtonWithWrongOtp"/>
                 </methods>
-            </class> -->
+            </class> 
         </classes>
     </test>
 </suite>

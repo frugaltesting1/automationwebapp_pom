@@ -6,6 +6,8 @@ import org.openqa.selenium.chrome.ChromeOptions;
 
 import utility.Config;
 
+import java.util.concurrent.TimeUnit;
+
 public class BaseTest {
 	public WebDriver driver;
 	public String baseURL;
@@ -23,12 +25,11 @@ public class BaseTest {
 	public String state = "Tamil Nadu";
 	public String country = "India";
 
-	
 	public void setup() {
-		System.setProperty("webdriver.chrome.driver","resources/chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver","resources/chromedriverversion94.exe");
 		ChromeOptions options = new ChromeOptions();
 		
-		options.setHeadless(true);
+//		options.setHeadless(true);
 		options.addArguments("--start-maximized");
 		options.addArguments("--lang=en_US");
 

@@ -1,6 +1,9 @@
 package tests.Squad;
 
 import base.BaseTest;
+import io.qameta.allure.Severity;
+import io.qameta.allure.SeverityLevel;
+import io.qameta.allure.Story;
 import org.testng.annotations.*;
 import pages.LoginPage;
 import pages.SquadPage;
@@ -19,7 +22,9 @@ public class squads extends BaseTest {
         squadsPage = new SquadPage(driver);
     }
 
-    @Test
+    @Test(description="Test:checking squads")
+    @Severity(SeverityLevel.CRITICAL)
+    @Story("This story belongs to the squad flow")
     public void checkSquad(){
         squadsPage.clickFirstSquad();
         squadsPage.clickMembers();

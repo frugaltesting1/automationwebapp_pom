@@ -1,6 +1,9 @@
 package tests.Squad;
 
 import base.BaseTest;
+import io.qameta.allure.Severity;
+import io.qameta.allure.SeverityLevel;
+import io.qameta.allure.Story;
 import org.testng.Assert;
 import org.testng.annotations.*;
 import pages.LoginPage;
@@ -26,7 +29,9 @@ public class squadsCreate extends BaseTest {
         driver.navigate().to(baseURL+"/squad/create");
     }
 
-    @Test
+    @Test(description="Test:adding Fake Participant")
+    @Severity(SeverityLevel.CRITICAL)
+    @Story("This story belongs to the squad flow")
     public void addFakeParticipant(){
         squadsPage.clickAddParticipant();
         squadsPage.addEmail("abc@test.com");
@@ -35,7 +40,9 @@ public class squadsCreate extends BaseTest {
         reload();
     }
 
-    @Test
+    @Test(description="Test:adding empty Participant")
+    @Severity(SeverityLevel.CRITICAL)
+    @Story("This story belongs to the squad flow")
     public void addEmptyParticipant(){
         squadsPage.clickAddParticipant();
         squadsPage.addEmail("");
@@ -44,7 +51,9 @@ public class squadsCreate extends BaseTest {
         reload();
     }
 
-    @Test
+    @Test(description="Test:adding invalid email")
+    @Severity(SeverityLevel.CRITICAL)
+    @Story("This story belongs to the squad flow")
     public void addInvalidEmail(){
         squadsPage.clickAddParticipant();
         squadsPage.addEmail("textxyz.com");
@@ -53,7 +62,9 @@ public class squadsCreate extends BaseTest {
         reload();
     }
 
-    @Test
+    @Test(description="Test:adding real participant")
+    @Severity(SeverityLevel.CRITICAL)
+    @Story("This story belongs to the squad flow")
     public void addRealParticipant() throws InterruptedException {
         squadsPage.clickAddParticipant();
         squadsPage.addEmail("ashwin@frugaltesting.com");
@@ -69,7 +80,9 @@ public class squadsCreate extends BaseTest {
         reload();
     }
 
-    @Test
+    @Test(description="Test:adding real Participant Without Add Interest")
+    @Severity(SeverityLevel.CRITICAL)
+    @Story("This story belongs to the squad flow")
     public void addRealParticipantWithoutAddInterest() throws InterruptedException {
         squadsPage.clickAddParticipant();
         squadsPage.addEmail("ashwin@frugaltesting.com");
@@ -84,7 +97,9 @@ public class squadsCreate extends BaseTest {
         reload();
     }
 
-    @Test
+    @Test(description="Test:adding real Participant Without member")
+    @Severity(SeverityLevel.CRITICAL)
+    @Story("This story belongs to the squad flow")
     public void addRealParticipantWithoutMember() throws InterruptedException {
         squadsPage.enterName("Test Squad");
         squadsPage.clickAddIcon();

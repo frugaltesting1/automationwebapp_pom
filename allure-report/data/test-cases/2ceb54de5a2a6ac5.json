@@ -1,0 +1,94 @@
+{
+  "uid" : "2ceb54de5a2a6ac5",
+  "name" : "changeLastNameWithoutFirstName",
+  "fullName" : "tests.Profile.personalDetails.changeLastNameWithoutFirstName",
+  "historyId" : "20c2d491f918866f854eba36bdf5577f",
+  "time" : {
+    "start" : 1631094634629,
+    "stop" : 1631094654188,
+    "duration" : 19559
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setupTests",
+    "time" : {
+      "start" : 1631094596419,
+      "stop" : 1631094634625,
+      "duration" : 38206
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "clearTests",
+    "time" : {
+      "start" : 1631094654189,
+      "stop" : 1631094654980,
+      "duration" : 791
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.Profile.personalDetails"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.Profile.personalDetails"
+  }, {
+    "name" : "testMethod",
+    "value" : "changeLastNameWithoutFirstName"
+  }, {
+    "name" : "parentSuite",
+    "value" : "All Test Suite"
+  }, {
+    "name" : "suite",
+    "value" : "automationwebapp_pom"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.Profile.personalDetails"
+  }, {
+    "name" : "host",
+    "value" : "SacredGrovesTes"
+  }, {
+    "name" : "thread",
+    "value" : "11292@SacredGrovesTes.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "2ceb54de5a2a6ac5.json",
+  "parameterValues" : [ ]
+}

@@ -6,606 +6,8 @@
     "children" : [ {
       "name" : "11292@SacredGrovesTes.main(1)",
       "children" : [ {
-        "name" : "changeAddressWithoutCountry",
-        "uid" : "aad1c0203f59705e",
-        "parentUid" : "a0230fa02117019049f23a46b85df76f",
-        "status" : "passed",
-        "time" : {
-          "start" : 1631095780008,
-          "stop" : 1631095800306,
-          "duration" : 20298
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "forgotPasswordWithOutWords",
-        "uid" : "6e0e7e82ed5056a3",
-        "parentUid" : "a0230fa02117019049f23a46b85df76f",
-        "status" : "broken",
-        "time" : {
-          "start" : 1631097351821,
-          "stop" : 1631097357771,
-          "duration" : 5950
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "forgotPasswordWithWrongUser",
-        "uid" : "5bb21887376dc4c9",
-        "parentUid" : "a0230fa02117019049f23a46b85df76f",
-        "status" : "passed",
-        "time" : {
-          "start" : 1631097365117,
-          "stop" : 1631097369690,
-          "duration" : 4573
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "forgotPasswordWithWrongRePassword",
-        "uid" : "ba1ddacb587674f8",
-        "parentUid" : "a0230fa02117019049f23a46b85df76f",
-        "status" : "broken",
-        "time" : {
-          "start" : 1631097312348,
-          "stop" : 1631097318168,
-          "duration" : 5820
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "checkPasswordSection",
-        "uid" : "5ff6b430c53edcb0",
-        "parentUid" : "a0230fa02117019049f23a46b85df76f",
-        "status" : "passed",
-        "time" : {
-          "start" : 1631095547939,
-          "stop" : 1631095624067,
-          "duration" : 76128
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "sendMessage",
-        "uid" : "4edd7b09c7d2465b",
-        "parentUid" : "a0230fa02117019049f23a46b85df76f",
-        "status" : "passed",
-        "time" : {
-          "start" : 1631097423996,
-          "stop" : 1631097454360,
-          "duration" : 30364
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "changeFirstNameWithSymbol",
-        "uid" : "4ddaf0442556760d",
-        "parentUid" : "a0230fa02117019049f23a46b85df76f",
-        "status" : "passed",
-        "time" : {
-          "start" : 1631094752712,
-          "stop" : 1631094772939,
-          "duration" : 20227
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "sendGiftsThroughPhoneWithPayNow",
-        "uid" : "b4b02bc1f69a9f72",
-        "parentUid" : "a0230fa02117019049f23a46b85df76f",
-        "status" : "passed",
-        "time" : {
-          "start" : 1631097246092,
-          "stop" : 1631097260360,
-          "duration" : 14268
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "creatAccountWithoutEnterCityName",
-        "uid" : "14cc5ebf2f86f501",
-        "parentUid" : "a0230fa02117019049f23a46b85df76f",
-        "status" : "broken",
-        "time" : {
-          "start" : 1631097757647,
-          "stop" : 1631097764525,
-          "duration" : 6878
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "openSurveyorCoed",
-        "uid" : "29bd5463bab3bb92",
-        "parentUid" : "a0230fa02117019049f23a46b85df76f",
-        "status" : "skipped",
-        "time" : {
-          "start" : 1631094311518,
-          "stop" : 1631094311519,
-          "duration" : 1
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "Test:Click on Facebook Icon on Footer, verify if it is taking to facebook page or not.",
-        "uid" : "50dff3720481172d",
-        "parentUid" : "a0230fa02117019049f23a46b85df76f",
-        "status" : "passed",
-        "time" : {
-          "start" : 1631096832672,
-          "stop" : 1631096834687,
-          "duration" : 2015
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "clickSubmitButtonWithWrongOtp",
-        "uid" : "21893ba976aaf1b0",
-        "parentUid" : "a0230fa02117019049f23a46b85df76f",
-        "status" : "broken",
-        "time" : {
-          "start" : 1631097819427,
-          "stop" : 1631097826116,
-          "duration" : 6689
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "sendGiftWithoutCardThroughEmail",
-        "uid" : "b3032a783e63cad9",
-        "parentUid" : "a0230fa02117019049f23a46b85df76f",
-        "status" : "broken",
-        "time" : {
-          "start" : 1631097052050,
-          "stop" : 1631097052714,
-          "duration" : 664
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "addInvalidEmail",
-        "uid" : "b85b06c6565da043",
-        "parentUid" : "a0230fa02117019049f23a46b85df76f",
-        "status" : "passed",
-        "time" : {
-          "start" : 1631096464495,
-          "stop" : 1631096472628,
-          "duration" : 8133
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "Test:Click On find out how , verifying if it is taking to squads Create page",
-        "uid" : "cd2f0736be2e42df",
-        "parentUid" : "a0230fa02117019049f23a46b85df76f",
-        "status" : "passed",
-        "time" : {
-          "start" : 1631096751414,
-          "stop" : 1631096758312,
-          "duration" : 6898
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "changeMiddleName",
-        "uid" : "f69fc96e68b28f2f",
-        "parentUid" : "a0230fa02117019049f23a46b85df76f",
-        "status" : "passed",
-        "time" : {
-          "start" : 1631094812326,
-          "stop" : 1631094835362,
-          "duration" : 23036
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "clickAllInterestList",
-        "uid" : "692e71cb754d5d8c",
-        "parentUid" : "a0230fa02117019049f23a46b85df76f",
-        "status" : "passed",
-        "time" : {
-          "start" : 1631093407421,
-          "stop" : 1631093430928,
-          "duration" : 23507
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "submitPasswordWithoutNewPassword",
-        "uid" : "15d42cc39a1291d9",
-        "parentUid" : "a0230fa02117019049f23a46b85df76f",
-        "status" : "passed",
-        "time" : {
-          "start" : 1631095249916,
-          "stop" : 1631095267014,
-          "duration" : 17098
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "clickSubmitButtonWithoutPhoneNUmber",
-        "uid" : "9ae6f6748573737e",
-        "parentUid" : "a0230fa02117019049f23a46b85df76f",
-        "status" : "passed",
-        "time" : {
-          "start" : 1631097615425,
-          "stop" : 1631097618387,
-          "duration" : 2962
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "creatingAccountWithoutDob",
-        "uid" : "450057b91a66c678",
-        "parentUid" : "a0230fa02117019049f23a46b85df76f",
-        "status" : "broken",
-        "time" : {
-          "start" : 1631097696192,
-          "stop" : 1631097702803,
-          "duration" : 6611
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "demoTest2",
-        "uid" : "756455fc2d1ddcc0",
-        "parentUid" : "a0230fa02117019049f23a46b85df76f",
-        "status" : "passed",
-        "time" : {
-          "start" : 1631096898326,
-          "stop" : 1631096898327,
-          "duration" : 1
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "creatAccountWithoutEnterCountryName",
-        "uid" : "3a0c916216b9cddb",
-        "parentUid" : "a0230fa02117019049f23a46b85df76f",
-        "status" : "broken",
-        "time" : {
-          "start" : 1631097742218,
-          "stop" : 1631097749255,
-          "duration" : 7037
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "creatingAccountByGivingAllInputs",
-        "uid" : "244e909f4b021c91",
-        "parentUid" : "a0230fa02117019049f23a46b85df76f",
-        "status" : "broken",
-        "time" : {
-          "start" : 1631097726840,
-          "stop" : 1631097733576,
-          "duration" : 6736
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "sendGiftWithoutMessageThroughEmail",
-        "uid" : "6d8e63789770e3da",
-        "parentUid" : "a0230fa02117019049f23a46b85df76f",
-        "status" : "passed",
-        "time" : {
-          "start" : 1631097144757,
-          "stop" : 1631097161008,
-          "duration" : 16251
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "sendGiftWithoutMessageThroughPhone",
-        "uid" : "ec4ce566793c9b99",
-        "parentUid" : "a0230fa02117019049f23a46b85df76f",
-        "status" : "passed",
-        "time" : {
-          "start" : 1631097090760,
-          "stop" : 1631097107319,
-          "duration" : 16559
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "uploadProfilePic",
-        "uid" : "43cd23c6f14f0287",
-        "parentUid" : "a0230fa02117019049f23a46b85df76f",
-        "status" : "broken",
-        "time" : {
-          "start" : 1631094931955,
-          "stop" : 1631094931985,
-          "duration" : 30
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "forgotPassword",
-        "uid" : "aaa63531a5539a55",
-        "parentUid" : "a0230fa02117019049f23a46b85df76f",
-        "status" : "broken",
-        "time" : {
-          "start" : 1631097298138,
-          "stop" : 1631097305030,
-          "duration" : 6892
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "changeFirstNameWithoutLastName",
-        "uid" : "83e2860305aebf5c",
-        "parentUid" : "a0230fa02117019049f23a46b85df76f",
-        "status" : "passed",
-        "time" : {
-          "start" : 1631094575962,
-          "stop" : 1631094595622,
-          "duration" : 19660
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "addRealParticipantWithoutAddInterest",
-        "uid" : "fbc92ea4cfb8b47a",
-        "parentUid" : "a0230fa02117019049f23a46b85df76f",
-        "status" : "passed",
-        "time" : {
-          "start" : 1631096576991,
-          "stop" : 1631096588822,
-          "duration" : 11831
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "sendGiftWithoutCardThroughPhone",
-        "uid" : "8869eb39523b24b5",
-        "parentUid" : "a0230fa02117019049f23a46b85df76f",
-        "status" : "broken",
-        "time" : {
-          "start" : 1631097013171,
-          "stop" : 1631097013824,
-          "duration" : 653
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "addRealParticipantWithoutMember",
-        "uid" : "bd887380547f06d3",
-        "parentUid" : "a0230fa02117019049f23a46b85df76f",
-        "status" : "passed",
-        "time" : {
-          "start" : 1631096615798,
-          "stop" : 1631096626867,
-          "duration" : 11069
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "changeFirstName",
-        "uid" : "71485b295b7fe8ff",
-        "parentUid" : "a0230fa02117019049f23a46b85df76f",
-        "status" : "passed",
-        "time" : {
-          "start" : 1631094451992,
-          "stop" : 1631094474424,
-          "duration" : 22432
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "Test:Click On blogs, verifying if it is taking to blogs page",
-        "uid" : "61ba8080ac596adc",
-        "parentUid" : "a0230fa02117019049f23a46b85df76f",
-        "status" : "passed",
-        "time" : {
-          "start" : 1631096717396,
-          "stop" : 1631096722001,
-          "duration" : 4605
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "openPrivacyPolicyLink",
-        "uid" : "2448aefb08ee87b4",
-        "parentUid" : "a0230fa02117019049f23a46b85df76f",
-        "status" : "passed",
-        "time" : {
-          "start" : 1631093590909,
-          "stop" : 1631093597517,
-          "duration" : 6608
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "openCertificateIncorporation",
-        "uid" : "1a4814789c16db53",
-        "parentUid" : "a0230fa02117019049f23a46b85df76f",
-        "status" : "skipped",
-        "time" : {
-          "start" : 1631094311496,
-          "stop" : 1631094311498,
-          "duration" : 2
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "clickSubmitButtonWithoutEmail",
-        "uid" : "60017c3a48de480b",
-        "parentUid" : "a0230fa02117019049f23a46b85df76f",
-        "status" : "passed",
-        "time" : {
-          "start" : 1631097603789,
-          "stop" : 1631097606878,
-          "duration" : 3089
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "checkEmailPrefSection",
-        "uid" : "5e469b29afc05659",
-        "parentUid" : "a0230fa02117019049f23a46b85df76f",
-        "status" : "passed",
-        "time" : {
-          "start" : 1631096095138,
-          "stop" : 1631096110181,
-          "duration" : 15043
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "changeCountry",
-        "uid" : "c80334756ef826ec",
-        "parentUid" : "a0230fa02117019049f23a46b85df76f",
-        "status" : "passed",
-        "time" : {
-          "start" : 1631095132334,
-          "stop" : 1631095156441,
-          "duration" : 24107
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "creatAccount",
-        "uid" : "48f505682267d0b3",
-        "parentUid" : "a0230fa02117019049f23a46b85df76f",
-        "status" : "broken",
-        "time" : {
-          "start" : 1631097804496,
-          "stop" : 1631097811040,
-          "duration" : 6544
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "checkCaliforniaSection",
-        "uid" : "bf203b0e35bafec6",
-        "parentUid" : "a0230fa02117019049f23a46b85df76f",
-        "status" : "passed",
-        "time" : {
-          "start" : 1631096149701,
-          "stop" : 1631096164528,
-          "duration" : 14827
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "Test:Click on youtube Icon on Footer, verify if it is taking to youtube page or not.",
-        "uid" : "c7fb46aaec2efbd2",
-        "parentUid" : "a0230fa02117019049f23a46b85df76f",
-        "status" : "passed",
-        "time" : {
-          "start" : 1631096894925,
-          "stop" : 1631096897265,
-          "duration" : 2340
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "californiaToggle",
-        "uid" : "40cf2d3b01b4b34b",
-        "parentUid" : "a0230fa02117019049f23a46b85df76f",
-        "status" : "passed",
-        "time" : {
-          "start" : 1631093466888,
-          "stop" : 1631093467127,
-          "duration" : 239
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "openGuardianTermsAndConditions",
-        "uid" : "ca752685499798b8",
-        "parentUid" : "a0230fa02117019049f23a46b85df76f",
-        "status" : "passed",
-        "time" : {
-          "start" : 1631093672909,
-          "stop" : 1631093675485,
-          "duration" : 2576
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "clickTransaction",
-        "uid" : "ad23c10729d9dbf",
-        "parentUid" : "a0230fa02117019049f23a46b85df76f",
-        "status" : "passed",
-        "time" : {
-          "start" : 1631096257167,
-          "stop" : 1631096264552,
-          "duration" : 7385
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "openCookiePolicy",
-        "uid" : "7288d81d44a30375",
-        "parentUid" : "a0230fa02117019049f23a46b85df76f",
-        "status" : "passed",
-        "time" : {
-          "start" : 1631093633094,
-          "stop" : 1631093637930,
-          "duration" : 4836
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "addRealParticipant",
-        "uid" : "a56783de6128dfaf",
-        "parentUid" : "a0230fa02117019049f23a46b85df76f",
-        "status" : "passed",
-        "time" : {
-          "start" : 1631096503311,
-          "stop" : 1631096546379,
-          "duration" : 43068
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
         "name" : "changeAddressWithoutState",
-        "uid" : "f60d0ddb97d3480b",
+        "uid" : "6af5b8a427e3bf5d",
         "parentUid" : "a0230fa02117019049f23a46b85df76f",
         "status" : "passed",
         "time" : {
@@ -617,60 +19,8 @@
         "newFailed" : false,
         "parameters" : [ ]
       }, {
-        "name" : "changeCity",
-        "uid" : "f8a350433df540f8",
-        "parentUid" : "a0230fa02117019049f23a46b85df76f",
-        "status" : "passed",
-        "time" : {
-          "start" : 1631095008958,
-          "stop" : 1631095031526,
-          "duration" : 22568
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "openDataSources",
-        "uid" : "5741ab7f3708b8dd",
-        "parentUid" : "a0230fa02117019049f23a46b85df76f",
-        "status" : "broken",
-        "time" : {
-          "start" : 1631093710583,
-          "stop" : 1631094011445,
-          "duration" : 300862
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "Test:Login Test With Correct Details",
-        "uid" : "ba068edf58657ca5",
-        "parentUid" : "a0230fa02117019049f23a46b85df76f",
-        "status" : "passed",
-        "time" : {
-          "start" : 1631097267606,
-          "stop" : 1631097279987,
-          "duration" : 12381
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "demoTest1",
-        "uid" : "699b97a707e40934",
-        "parentUid" : "a0230fa02117019049f23a46b85df76f",
-        "status" : "passed",
-        "time" : {
-          "start" : 1631096898316,
-          "stop" : 1631096898317,
-          "duration" : 1
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
         "name" : "clickCluster",
-        "uid" : "cf0517ecaa3b51f7",
+        "uid" : "f936eeaf724b7ed3",
         "parentUid" : "a0230fa02117019049f23a46b85df76f",
         "status" : "passed",
         "time" : {
@@ -682,411 +32,8 @@
         "newFailed" : false,
         "parameters" : [ ]
       }, {
-        "name" : "checkActivitySection",
-        "uid" : "7d543ac5eeeed54",
-        "parentUid" : "a0230fa02117019049f23a46b85df76f",
-        "status" : "passed",
-        "time" : {
-          "start" : 1631095932285,
-          "stop" : 1631095947931,
-          "duration" : 15646
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "creatingAccountWithoutLastName",
-        "uid" : "5a37d737ee2f53cf",
-        "parentUid" : "a0230fa02117019049f23a46b85df76f",
-        "status" : "broken",
-        "time" : {
-          "start" : 1631097681001,
-          "stop" : 1631097687476,
-          "duration" : 6475
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "uploadProfilePicWithTextFile",
-        "uid" : "acfb9b8b3efb806c",
-        "parentUid" : "a0230fa02117019049f23a46b85df76f",
-        "status" : "broken",
-        "time" : {
-          "start" : 1631094970812,
-          "stop" : 1631094970850,
-          "duration" : 38
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "sendMessageToFakeUser",
-        "uid" : "3466ec0a7fdcb8d3",
-        "parentUid" : "a0230fa02117019049f23a46b85df76f",
-        "status" : "passed",
-        "time" : {
-          "start" : 1631097494754,
-          "stop" : 1631097516335,
-          "duration" : 21581
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "Test:Calculate SGC details and verify calculation",
-        "uid" : "f45064b48d39b807",
-        "parentUid" : "a0230fa02117019049f23a46b85df76f",
-        "status" : "passed",
-        "time" : {
-          "start" : 1631096687458,
-          "stop" : 1631096688044,
-          "duration" : 586
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "forgotPasswordWithOutSymbol",
-        "uid" : "95e25ac41edbdf6c",
-        "parentUid" : "a0230fa02117019049f23a46b85df76f",
-        "status" : "broken",
-        "time" : {
-          "start" : 1631097325382,
-          "stop" : 1631097331161,
-          "duration" : 5779
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "clearTests",
-        "uid" : "28906229f8f9dbd2",
-        "parentUid" : "a0230fa02117019049f23a46b85df76f",
-        "status" : "broken",
-        "time" : {
-          "start" : 1631094311475,
-          "stop" : 1631094311475,
-          "duration" : 0
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "forgotPasswordWithOutNumber",
-        "uid" : "db126d3021f648c1",
-        "parentUid" : "a0230fa02117019049f23a46b85df76f",
-        "status" : "broken",
-        "time" : {
-          "start" : 1631097338618,
-          "stop" : 1631097344497,
-          "duration" : 5879
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "checkInterestSection",
-        "uid" : "89069f0cc74290f6",
-        "parentUid" : "a0230fa02117019049f23a46b85df76f",
-        "status" : "passed",
-        "time" : {
-          "start" : 1631095877802,
-          "stop" : 1631095893397,
-          "duration" : 15595
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "downloadCluster",
-        "uid" : "bb7a00f98e4286e8",
-        "parentUid" : "a0230fa02117019049f23a46b85df76f",
-        "status" : "passed",
-        "time" : {
-          "start" : 1631093548967,
-          "stop" : 1631093554477,
-          "duration" : 5510
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "clickSubmitButtonWithInvalidEmail",
-        "uid" : "f21cf3866380a225",
-        "parentUid" : "a0230fa02117019049f23a46b85df76f",
-        "status" : "passed",
-        "time" : {
-          "start" : 1631097638765,
-          "stop" : 1631097641937,
-          "duration" : 3172
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "checkTransactionSection",
-        "uid" : "3370862828796251",
-        "parentUid" : "a0230fa02117019049f23a46b85df76f",
-        "status" : "passed",
-        "time" : {
-          "start" : 1631096041198,
-          "stop" : 1631096057052,
-          "duration" : 15854
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "checkPasswordWithWrongOldPassword",
-        "uid" : "d37b9bca149c9ada",
-        "parentUid" : "a0230fa02117019049f23a46b85df76f",
-        "status" : "broken",
-        "time" : {
-          "start" : 1631095362646,
-          "stop" : 1631095389601,
-          "duration" : 26955
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "submitPasswordWithoutReenterPassword",
-        "uid" : "e62a35d7eccff7eb",
-        "parentUid" : "a0230fa02117019049f23a46b85df76f",
-        "status" : "passed",
-        "time" : {
-          "start" : 1631095306249,
-          "stop" : 1631095323185,
-          "duration" : 16936
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "Test:Click on Instagram Icon on Footer, verify if it is taking to instagram page or not.",
-        "uid" : "ee9c56e541b14092",
-        "parentUid" : "a0230fa02117019049f23a46b85df76f",
-        "status" : "passed",
-        "time" : {
-          "start" : 1631096863927,
-          "stop" : 1631096865605,
-          "duration" : 1678
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "sendGiftsThroughEmailWithPayNow",
-        "uid" : "edef34ca72e43ddf",
-        "parentUid" : "a0230fa02117019049f23a46b85df76f",
-        "status" : "passed",
-        "time" : {
-          "start" : 1631097197268,
-          "stop" : 1631097212273,
-          "duration" : 15005
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "changeLastNameWithoutFirstName",
-        "uid" : "84ddaffb19c43e12",
-        "parentUid" : "a0230fa02117019049f23a46b85df76f",
-        "status" : "passed",
-        "time" : {
-          "start" : 1631094634629,
-          "stop" : 1631094654188,
-          "duration" : 19559
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "openIncorporationDocuments",
-        "uid" : "f9f726628fecd7f8",
-        "parentUid" : "a0230fa02117019049f23a46b85df76f",
-        "status" : "skipped",
-        "time" : {
-          "start" : 1631094311504,
-          "stop" : 1631094311506,
-          "duration" : 2
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "changeMiddleNameWithSymbol",
-        "uid" : "2ee903ac25918b99",
-        "parentUid" : "a0230fa02117019049f23a46b85df76f",
-        "status" : "passed",
-        "time" : {
-          "start" : 1631094874182,
-          "stop" : 1631094893647,
-          "duration" : 19465
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "Test:Purchase SGC through card",
-        "uid" : "df929c6841762f9d",
-        "parentUid" : "a0230fa02117019049f23a46b85df76f",
-        "status" : "passed",
-        "time" : {
-          "start" : 1631096657245,
-          "stop" : 1631096657532,
-          "duration" : 287
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "Test:Click On GiftCard, verifying if it is taking to gifting page",
-        "uid" : "9e994251b4a6eddb",
-        "parentUid" : "a0230fa02117019049f23a46b85df76f",
-        "status" : "passed",
-        "time" : {
-          "start" : 1631096786984,
-          "stop" : 1631096803154,
-          "duration" : 16170
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "sendGiftThroughPhone",
-        "uid" : "bb5d4db3e5031851",
-        "parentUid" : "a0230fa02117019049f23a46b85df76f",
-        "status" : "broken",
-        "time" : {
-          "start" : 1631096974395,
-          "stop" : 1631096975185,
-          "duration" : 790
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "checkClusterHoldingSection",
-        "uid" : "c441ce1263713c6b",
-        "parentUid" : "a0230fa02117019049f23a46b85df76f",
-        "status" : "passed",
-        "time" : {
-          "start" : 1631095986802,
-          "stop" : 1631096002136,
-          "duration" : 15334
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "downloadTransaction",
-        "uid" : "58b35b01835be92",
-        "parentUid" : "a0230fa02117019049f23a46b85df76f",
-        "status" : "passed",
-        "time" : {
-          "start" : 1631096303966,
-          "stop" : 1631096309889,
-          "duration" : 5923
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "creatAccountWithoutEnterStateName",
-        "uid" : "281e54b142d72e2a",
-        "parentUid" : "a0230fa02117019049f23a46b85df76f",
-        "status" : "broken",
-        "time" : {
-          "start" : 1631097773593,
-          "stop" : 1631097780232,
-          "duration" : 6639
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "submitPasswordWithoutOldPassword",
-        "uid" : "320d60d76d7f76e8",
-        "parentUid" : "a0230fa02117019049f23a46b85df76f",
-        "status" : "passed",
-        "time" : {
-          "start" : 1631095195046,
-          "stop" : 1631095211419,
-          "duration" : 16373
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "openSurveyorReport",
-        "uid" : "b984c0974dbd3f32",
-        "parentUid" : "a0230fa02117019049f23a46b85df76f",
-        "status" : "skipped",
-        "time" : {
-          "start" : 1631094311512,
-          "stop" : 1631094311512,
-          "duration" : 0
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "changeLastNameWithSymbol",
-        "uid" : "2ba942b1387a5f61",
-        "parentUid" : "a0230fa02117019049f23a46b85df76f",
-        "status" : "passed",
-        "time" : {
-          "start" : 1631094693795,
-          "stop" : 1631094713755,
-          "duration" : 19960
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "sendMessageToMySelf",
-        "uid" : "2b49e18da5bc8d16",
-        "parentUid" : "a0230fa02117019049f23a46b85df76f",
-        "status" : "passed",
-        "time" : {
-          "start" : 1631097562780,
-          "stop" : 1631097583703,
-          "duration" : 20923
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "clickAllInterestList",
-        "uid" : "5bdaa1f42bf8ad39",
-        "parentUid" : "a0230fa02117019049f23a46b85df76f",
-        "status" : "passed",
-        "time" : {
-          "start" : 1631094389748,
-          "stop" : 1631094413744,
-          "duration" : 23996
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "changeState",
-        "uid" : "36abc39545e0799",
-        "parentUid" : "a0230fa02117019049f23a46b85df76f",
-        "status" : "passed",
-        "time" : {
-          "start" : 1631095070264,
-          "stop" : 1631095094389,
-          "duration" : 24125
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
         "name" : "addEmptyParticipant",
-        "uid" : "12775d6020c7131f",
+        "uid" : "df60b535c54bf7b2",
         "parentUid" : "a0230fa02117019049f23a46b85df76f",
         "status" : "passed",
         "time" : {
@@ -1098,151 +45,99 @@
         "newFailed" : false,
         "parameters" : [ ]
       }, {
-        "name" : "checkSquad",
-        "uid" : "243e1295e0d3d0b7",
+        "name" : "Test:Click on Instagram Icon on Footer, verify if it is taking to instagram page or not.",
+        "uid" : "5e6ed750a0f8822e",
         "parentUid" : "a0230fa02117019049f23a46b85df76f",
         "status" : "passed",
         "time" : {
-          "start" : 1631096353155,
-          "stop" : 1631096353346,
-          "duration" : 191
+          "start" : 1631096863927,
+          "stop" : 1631096865605,
+          "duration" : 1678
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
-        "name" : "Test:Login Test With Wrong Details",
-        "uid" : "30a2518e767cd3c3",
+        "name" : "sendGiftWithoutMessageThroughEmail",
+        "uid" : "b3c4adddb9e60ab8",
         "parentUid" : "a0230fa02117019049f23a46b85df76f",
         "status" : "passed",
         "time" : {
-          "start" : 1631097287431,
-          "stop" : 1631097290923,
-          "duration" : 3492
+          "start" : 1631097144757,
+          "stop" : 1631097161008,
+          "duration" : 16251
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
-        "name" : "clickSubmitButtonWithEmailAndPassword",
-        "uid" : "365f94b51317c916",
-        "parentUid" : "a0230fa02117019049f23a46b85df76f",
-        "status" : "broken",
-        "time" : {
-          "start" : 1631097650549,
-          "stop" : 1631097657302,
-          "duration" : 6753
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "checkPasswordWithUnmatchedNewPassword",
-        "uid" : "7c63535c362b7033",
+        "name" : "clickTransaction",
+        "uid" : "de46f8d8e52f9b89",
         "parentUid" : "a0230fa02117019049f23a46b85df76f",
         "status" : "passed",
         "time" : {
-          "start" : 1631095428433,
-          "stop" : 1631095444967,
-          "duration" : 16534
+          "start" : 1631096257167,
+          "stop" : 1631096264552,
+          "duration" : 7385
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
-        "name" : "changeAddressWithoutCity",
-        "uid" : "8ba933ddc7ab29b1",
-        "parentUid" : "a0230fa02117019049f23a46b85df76f",
-        "status" : "passed",
-        "time" : {
-          "start" : 1631095663530,
-          "stop" : 1631095683409,
-          "duration" : 19879
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "clickSubmitButtonWithInvalidPhoneNumber",
-        "uid" : "93441d22fb53049",
-        "parentUid" : "a0230fa02117019049f23a46b85df76f",
-        "status" : "passed",
-        "time" : {
-          "start" : 1631097626872,
-          "stop" : 1631097630265,
-          "duration" : 3393
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "toggleEmail",
-        "uid" : "e9c4ee260be37495",
-        "parentUid" : "a0230fa02117019049f23a46b85df76f",
-        "status" : "passed",
-        "time" : {
-          "start" : 1631094351497,
-          "stop" : 1631094351621,
-          "duration" : 124
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "changeLastName",
-        "uid" : "6d6d206dc363a9ec",
-        "parentUid" : "a0230fa02117019049f23a46b85df76f",
-        "status" : "passed",
-        "time" : {
-          "start" : 1631094513859,
-          "stop" : 1631094536514,
-          "duration" : 22655
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "sendGiftThroughEmail",
-        "uid" : "c80e6d4119275c7a",
-        "parentUid" : "a0230fa02117019049f23a46b85df76f",
-        "status" : "broken",
-        "time" : {
-          "start" : 1631096935437,
-          "stop" : 1631096936168,
-          "duration" : 731
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "creatAccountWithoutRePassword",
-        "uid" : "d86456cc25f9a719",
-        "parentUid" : "a0230fa02117019049f23a46b85df76f",
-        "status" : "broken",
-        "time" : {
-          "start" : 1631097788661,
-          "stop" : 1631097795827,
-          "duration" : 7166
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "openFinancialStatements",
-        "uid" : "524ecbd478828835",
+        "name" : "openSurveyorReport",
+        "uid" : "67a7f90b4adf360c",
         "parentUid" : "a0230fa02117019049f23a46b85df76f",
         "status" : "skipped",
         "time" : {
-          "start" : 1631094311489,
-          "stop" : 1631094311490,
-          "duration" : 1
+          "start" : 1631094311512,
+          "stop" : 1631094311512,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "sendGiftWithoutCardThroughPhone",
+        "uid" : "a372832482223e68",
+        "parentUid" : "a0230fa02117019049f23a46b85df76f",
+        "status" : "broken",
+        "time" : {
+          "start" : 1631097013171,
+          "stop" : 1631097013824,
+          "duration" : 653
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "uploadProfilePicWithTextFile",
+        "uid" : "e9599b7513d8459",
+        "parentUid" : "a0230fa02117019049f23a46b85df76f",
+        "status" : "broken",
+        "time" : {
+          "start" : 1631094970812,
+          "stop" : 1631094970850,
+          "duration" : 38
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "sendGiftThroughPhone",
+        "uid" : "f5392f6ff8d10b39",
+        "parentUid" : "a0230fa02117019049f23a46b85df76f",
+        "status" : "broken",
+        "time" : {
+          "start" : 1631096974395,
+          "stop" : 1631096975185,
+          "duration" : 790
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "checkPasswordWithoutSpecialCharacter",
-        "uid" : "b462158b1627108f",
+        "uid" : "23b57f4615a32196",
         "parentUid" : "a0230fa02117019049f23a46b85df76f",
         "status" : "broken",
         "time" : {
@@ -1255,7 +150,7 @@
         "parameters" : [ ]
       }, {
         "name" : "clickSubmitButtonWithEmptyFields",
-        "uid" : "7ea482a4b09f5a44",
+        "uid" : "90bb33c8570c5449",
         "parentUid" : "a0230fa02117019049f23a46b85df76f",
         "status" : "passed",
         "time" : {
@@ -1267,21 +162,164 @@
         "newFailed" : false,
         "parameters" : [ ]
       }, {
-        "name" : "isProfilePageVisible",
-        "uid" : "750d9626915b6041",
+        "name" : "checkPasswordSection",
+        "uid" : "7720c23737fc3163",
         "parentUid" : "a0230fa02117019049f23a46b85df76f",
         "status" : "passed",
         "time" : {
-          "start" : 1631095839355,
-          "stop" : 1631095839370,
-          "duration" : 15
+          "start" : 1631095547939,
+          "stop" : 1631095624067,
+          "duration" : 76128
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "creatingAccountWithoutLastName",
+        "uid" : "2531f7dfa48bc4ee",
+        "parentUid" : "a0230fa02117019049f23a46b85df76f",
+        "status" : "broken",
+        "time" : {
+          "start" : 1631097681001,
+          "stop" : 1631097687476,
+          "duration" : 6475
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "submitPasswordWithoutOldPassword",
+        "uid" : "b3b03532aaf19802",
+        "parentUid" : "a0230fa02117019049f23a46b85df76f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631095195046,
+          "stop" : 1631095211419,
+          "duration" : 16373
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "changeAddressWithoutCity",
+        "uid" : "fda018ce83afa44c",
+        "parentUid" : "a0230fa02117019049f23a46b85df76f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631095663530,
+          "stop" : 1631095683409,
+          "duration" : 19879
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "clearTests",
+        "uid" : "bcac2f1854a3a806",
+        "parentUid" : "a0230fa02117019049f23a46b85df76f",
+        "status" : "broken",
+        "time" : {
+          "start" : 1631094311475,
+          "stop" : 1631094311475,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "checkClusterHoldingSection",
+        "uid" : "bc30d2e18a841b28",
+        "parentUid" : "a0230fa02117019049f23a46b85df76f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631095986802,
+          "stop" : 1631096002136,
+          "duration" : 15334
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "creatAccountWithoutEnterCityName",
+        "uid" : "b8c6a30f1a6322b",
+        "parentUid" : "a0230fa02117019049f23a46b85df76f",
+        "status" : "broken",
+        "time" : {
+          "start" : 1631097757647,
+          "stop" : 1631097764525,
+          "duration" : 6878
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "uploadProfilePic",
+        "uid" : "e4bd67c54f8886d0",
+        "parentUid" : "a0230fa02117019049f23a46b85df76f",
+        "status" : "broken",
+        "time" : {
+          "start" : 1631094931955,
+          "stop" : 1631094931985,
+          "duration" : 30
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "demoTest1",
+        "uid" : "197720f036d42708",
+        "parentUid" : "a0230fa02117019049f23a46b85df76f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631096898316,
+          "stop" : 1631096898317,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "openDataSources",
+        "uid" : "c46c8b085e63784d",
+        "parentUid" : "a0230fa02117019049f23a46b85df76f",
+        "status" : "broken",
+        "time" : {
+          "start" : 1631093710583,
+          "stop" : 1631094011445,
+          "duration" : 300862
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "downloadCluster",
+        "uid" : "ee9b5ec368a34f34",
+        "parentUid" : "a0230fa02117019049f23a46b85df76f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631093548967,
+          "stop" : 1631093554477,
+          "duration" : 5510
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "checkTransactionSection",
+        "uid" : "be18a8f463fe55db",
+        "parentUid" : "a0230fa02117019049f23a46b85df76f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631096041198,
+          "stop" : 1631096057052,
+          "duration" : 15854
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "checkDisclosureSection",
-        "uid" : "d560beb79deb19a1",
+        "uid" : "424540d1d65ebaf1",
         "parentUid" : "a0230fa02117019049f23a46b85df76f",
         "status" : "passed",
         "time" : {
@@ -1293,21 +331,619 @@
         "newFailed" : false,
         "parameters" : [ ]
       }, {
-        "name" : "creatingAccountWithoutInvalidDob",
-        "uid" : "d0eb8615c1143412",
+        "name" : "changeCity",
+        "uid" : "dffd7a44e9a2ca4f",
+        "parentUid" : "a0230fa02117019049f23a46b85df76f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631095008958,
+          "stop" : 1631095031526,
+          "duration" : 22568
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "sendGiftsThroughPhoneWithPayNow",
+        "uid" : "87046e582ce0d988",
+        "parentUid" : "a0230fa02117019049f23a46b85df76f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631097246092,
+          "stop" : 1631097260360,
+          "duration" : 14268
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test:Purchase SGC through card",
+        "uid" : "1b04c2dbdd4fa1b8",
+        "parentUid" : "a0230fa02117019049f23a46b85df76f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631096657245,
+          "stop" : 1631096657532,
+          "duration" : 287
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "clickSubmitButtonWithoutPhoneNUmber",
+        "uid" : "7126bb3cca5ff8dd",
+        "parentUid" : "a0230fa02117019049f23a46b85df76f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631097615425,
+          "stop" : 1631097618387,
+          "duration" : 2962
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "changeFirstNameWithoutLastName",
+        "uid" : "e7e2910a5b793c38",
+        "parentUid" : "a0230fa02117019049f23a46b85df76f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631094575962,
+          "stop" : 1631094595622,
+          "duration" : 19660
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "forgotPasswordWithOutSymbol",
+        "uid" : "aafa1ad059b42f93",
         "parentUid" : "a0230fa02117019049f23a46b85df76f",
         "status" : "broken",
         "time" : {
-          "start" : 1631097711421,
-          "stop" : 1631097718107,
-          "duration" : 6686
+          "start" : 1631097325382,
+          "stop" : 1631097331161,
+          "duration" : 5779
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test:Click On find out how , verifying if it is taking to squads Create page",
+        "uid" : "5ae20c6dde4c4e0f",
+        "parentUid" : "a0230fa02117019049f23a46b85df76f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631096751414,
+          "stop" : 1631096758312,
+          "duration" : 6898
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "forgotPasswordWithOutWords",
+        "uid" : "5993042240896898",
+        "parentUid" : "a0230fa02117019049f23a46b85df76f",
+        "status" : "broken",
+        "time" : {
+          "start" : 1631097351821,
+          "stop" : 1631097357771,
+          "duration" : 5950
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test:Click on Facebook Icon on Footer, verify if it is taking to facebook page or not.",
+        "uid" : "fc229972e26ad129",
+        "parentUid" : "a0230fa02117019049f23a46b85df76f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631096832672,
+          "stop" : 1631096834687,
+          "duration" : 2015
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "forgotPasswordWithWrongRePassword",
+        "uid" : "30e74761b59b1fb6",
+        "parentUid" : "a0230fa02117019049f23a46b85df76f",
+        "status" : "broken",
+        "time" : {
+          "start" : 1631097312348,
+          "stop" : 1631097318168,
+          "duration" : 5820
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "changeAddressWithoutCountry",
+        "uid" : "f5ea17da955094c1",
+        "parentUid" : "a0230fa02117019049f23a46b85df76f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631095780008,
+          "stop" : 1631095800306,
+          "duration" : 20298
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "submitPasswordWithoutReenterPassword",
+        "uid" : "5f60373538f69bd5",
+        "parentUid" : "a0230fa02117019049f23a46b85df76f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631095306249,
+          "stop" : 1631095323185,
+          "duration" : 16936
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "sendMessageToFakeUser",
+        "uid" : "362af7344bcdcb3d",
+        "parentUid" : "a0230fa02117019049f23a46b85df76f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631097494754,
+          "stop" : 1631097516335,
+          "duration" : 21581
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "sendGiftsThroughEmailWithPayNow",
+        "uid" : "284c04c55d3bb636",
+        "parentUid" : "a0230fa02117019049f23a46b85df76f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631097197268,
+          "stop" : 1631097212273,
+          "duration" : 15005
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "creatingAccountByGivingAllInputs",
+        "uid" : "f842f6a957cdacd5",
+        "parentUid" : "a0230fa02117019049f23a46b85df76f",
+        "status" : "broken",
+        "time" : {
+          "start" : 1631097726840,
+          "stop" : 1631097733576,
+          "duration" : 6736
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "clickAllInterestList",
+        "uid" : "fa6f86fb79f05ba",
+        "parentUid" : "a0230fa02117019049f23a46b85df76f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631094389748,
+          "stop" : 1631094413744,
+          "duration" : 23996
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "addInvalidEmail",
+        "uid" : "819416ea83326513",
+        "parentUid" : "a0230fa02117019049f23a46b85df76f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631096464495,
+          "stop" : 1631096472628,
+          "duration" : 8133
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "clickSubmitButtonWithInvalidPhoneNumber",
+        "uid" : "5fcd078a31e9ec2",
+        "parentUid" : "a0230fa02117019049f23a46b85df76f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631097626872,
+          "stop" : 1631097630265,
+          "duration" : 3393
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "creatingAccountWithoutDob",
+        "uid" : "a43d738f9aad33be",
+        "parentUid" : "a0230fa02117019049f23a46b85df76f",
+        "status" : "broken",
+        "time" : {
+          "start" : 1631097696192,
+          "stop" : 1631097702803,
+          "duration" : 6611
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "sendGiftThroughEmail",
+        "uid" : "948ed243cd5ddc38",
+        "parentUid" : "a0230fa02117019049f23a46b85df76f",
+        "status" : "broken",
+        "time" : {
+          "start" : 1631096935437,
+          "stop" : 1631096936168,
+          "duration" : 731
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "openGuardianTermsAndConditions",
+        "uid" : "7a40ed9d4b0b1368",
+        "parentUid" : "a0230fa02117019049f23a46b85df76f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631093672909,
+          "stop" : 1631093675485,
+          "duration" : 2576
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "changeMiddleNameWithSymbol",
+        "uid" : "854c18ce390342d7",
+        "parentUid" : "a0230fa02117019049f23a46b85df76f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631094874182,
+          "stop" : 1631094893647,
+          "duration" : 19465
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "submitPasswordWithoutNewPassword",
+        "uid" : "9a27d9671d5067c5",
+        "parentUid" : "a0230fa02117019049f23a46b85df76f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631095249916,
+          "stop" : 1631095267014,
+          "duration" : 17098
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "isProfilePageVisible",
+        "uid" : "7768be6f54e96148",
+        "parentUid" : "a0230fa02117019049f23a46b85df76f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631095839355,
+          "stop" : 1631095839370,
+          "duration" : 15
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "clickSubmitButtonWithInvalidEmail",
+        "uid" : "3de120c35be7e83",
+        "parentUid" : "a0230fa02117019049f23a46b85df76f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631097638765,
+          "stop" : 1631097641937,
+          "duration" : 3172
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "openFinancialStatements",
+        "uid" : "7144107348b616b5",
+        "parentUid" : "a0230fa02117019049f23a46b85df76f",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1631094311489,
+          "stop" : 1631094311490,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "checkPasswordWithUnmatchedNewPassword",
+        "uid" : "63be433e261dfe09",
+        "parentUid" : "a0230fa02117019049f23a46b85df76f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631095428433,
+          "stop" : 1631095444967,
+          "duration" : 16534
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "creatAccountWithoutEnterStateName",
+        "uid" : "15204d4a1e275516",
+        "parentUid" : "a0230fa02117019049f23a46b85df76f",
+        "status" : "broken",
+        "time" : {
+          "start" : 1631097773593,
+          "stop" : 1631097780232,
+          "duration" : 6639
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "clickSubmitButtonWithoutEmail",
+        "uid" : "db029d1375471549",
+        "parentUid" : "a0230fa02117019049f23a46b85df76f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631097603789,
+          "stop" : 1631097606878,
+          "duration" : 3089
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "forgotPasswordWithWrongUser",
+        "uid" : "33714dc97e5a4a97",
+        "parentUid" : "a0230fa02117019049f23a46b85df76f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631097365117,
+          "stop" : 1631097369690,
+          "duration" : 4573
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "sendMessageToMySelf",
+        "uid" : "fe9c60205fbe8d8b",
+        "parentUid" : "a0230fa02117019049f23a46b85df76f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631097562780,
+          "stop" : 1631097583703,
+          "duration" : 20923
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test:Click On blogs, verifying if it is taking to blogs page",
+        "uid" : "af5d441dc4858bc8",
+        "parentUid" : "a0230fa02117019049f23a46b85df76f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631096717396,
+          "stop" : 1631096722001,
+          "duration" : 4605
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "sendMessage",
+        "uid" : "b9d3daa51c09f0da",
+        "parentUid" : "a0230fa02117019049f23a46b85df76f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631097423996,
+          "stop" : 1631097454360,
+          "duration" : 30364
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "clickSubmitButtonWithEmailAndPassword",
+        "uid" : "541a45c6162d00ad",
+        "parentUid" : "a0230fa02117019049f23a46b85df76f",
+        "status" : "broken",
+        "time" : {
+          "start" : 1631097650549,
+          "stop" : 1631097657302,
+          "duration" : 6753
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test:Click on youtube Icon on Footer, verify if it is taking to youtube page or not.",
+        "uid" : "7b39b998d91b8bcf",
+        "parentUid" : "a0230fa02117019049f23a46b85df76f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631096894925,
+          "stop" : 1631096897265,
+          "duration" : 2340
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "openPrivacyPolicyLink",
+        "uid" : "8fe2c1bc3328e790",
+        "parentUid" : "a0230fa02117019049f23a46b85df76f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631093590909,
+          "stop" : 1631093597517,
+          "duration" : 6608
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "changeLastNameWithoutFirstName",
+        "uid" : "2ceb54de5a2a6ac5",
+        "parentUid" : "a0230fa02117019049f23a46b85df76f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631094634629,
+          "stop" : 1631094654188,
+          "duration" : 19559
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "checkPasswordWithWrongOldPassword",
+        "uid" : "aee20c2362b21ca",
+        "parentUid" : "a0230fa02117019049f23a46b85df76f",
+        "status" : "broken",
+        "time" : {
+          "start" : 1631095362646,
+          "stop" : 1631095389601,
+          "duration" : 26955
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "checkSquad",
+        "uid" : "6b85e864e0eabc1b",
+        "parentUid" : "a0230fa02117019049f23a46b85df76f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631096353155,
+          "stop" : 1631096353346,
+          "duration" : 191
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "checkEmailPrefSection",
+        "uid" : "d5ec54b707145aa7",
+        "parentUid" : "a0230fa02117019049f23a46b85df76f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631096095138,
+          "stop" : 1631096110181,
+          "duration" : 15043
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "toggleEmail",
+        "uid" : "bd1c38354b4e4ff7",
+        "parentUid" : "a0230fa02117019049f23a46b85df76f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631094351497,
+          "stop" : 1631094351621,
+          "duration" : 124
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "addRealParticipantWithoutAddInterest",
+        "uid" : "824a499904595b73",
+        "parentUid" : "a0230fa02117019049f23a46b85df76f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631096576991,
+          "stop" : 1631096588822,
+          "duration" : 11831
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "openCookiePolicy",
+        "uid" : "a946ec1552cff4a9",
+        "parentUid" : "a0230fa02117019049f23a46b85df76f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631093633094,
+          "stop" : 1631093637930,
+          "duration" : 4836
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "openSurveyorCoed",
+        "uid" : "22035e5a0adae012",
+        "parentUid" : "a0230fa02117019049f23a46b85df76f",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1631094311518,
+          "stop" : 1631094311519,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "changeFirstName",
+        "uid" : "aea4e9c1e6854371",
+        "parentUid" : "a0230fa02117019049f23a46b85df76f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631094451992,
+          "stop" : 1631094474424,
+          "duration" : 22432
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "downloadTransaction",
+        "uid" : "582fdac48b93b9ec",
+        "parentUid" : "a0230fa02117019049f23a46b85df76f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631096303966,
+          "stop" : 1631096309889,
+          "duration" : 5923
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "changeLastName",
+        "uid" : "41e870a8b229e805",
+        "parentUid" : "a0230fa02117019049f23a46b85df76f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631094513859,
+          "stop" : 1631094536514,
+          "duration" : 22655
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "addFakeParticipant",
-        "uid" : "1391240d28236fac",
+        "uid" : "5e22cbbfeafbf325",
         "parentUid" : "a0230fa02117019049f23a46b85df76f",
         "status" : "passed",
         "time" : {
@@ -1319,8 +955,216 @@
         "newFailed" : false,
         "parameters" : [ ]
       }, {
+        "name" : "checkCaliforniaSection",
+        "uid" : "5436fc49acbb72b",
+        "parentUid" : "a0230fa02117019049f23a46b85df76f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631096149701,
+          "stop" : 1631096164528,
+          "duration" : 14827
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test:Click On GiftCard, verifying if it is taking to gifting page",
+        "uid" : "b8cc8dc65aa98f95",
+        "parentUid" : "a0230fa02117019049f23a46b85df76f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631096786984,
+          "stop" : 1631096803154,
+          "duration" : 16170
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "openIncorporationDocuments",
+        "uid" : "70f7c0ad2f5f9b6e",
+        "parentUid" : "a0230fa02117019049f23a46b85df76f",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1631094311504,
+          "stop" : 1631094311506,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "addRealParticipantWithoutMember",
+        "uid" : "d27b2a755a3d8cb7",
+        "parentUid" : "a0230fa02117019049f23a46b85df76f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631096615798,
+          "stop" : 1631096626867,
+          "duration" : 11069
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "sendGiftWithoutCardThroughEmail",
+        "uid" : "9177faa8bab304d8",
+        "parentUid" : "a0230fa02117019049f23a46b85df76f",
+        "status" : "broken",
+        "time" : {
+          "start" : 1631097052050,
+          "stop" : 1631097052714,
+          "duration" : 664
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "creatAccountWithoutRePassword",
+        "uid" : "66702204f602770e",
+        "parentUid" : "a0230fa02117019049f23a46b85df76f",
+        "status" : "broken",
+        "time" : {
+          "start" : 1631097788661,
+          "stop" : 1631097795827,
+          "duration" : 7166
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "forgotPassword",
+        "uid" : "127f04b942eb79b9",
+        "parentUid" : "a0230fa02117019049f23a46b85df76f",
+        "status" : "broken",
+        "time" : {
+          "start" : 1631097298138,
+          "stop" : 1631097305030,
+          "duration" : 6892
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "changeLastNameWithSymbol",
+        "uid" : "2204460a5321ec35",
+        "parentUid" : "a0230fa02117019049f23a46b85df76f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631094693795,
+          "stop" : 1631094713755,
+          "duration" : 19960
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "demoTest2",
+        "uid" : "51bf5594d1de67df",
+        "parentUid" : "a0230fa02117019049f23a46b85df76f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631096898326,
+          "stop" : 1631096898327,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "changeCountry",
+        "uid" : "e752e7628b66fe53",
+        "parentUid" : "a0230fa02117019049f23a46b85df76f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631095132334,
+          "stop" : 1631095156441,
+          "duration" : 24107
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "checkInterestSection",
+        "uid" : "cc9cea634a7f7c12",
+        "parentUid" : "a0230fa02117019049f23a46b85df76f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631095877802,
+          "stop" : 1631095893397,
+          "duration" : 15595
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "sendGiftWithoutMessageThroughPhone",
+        "uid" : "3463ffdb7984b304",
+        "parentUid" : "a0230fa02117019049f23a46b85df76f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631097090760,
+          "stop" : 1631097107319,
+          "duration" : 16559
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test:Login Test With Correct Details",
+        "uid" : "404a06106f6e27c0",
+        "parentUid" : "a0230fa02117019049f23a46b85df76f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631097267606,
+          "stop" : 1631097279987,
+          "duration" : 12381
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "forgotPasswordWithOutNumber",
+        "uid" : "ef0d6ff445a7f22c",
+        "parentUid" : "a0230fa02117019049f23a46b85df76f",
+        "status" : "broken",
+        "time" : {
+          "start" : 1631097338618,
+          "stop" : 1631097344497,
+          "duration" : 5879
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "changeFirstNameWithSymbol",
+        "uid" : "b35cb0ba1833204e",
+        "parentUid" : "a0230fa02117019049f23a46b85df76f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631094752712,
+          "stop" : 1631094772939,
+          "duration" : 20227
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "changeMiddleName",
+        "uid" : "f4f74033e3cafcb0",
+        "parentUid" : "a0230fa02117019049f23a46b85df76f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631094812326,
+          "stop" : 1631094835362,
+          "duration" : 23036
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
         "name" : "creatingAccountWithoutFirstName",
-        "uid" : "de2c4d54ddfe37f2",
+        "uid" : "61c5800e74f16e9d",
         "parentUid" : "a0230fa02117019049f23a46b85df76f",
         "status" : "broken",
         "time" : {
@@ -1331,182 +1175,199 @@
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
-      } ],
-      "uid" : "a0230fa02117019049f23a46b85df76f"
-    }, {
-      "name" : "11220@SacredGrovesTes.main(1)",
-      "children" : [ {
-        "name" : "openSurveyorCoed",
-        "uid" : "cd483faf4bd78bd2",
-        "parentUid" : "297f1a0ffdf034fddfa64a68b25bb155",
-        "status" : "skipped",
-        "time" : {
-          "start" : 1631099759721,
-          "stop" : 1631099759722,
-          "duration" : 1
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
       }, {
-        "name" : "openIncorporationDocuments",
-        "uid" : "9b41e9022df0ce4e",
-        "parentUid" : "297f1a0ffdf034fddfa64a68b25bb155",
-        "status" : "skipped",
-        "time" : {
-          "start" : 1631099759705,
-          "stop" : 1631099759707,
-          "duration" : 2
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "openPrivacyPolicyLink",
-        "uid" : "cfcbda730c76d158",
-        "parentUid" : "297f1a0ffdf034fddfa64a68b25bb155",
+        "name" : "clickSubmitButtonWithWrongOtp",
+        "uid" : "7f34b20a59b2fc0a",
+        "parentUid" : "a0230fa02117019049f23a46b85df76f",
         "status" : "broken",
         "time" : {
-          "start" : 1631099034418,
-          "stop" : 1631099034443,
-          "duration" : 25
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "clearTests",
-        "uid" : "d25d9da25814030e",
-        "parentUid" : "297f1a0ffdf034fddfa64a68b25bb155",
-        "status" : "broken",
-        "time" : {
-          "start" : 1631099759673,
-          "stop" : 1631099759676,
-          "duration" : 3
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "openSurveyorReport",
-        "uid" : "f28fc7c12e4414d3",
-        "parentUid" : "297f1a0ffdf034fddfa64a68b25bb155",
-        "status" : "skipped",
-        "time" : {
-          "start" : 1631099759712,
-          "stop" : 1631099759714,
-          "duration" : 2
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "clickAllInterestList",
-        "uid" : "3c20636ca3728f13",
-        "parentUid" : "297f1a0ffdf034fddfa64a68b25bb155",
-        "status" : "passed",
-        "time" : {
-          "start" : 1631098866633,
-          "stop" : 1631098891113,
-          "duration" : 24480
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "downloadCluster",
-        "uid" : "343e204fb6bef558",
-        "parentUid" : "297f1a0ffdf034fddfa64a68b25bb155",
-        "status" : "passed",
-        "time" : {
-          "start" : 1631099011240,
-          "stop" : 1631099017793,
-          "duration" : 6553
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "openCookiePolicy",
-        "uid" : "20b9d87c98a59509",
-        "parentUid" : "297f1a0ffdf034fddfa64a68b25bb155",
-        "status" : "passed",
-        "time" : {
-          "start" : 1631099075203,
-          "stop" : 1631099078717,
-          "duration" : 3514
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "clickCluster",
-        "uid" : "a800c8c81c6f01ef",
-        "parentUid" : "297f1a0ffdf034fddfa64a68b25bb155",
-        "status" : "passed",
-        "time" : {
-          "start" : 1631098967441,
-          "stop" : 1631098973336,
-          "duration" : 5895
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "openGuardianTermsAndConditions",
-        "uid" : "a0f6490c736feeb4",
-        "parentUid" : "297f1a0ffdf034fddfa64a68b25bb155",
-        "status" : "passed",
-        "time" : {
-          "start" : 1631099118421,
-          "stop" : 1631099120528,
-          "duration" : 2107
+          "start" : 1631097819427,
+          "stop" : 1631097826116,
+          "duration" : 6689
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "californiaToggle",
-        "uid" : "4d4a66c6d28fe5b4",
-        "parentUid" : "297f1a0ffdf034fddfa64a68b25bb155",
+        "uid" : "ce283af9ff643335",
+        "parentUid" : "a0230fa02117019049f23a46b85df76f",
         "status" : "passed",
         "time" : {
-          "start" : 1631098928611,
-          "stop" : 1631098928822,
-          "duration" : 211
+          "start" : 1631093466888,
+          "stop" : 1631093467127,
+          "duration" : 239
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "addRealParticipant",
+        "uid" : "d4dc099785f2fe2c",
+        "parentUid" : "a0230fa02117019049f23a46b85df76f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631096503311,
+          "stop" : 1631096546379,
+          "duration" : 43068
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "changeState",
+        "uid" : "a2d544bd88a3ca4a",
+        "parentUid" : "a0230fa02117019049f23a46b85df76f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631095070264,
+          "stop" : 1631095094389,
+          "duration" : 24125
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test:Login Test With Wrong Details",
+        "uid" : "2f089349b67792ba",
+        "parentUid" : "a0230fa02117019049f23a46b85df76f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631097287431,
+          "stop" : 1631097290923,
+          "duration" : 3492
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "creatAccountWithoutEnterCountryName",
+        "uid" : "d098d491c98d34f1",
+        "parentUid" : "a0230fa02117019049f23a46b85df76f",
+        "status" : "broken",
+        "time" : {
+          "start" : 1631097742218,
+          "stop" : 1631097749255,
+          "duration" : 7037
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "creatAccount",
+        "uid" : "c372829457550bdb",
+        "parentUid" : "a0230fa02117019049f23a46b85df76f",
+        "status" : "broken",
+        "time" : {
+          "start" : 1631097804496,
+          "stop" : 1631097811040,
+          "duration" : 6544
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "clickAllInterestList",
+        "uid" : "6b0d60f5f93110e8",
+        "parentUid" : "a0230fa02117019049f23a46b85df76f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631093407421,
+          "stop" : 1631093430928,
+          "duration" : 23507
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "creatingAccountWithoutInvalidDob",
+        "uid" : "ebd9c77d91314b14",
+        "parentUid" : "a0230fa02117019049f23a46b85df76f",
+        "status" : "broken",
+        "time" : {
+          "start" : 1631097711421,
+          "stop" : 1631097718107,
+          "duration" : 6686
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test:Calculate SGC details and verify calculation",
+        "uid" : "53a08dff66f5a736",
+        "parentUid" : "a0230fa02117019049f23a46b85df76f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631096687458,
+          "stop" : 1631096688044,
+          "duration" : 586
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "openCertificateIncorporation",
-        "uid" : "f2d38fe91303564d",
-        "parentUid" : "297f1a0ffdf034fddfa64a68b25bb155",
+        "uid" : "a57425729d38c2bc",
+        "parentUid" : "a0230fa02117019049f23a46b85df76f",
         "status" : "skipped",
         "time" : {
-          "start" : 1631099759691,
-          "stop" : 1631099759692,
-          "duration" : 1
+          "start" : 1631094311496,
+          "stop" : 1631094311498,
+          "duration" : 2
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
-        "name" : "toggleEmail",
-        "uid" : "fc62398bb99c5432",
-        "parentUid" : "297f1a0ffdf034fddfa64a68b25bb155",
+        "name" : "checkActivitySection",
+        "uid" : "7552d33e41c434e3",
+        "parentUid" : "a0230fa02117019049f23a46b85df76f",
         "status" : "passed",
         "time" : {
-          "start" : 1631099798962,
-          "stop" : 1631099799082,
-          "duration" : 120
+          "start" : 1631095932285,
+          "stop" : 1631095947931,
+          "duration" : 15646
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a0230fa02117019049f23a46b85df76f"
+    }, {
+      "name" : "8160@SacredGrovesTes.main(1)",
+      "children" : [ {
+        "name" : "Test:Login Test With Correct Details",
+        "uid" : "9986296e3e7b7f64",
+        "parentUid" : "08f9be7a388547c3b2fd06cf0cdbee6d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631100107411,
+          "stop" : 1631100120378,
+          "duration" : 12967
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
+        "name" : "Test:Login Test With Wrong Details",
+        "uid" : "cb3438734cae488f",
+        "parentUid" : "08f9be7a388547c3b2fd06cf0cdbee6d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631100128017,
+          "stop" : 1631100131684,
+          "duration" : 3667
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "08f9be7a388547c3b2fd06cf0cdbee6d"
+    }, {
+      "name" : "11220@SacredGrovesTes.main(1)",
+      "children" : [ {
         "name" : "openDataSources",
-        "uid" : "7495c121d80ac295",
+        "uid" : "474295aee347cd32",
         "parentUid" : "297f1a0ffdf034fddfa64a68b25bb155",
         "status" : "broken",
         "time" : {
@@ -1518,8 +1379,164 @@
         "newFailed" : false,
         "parameters" : [ ]
       }, {
+        "name" : "clickCluster",
+        "uid" : "a82b260a0951024b",
+        "parentUid" : "297f1a0ffdf034fddfa64a68b25bb155",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631098967441,
+          "stop" : 1631098973336,
+          "duration" : 5895
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "openSurveyorReport",
+        "uid" : "acb4628accbd166a",
+        "parentUid" : "297f1a0ffdf034fddfa64a68b25bb155",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1631099759712,
+          "stop" : 1631099759714,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "openGuardianTermsAndConditions",
+        "uid" : "d85fa5029dd9a021",
+        "parentUid" : "297f1a0ffdf034fddfa64a68b25bb155",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631099118421,
+          "stop" : 1631099120528,
+          "duration" : 2107
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "openIncorporationDocuments",
+        "uid" : "7925c24945582b97",
+        "parentUid" : "297f1a0ffdf034fddfa64a68b25bb155",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1631099759705,
+          "stop" : 1631099759707,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "clickAllInterestList",
+        "uid" : "970df98cd6f2acf5",
+        "parentUid" : "297f1a0ffdf034fddfa64a68b25bb155",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631098866633,
+          "stop" : 1631098891113,
+          "duration" : 24480
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "openCertificateIncorporation",
+        "uid" : "681f4167d4eeb8dc",
+        "parentUid" : "297f1a0ffdf034fddfa64a68b25bb155",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1631099759691,
+          "stop" : 1631099759692,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "clearTests",
+        "uid" : "c1c9aaa3cceb7f6e",
+        "parentUid" : "297f1a0ffdf034fddfa64a68b25bb155",
+        "status" : "broken",
+        "time" : {
+          "start" : 1631099759673,
+          "stop" : 1631099759676,
+          "duration" : 3
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "openPrivacyPolicyLink",
+        "uid" : "9d45a9d08af811b6",
+        "parentUid" : "297f1a0ffdf034fddfa64a68b25bb155",
+        "status" : "broken",
+        "time" : {
+          "start" : 1631099034418,
+          "stop" : 1631099034443,
+          "duration" : 25
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "openSurveyorCoed",
+        "uid" : "af5009f5440498d5",
+        "parentUid" : "297f1a0ffdf034fddfa64a68b25bb155",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1631099759721,
+          "stop" : 1631099759722,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "californiaToggle",
+        "uid" : "9fab59a25be822ab",
+        "parentUid" : "297f1a0ffdf034fddfa64a68b25bb155",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631098928611,
+          "stop" : 1631098928822,
+          "duration" : 211
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "toggleEmail",
+        "uid" : "929092bf98065836",
+        "parentUid" : "297f1a0ffdf034fddfa64a68b25bb155",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631099798962,
+          "stop" : 1631099799082,
+          "duration" : 120
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "downloadCluster",
+        "uid" : "e0eed19c754b4cfd",
+        "parentUid" : "297f1a0ffdf034fddfa64a68b25bb155",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631099011240,
+          "stop" : 1631099017793,
+          "duration" : 6553
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
         "name" : "openFinancialStatements",
-        "uid" : "196a9aff0aade8db",
+        "uid" : "e4fff8a21af7e070",
         "parentUid" : "297f1a0ffdf034fddfa64a68b25bb155",
         "status" : "skipped",
         "time" : {
@@ -1530,56 +1547,56 @@
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
+      }, {
+        "name" : "openCookiePolicy",
+        "uid" : "be6ce36f66f02213",
+        "parentUid" : "297f1a0ffdf034fddfa64a68b25bb155",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631099075203,
+          "stop" : 1631099078717,
+          "duration" : 3514
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
       } ],
       "uid" : "297f1a0ffdf034fddfa64a68b25bb155"
     }, {
-      "name" : "8160@SacredGrovesTes.main(1)",
+      "name" : "4120@SacredGrovesTes.main(1)",
       "children" : [ {
-        "name" : "Test:Login Test With Wrong Details",
-        "uid" : "8c908929890f47a1",
-        "parentUid" : "08f9be7a388547c3b2fd06cf0cdbee6d",
+        "name" : "Test:Login Test With Correct Details",
+        "uid" : "f177cc4a31bbebb1",
+        "parentUid" : "a8be7873c8c1c51e9ff263290dcfe2e8",
         "status" : "passed",
         "time" : {
-          "start" : 1631100128017,
-          "stop" : 1631100131684,
-          "duration" : 3667
+          "start" : 1631707287396,
+          "stop" : 1631707301947,
+          "duration" : 14551
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
-        "name" : "Test:Login Test With Correct Details",
-        "uid" : "28e339f6d0f7b729",
-        "parentUid" : "08f9be7a388547c3b2fd06cf0cdbee6d",
+        "name" : "Test:Login Test With Wrong Details",
+        "uid" : "66fda932cb8263f9",
+        "parentUid" : "a8be7873c8c1c51e9ff263290dcfe2e8",
         "status" : "passed",
         "time" : {
-          "start" : 1631100107411,
-          "stop" : 1631100120378,
-          "duration" : 12967
+          "start" : 1631707311459,
+          "stop" : 1631707315598,
+          "duration" : 4139
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "08f9be7a388547c3b2fd06cf0cdbee6d"
+      "uid" : "a8be7873c8c1c51e9ff263290dcfe2e8"
     }, {
       "name" : "12632@SacredGrovesTes.main(1)",
       "children" : [ {
-        "name" : "Test:Login Test With Correct Details",
-        "uid" : "4b6d1b7a19e53e7d",
-        "parentUid" : "9e83ddc478b9207b8becc1531d780386",
-        "status" : "passed",
-        "time" : {
-          "start" : 1631093022913,
-          "stop" : 1631093034960,
-          "duration" : 12047
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
         "name" : "Test:Login Test With Wrong Details",
-        "uid" : "851ba7c20c61caa8",
+        "uid" : "ec4f5692cccd8b2b",
         "parentUid" : "9e83ddc478b9207b8becc1531d780386",
         "status" : "passed",
         "time" : {
@@ -1590,13 +1607,56 @@
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
+      }, {
+        "name" : "Test:Login Test With Correct Details",
+        "uid" : "37a91205248253bc",
+        "parentUid" : "9e83ddc478b9207b8becc1531d780386",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631093022913,
+          "stop" : 1631093034960,
+          "duration" : 12047
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
       } ],
       "uid" : "9e83ddc478b9207b8becc1531d780386"
+    }, {
+      "name" : "7644@SacredGrovesTes.main(1)",
+      "children" : [ {
+        "name" : "Test:Login Test With Wrong Details",
+        "uid" : "ec68e55f3511fa81",
+        "parentUid" : "22eaa9ba774289f8a880e0c2d7b9362e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631185245882,
+          "stop" : 1631185250126,
+          "duration" : 4244
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test:Login Test With Correct Details",
+        "uid" : "65199ec8575dd6df",
+        "parentUid" : "22eaa9ba774289f8a880e0c2d7b9362e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631185223041,
+          "stop" : 1631185236989,
+          "duration" : 13948
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "22eaa9ba774289f8a880e0c2d7b9362e"
     }, {
       "name" : "14188@SacredGrovesTes.main(1)",
       "children" : [ {
         "name" : "Test:Login Test With Correct Details",
-        "uid" : "7d1e8ad2d9f2430a",
+        "uid" : "6314ee6d975d01c3",
         "parentUid" : "15c9eaed1caa9eb52569c06bdd05858c",
         "status" : "passed",
         "time" : {
@@ -1609,7 +1669,7 @@
         "parameters" : [ ]
       }, {
         "name" : "Test:Login Test With Wrong Details",
-        "uid" : "370fb2b6d42e090a",
+        "uid" : "6798a63605169ab2",
         "parentUid" : "15c9eaed1caa9eb52569c06bdd05858c",
         "status" : "passed",
         "time" : {
@@ -1625,21 +1685,8 @@
     }, {
       "name" : "13372@SacredGrovesTes.main(1)",
       "children" : [ {
-        "name" : "Test:Login Test With Correct Details",
-        "uid" : "1d6c76669970a608",
-        "parentUid" : "a1d6ade3376dce9563c2238bcf22d523",
-        "status" : "passed",
-        "time" : {
-          "start" : 1631101544418,
-          "stop" : 1631101560758,
-          "duration" : 16340
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
         "name" : "Test:Login Test With Wrong Details",
-        "uid" : "59bad62008818e4d",
+        "uid" : "247f1c4d4ad9e2cf",
         "parentUid" : "a1d6ade3376dce9563c2238bcf22d523",
         "status" : "passed",
         "time" : {
@@ -1650,38 +1697,51 @@
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
+      }, {
+        "name" : "Test:Login Test With Correct Details",
+        "uid" : "8ad8226c7dc2406f",
+        "parentUid" : "a1d6ade3376dce9563c2238bcf22d523",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631101544418,
+          "stop" : 1631101560758,
+          "duration" : 16340
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
       } ],
       "uid" : "a1d6ade3376dce9563c2238bcf22d523"
     }, {
-      "name" : "7644@SacredGrovesTes.main(1)",
+      "name" : "6328@SacredGrovesTes.main(1)",
       "children" : [ {
-        "name" : "Test:Login Test With Correct Details",
-        "uid" : "54ca0e82efc95a06",
-        "parentUid" : "22eaa9ba774289f8a880e0c2d7b9362e",
+        "name" : "Test:Login Test With Wrong Details",
+        "uid" : "f788a61acc69337f",
+        "parentUid" : "d6e424f4de61af0214a28f29e7c8567e",
         "status" : "passed",
         "time" : {
-          "start" : 1631185223041,
-          "stop" : 1631185236989,
-          "duration" : 13948
+          "start" : 1631707160890,
+          "stop" : 1631707165092,
+          "duration" : 4202
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
-        "name" : "Test:Login Test With Wrong Details",
-        "uid" : "ece4353af87f82d5",
-        "parentUid" : "22eaa9ba774289f8a880e0c2d7b9362e",
+        "name" : "Test:Login Test With Correct Details",
+        "uid" : "a545c3cbc67222a2",
+        "parentUid" : "d6e424f4de61af0214a28f29e7c8567e",
         "status" : "passed",
         "time" : {
-          "start" : 1631185245882,
-          "stop" : 1631185250126,
-          "duration" : 4244
+          "start" : 1631707132433,
+          "stop" : 1631707151714,
+          "duration" : 19281
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "22eaa9ba774289f8a880e0c2d7b9362e"
+      "uid" : "d6e424f4de61af0214a28f29e7c8567e"
     } ],
     "uid" : "b65f4e2ddce56fe4f506e3852abd0b3c"
   }, {
@@ -1689,27 +1749,27 @@
     "children" : [ {
       "name" : "11148@DESKTOP-C0KUII6.main(1)",
       "children" : [ {
-        "name" : "Test:Login Test With Correct Details",
-        "uid" : "fbde1b2259ed151d",
-        "parentUid" : "4123cc83eb8ddf969f4d6248a5796aa7",
-        "status" : "passed",
-        "time" : {
-          "start" : 1631085419332,
-          "stop" : 1631085440783,
-          "duration" : 21451
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
         "name" : "Test:Login Test With Wrong Details",
-        "uid" : "e9cedc36e210c738",
+        "uid" : "4ea2018e2ba2623f",
         "parentUid" : "4123cc83eb8ddf969f4d6248a5796aa7",
         "status" : "passed",
         "time" : {
           "start" : 1631085460143,
           "stop" : 1631085466484,
           "duration" : 6341
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test:Login Test With Correct Details",
+        "uid" : "a0ffff14e08416e0",
+        "parentUid" : "4123cc83eb8ddf969f4d6248a5796aa7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631085419332,
+          "stop" : 1631085440783,
+          "duration" : 21451
         },
         "flaky" : false,
         "newFailed" : false,

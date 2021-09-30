@@ -1,0 +1,94 @@
+{
+  "uid" : "fda018ce83afa44c",
+  "name" : "changeAddressWithoutCity",
+  "fullName" : "tests.Profile.personalDetails.changeAddressWithoutCity",
+  "historyId" : "fa48ff40d73bfacf7a1fcff44a65a689",
+  "time" : {
+    "start" : 1631095663530,
+    "stop" : 1631095683409,
+    "duration" : 19879
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setupTests",
+    "time" : {
+      "start" : 1631095624867,
+      "stop" : 1631095663526,
+      "duration" : 38659
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "clearTests",
+    "time" : {
+      "start" : 1631095683411,
+      "stop" : 1631095684224,
+      "duration" : 813
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.Profile.personalDetails"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.Profile.personalDetails"
+  }, {
+    "name" : "testMethod",
+    "value" : "changeAddressWithoutCity"
+  }, {
+    "name" : "parentSuite",
+    "value" : "All Test Suite"
+  }, {
+    "name" : "suite",
+    "value" : "automationwebapp_pom"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.Profile.personalDetails"
+  }, {
+    "name" : "host",
+    "value" : "SacredGrovesTes"
+  }, {
+    "name" : "thread",
+    "value" : "11292@SacredGrovesTes.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "fda018ce83afa44c.json",
+  "parameterValues" : [ ]
+}

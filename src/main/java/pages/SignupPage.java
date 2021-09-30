@@ -1,10 +1,13 @@
 package pages;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+
+import java.util.List;
 
 public class SignupPage {
 
@@ -12,37 +15,40 @@ public class SignupPage {
     public WebDriverWait wait;
 
 //    private By continueButton = By.xpath("/html/body/div[2]/div/div[2]/div/div/div[2]/div/form/button");
-    private By continueButton = By.xpath("//button[text()='Continue']");
+  //  private By continueButton = By.xpath("//button[text()='Continue']");
 
-    private By tryAgainPopUp = By.xpath("//*[@id=\"exampleModal\"]/div/div/div[2]/a");
-    private By okPopUp = By.xpath("//a[text()='OK']");
+    private By tryAgainPopUp = By.xpath("//button[contains(text(),'Try again')]");
+    private By okPopUp = By.xpath("//button[contains(text(),'Ok')]");
 
-    private By countryCodeSelector = By.xpath("/html/body/div[2]/div/div[2]/div/div/div[2]/div/form/div[1]/div/select");
-    private By phoneNumberField = By.xpath("/html/body/div[2]/div/div[2]/div/div/div[2]/div/form/div[1]/div/input");
-    private By indiaOption = By.xpath("/html/body/div[2]/div/div[2]/div/div/div[2]/div/form/div[1]/div/select/optgroup/option[@value='+91']");
-    private By usaOption = By.xpath("/html/body/div[2]/div/div[2]/div/div/div[2]/div/form/div[1]/div/select/optgroup/option[@value='+1']");
+    private By countryCodeSelector = By.xpath("//div[@class=\"selected-dial-code\"]");
+    private By phoneNumberField = By.xpath("//input[@id='phone_number']");
+    private By indiaOption = By.xpath("//body/div[1]/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/form[1]/fieldset[1]/div[4]/div[1]/div[1]/div[1]/ul[1]/li[5]");
+    private By usaOption = By.xpath("//body/div[1]/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/form[1]/fieldset[1]/div[4]/div[1]/div[1]/div[1]/ul[1]/li[3]");
 
-    private By emailField = By.xpath("//*[@id=\"exampleInputEmail1\"]");
+    private By emailField = By.xpath("//input[@id='email']");
+    private By next1 = By.xpath("//body/div[1]/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/form[1]/fieldset[1]/button[1]");
+    private By next2 = By.xpath("//*[@id=\"sendotp\"]/div[2]/button");
 
-    private By otp1= (By.xpath("//*[@id=\"codeBox1\"]"));
-    private By otp2= (By.xpath("//*[@id=\"codeBox2\"]"));
-    private By otp3= (By.xpath("//*[@id=\"codeBox3\"]"));
-    private By otp4= (By.xpath("//*[@id=\"codeBox4\"]"));
+    private By sendAgain =By.xpath("//a[@id='sendAgain']");
+    private By otp1= (By.xpath("//input[@id='codeBox1']"));
+    private By otp2= (By.xpath("//input[@id='codeBox2']"));
+    private By otp3= (By.xpath("//input[@id='codeBox3']"));
+    private By otp4= (By.xpath("//input[@id='codeBox4']"));
 
-    private By firstName = By.xpath("//*[@id=\"txtFirstName\"]");
-    private By middleName = By.xpath("//*[@id=\"txtMiddleName\"]");
-    private By lastName = By.xpath("//*[@id=\"txtLastName\"]");
-    private By dob = By.xpath("//*[@id=\"txtDob\"]");
+    private By firstName = By.xpath("//input[@id='first_name']");
+  //  private By middleName = By.xpath("//*[@id=\"txtMiddleName\"]");
+    private By lastName = By.xpath("//input[@id='last_name']");
+ //   private By dob = By.xpath("//*[@id=\"txtDob\"]");
 
-    private By enterCity = By.xpath("//*[@id=\"locality\"]");
-    private By enterState = By.xpath("//*[@id=\"state\"]");
-    private By enterCountry = By.xpath("//*[@id=\"country\"]");
+  //  private By enterCity = By.xpath("//*[@id=\"locality\"]");
+   // private By enterState = By.xpath("//*[@id=\"state\"]");
+    //private By enterCountry = By.xpath("//*[@id=\"country\"]");
+    private By signUpWithGoogle = By.xpath("//body/div[1]/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/form[1]/div[2]/a[1]/button[1]/img[1]");
+    private By password = By.xpath("//input[@id='password']");
+    private By rePassword = By.xpath("//input[@id='re_password']");
 
-    private By password = By.xpath("//*[@id=\"txtPassword\"]");
-    private By rePassword = By.xpath("//*[@id=\"txtRePassword\"]");
-
-    private By userAgreement = By.xpath("/html/body/div[2]/div/div[2]/div/div/div[2]/div/form/div[3]/label");
-
+    private By userAgreement = By.xpath("//body/div[1]/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/form[1]/fieldset[3]/div[3]/label[1]");
+    private By finalSignUpButton = By.xpath("//button[contains(text(),'Sign Up')]");
 
     public SignupPage(WebDriver driver) {
         this.driver = driver;
@@ -53,36 +59,43 @@ public class SignupPage {
        return driver.getCurrentUrl();
     }
 
-    public void clickContinueButton(){
-        driver.findElement(continueButton).submit();
+    public void clickNext1Button(){
+        driver.findElement(next1).click();
+    }
+    public void clickNext2Button(){
+        wait= new WebDriverWait(driver,10);
+        wait.until(ExpectedConditions.visibilityOfElementLocated(next2));
+        JavascriptExecutor js = (JavascriptExecutor) driver;
+        js.executeScript("arguments[0].click();",driver.findElement(next2));
+
+
     }
 
     public boolean isTryAgainPopUpShown(){
         try {
-            WebElement element = (new WebDriverWait(driver, 3))
-                    .until(ExpectedConditions.elementToBeClickable(tryAgainPopUp));
-            return element.isDisplayed();
+            clickTryAgain();
+            return true;
         }catch (Exception e){
             return false;
         }
     }
 
     public boolean isOkPopUpShown(){
-        WebElement element = (new WebDriverWait(driver, 3))
-                .until(ExpectedConditions.elementToBeClickable(okPopUp));
-        return element.isDisplayed();
+        try {
+            clickOk();
+            return true;
+        }catch(Exception e){
+            return false;
+        }
     }
 
     public void clickTryAgain(){
-        WebElement element = (new WebDriverWait(driver, 5))
-                .until(ExpectedConditions.elementToBeClickable(tryAgainPopUp));
-        element.click();
+
+        driver.findElement(tryAgainPopUp).click();
     }
 
     public void clickOk(){
-        WebElement element = (new WebDriverWait(driver, 3))
-                .until(ExpectedConditions.elementToBeClickable(okPopUp));
-        element.click();
+        driver.findElement(okPopUp).click();
     }
 
     public void clickCountryCodeSelector(){
@@ -120,15 +133,15 @@ public class SignupPage {
         driver.findElement(firstName).sendKeys(name);
     }
 
-    public void addMiddleName(String name){
+  /*  public void addMiddleName(String name){
         driver.findElement(middleName).sendKeys(name);
-    }
+    }*/
 
     public void addLastName(String name){
         driver.findElement(lastName).sendKeys(name);
     }
 
-    public void setDob(String date){
+  /*  public void setDob(String date){
         driver.findElement(dob).sendKeys(date);
     }
 
@@ -143,7 +156,7 @@ public class SignupPage {
     public void setCountry(String text){
         driver.findElement(enterCountry).sendKeys(text);
     }
-
+*/
     public void setPassword(String text){
         driver.findElement(password).sendKeys(text);
     }

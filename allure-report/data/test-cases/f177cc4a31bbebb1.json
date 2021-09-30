@@ -1,0 +1,158 @@
+{
+  "uid" : "f177cc4a31bbebb1",
+  "name" : "Test:Login Test With Correct Details",
+  "fullName" : "tests.login.loginWithCorrectDetails",
+  "historyId" : "7bce7eff05b659c834047156873d044c",
+  "time" : {
+    "start" : 1631707287396,
+    "stop" : 1631707301947,
+    "duration" : 14551
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setupTests",
+    "time" : {
+      "start" : 1631707278205,
+      "stop" : 1631707287238,
+      "duration" : 9033
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "clearTests",
+    "time" : {
+      "start" : 1631707301959,
+      "stop" : 1631707302896,
+      "duration" : 937
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.login"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.login"
+  }, {
+    "name" : "testMethod",
+    "value" : "loginWithCorrectDetails"
+  }, {
+    "name" : "parentSuite",
+    "value" : "All Test Suite"
+  }, {
+    "name" : "suite",
+    "value" : "automationwebapp_pom"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.login"
+  }, {
+    "name" : "host",
+    "value" : "SacredGrovesTes"
+  }, {
+    "name" : "thread",
+    "value" : "4120@SacredGrovesTes.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "a545c3cbc67222a2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631707132433,
+        "stop" : 1631707151714,
+        "duration" : 19281
+      }
+    }, {
+      "uid" : "65199ec8575dd6df",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631185223041,
+        "stop" : 1631185236989,
+        "duration" : 13948
+      }
+    }, {
+      "uid" : "8ad8226c7dc2406f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631101544418,
+        "stop" : 1631101560758,
+        "duration" : 16340
+      }
+    }, {
+      "uid" : "9986296e3e7b7f64",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631100107411,
+        "stop" : 1631100120378,
+        "duration" : 12967
+      }
+    }, {
+      "uid" : "404a06106f6e27c0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631097267606,
+        "stop" : 1631097279987,
+        "duration" : 12381
+      }
+    }, {
+      "uid" : "37a91205248253bc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631093022913,
+        "stop" : 1631093034960,
+        "duration" : 12047
+      }
+    }, {
+      "uid" : "6314ee6d975d01c3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631092396303,
+        "stop" : 1631092408071,
+        "duration" : 11768
+      }
+    }, {
+      "uid" : "a0ffff14e08416e0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631085419332,
+        "stop" : 1631085440783,
+        "duration" : 21451
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f177cc4a31bbebb1.json",
+  "parameterValues" : [ ]
+}

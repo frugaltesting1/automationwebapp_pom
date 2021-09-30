@@ -1,6 +1,9 @@
 package tests.Profile;
 
 import base.BaseTest;
+import io.qameta.allure.Severity;
+import io.qameta.allure.SeverityLevel;
+import io.qameta.allure.Story;
 import org.testng.Assert;
 import org.testng.annotations.*;
 import pages.LoginPage;
@@ -23,7 +26,9 @@ public class Disclouser extends BaseTest {
     }
 
 
-    @Test
+    @Test(description="Test:open privacy policy link.")
+    @Severity(SeverityLevel.NORMAL)
+    @Story("This story belongs to the cookies and policy flow")
     void openPrivacyPolicyLink(){
         profilePage.openDisclosureSection();
         profilePage.clickPrivacyPolicy();
@@ -31,7 +36,9 @@ public class Disclouser extends BaseTest {
         profilePage.closeTab();
     }
 
-    @Test
+    @Test(description="Test:open CookiePolicy.")
+    @Severity(SeverityLevel.NORMAL)
+    @Story("This story belongs to the cookies and policy flow")
     void openCookiePolicy(){
         profilePage.openDisclosureSection();
         profilePage.clickCookiePolicy();
@@ -39,7 +46,9 @@ public class Disclouser extends BaseTest {
         profilePage.closeTab();
     }
 
-    @Test
+    @Test(description="Test:open Guardian Terms And Conditions.")
+    @Severity(SeverityLevel.NORMAL)
+    @Story("This story belongs to the cookies and policy flow")
     void openGuardianTermsAndConditions(){
         profilePage.openDisclosureSection();
         profilePage.clickGuardianTermsAndConditions();
@@ -47,7 +56,9 @@ public class Disclouser extends BaseTest {
         profilePage.closeTab();
     }
 
-    @Test
+    @Test(description="Test:open data sources.")
+    @Severity(SeverityLevel.NORMAL)
+    @Story("This story belongs to the cookies and policy flow")
     void openDataSources(){
         profilePage.openDisclosureSection();
         profilePage.clickDataSources();
@@ -55,7 +66,9 @@ public class Disclouser extends BaseTest {
         profilePage.closeTab();
     }
 
-    @Test
+    @Test(description="Test:open financial statements.")
+    @Severity(SeverityLevel.CRITICAL)
+    @Story("This story belongs to the payments flow")
     void openFinancialStatements(){
         profilePage.openDisclosureSection();
         profilePage.clickFinancialStatements();
@@ -63,7 +76,9 @@ public class Disclouser extends BaseTest {
         profilePage.closeTab();
     }
 
-    @Test
+    @Test(description="Test:open Certificate Incorporations.")
+    @Severity(SeverityLevel.NORMAL)
+    @Story("This story belongs to the cookies and policy flow")
     void openCertificateIncorporation(){
         profilePage.openDisclosureSection();
         profilePage.clickCertificateIncorporation();
@@ -71,7 +86,9 @@ public class Disclouser extends BaseTest {
         profilePage.closeTab();
     }
 
-    @Test
+    @Test(description="Test:open Incorporation Documents.")
+    @Severity(SeverityLevel.NORMAL)
+    @Story("This story belongs to the cookies and policy flow")
     void openIncorporationDocuments(){
         profilePage.openDisclosureSection();
         profilePage.clickIncorporationDocuments();
@@ -79,7 +96,9 @@ public class Disclouser extends BaseTest {
         profilePage.closeTab();
     }
 
-    @Test
+    @Test(description="Test:open Surveyor Report.")
+    @Severity(SeverityLevel.NORMAL)
+    @Story("This story belongs to the cookies and policy flow")
     void openSurveyorReport(){
         profilePage.openDisclosureSection();
         profilePage.clickSurveyorReport();
@@ -88,7 +107,9 @@ public class Disclouser extends BaseTest {
     }
 
 
-    @Test
+    @Test(description="Test:open Surveyor Coed.")
+    @Severity(SeverityLevel.NORMAL)
+    @Story("This story belongs to the cookies and policy flow")
     void openSurveyorCoed(){
         profilePage.openDisclosureSection();
         profilePage.clickSurveyorCoed();
