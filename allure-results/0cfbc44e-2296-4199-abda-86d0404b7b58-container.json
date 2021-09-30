@@ -1,0 +1,1 @@
+{"uuid":"0cfbc44e-2296-4199-abda-86d0404b7b58","name":"tests.demo.setupx","children":["b3b5ef62-5912-4df8-addf-4b511a9cad0f"],"description":"","befores":[{"name":"setupx","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1631619517606,"stop":1631619517613}],"afters":[],"links":[],"start":1631619517605,"stop":1631619517614}

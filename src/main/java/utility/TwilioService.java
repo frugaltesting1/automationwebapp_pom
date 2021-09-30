@@ -6,11 +6,11 @@ import com.twilio.rest.api.v2010.account.Message;
 
 public class TwilioService {
 
-    public String phoneNumber = "4243471461";
+    public String phoneNumber = "4234543317";
     public String countryCode = "+1";
 
-    static String account_id = "ACe87c16897670ea46c8f365c63b00a5e9";
-    static String auth_token = "534455780bfaeceaec234ff32d3526a0";
+    static String account_id = "AC181687959fbda305475b4dcf57867b78";
+    static String auth_token = "27e147c87ebc9b7590ff2c89257075a6";
 
     public TwilioService(){
         Twilio.init(account_id, auth_token);
