@@ -143,8 +143,8 @@ public class signup extends BaseTest {
 
     @Test(description = "clicking on next without entering the otp ")
 
-    public void clickOnNextWithoutOtp() throws InterruptedException{
-
+    public void clickOnNextWithoutOtp() throws InterruptedException
+    {
         signUpWithValidDetails();
         signupPage.clickNext2Button();
         Thread.sleep(5000);
@@ -155,7 +155,6 @@ public class signup extends BaseTest {
     }
 
     @Test(description = "entering correct otp ")
-
     public  void clickOnNextWithOtp() throws InterruptedException{
         signUpWithValidDetails();
         signupPage.enterOtp(twilioService.getOtp());
@@ -165,11 +164,29 @@ public class signup extends BaseTest {
         }else{
             Assert.fail();
         }
+    }
+
+    @Test(description = "existing user try to sign up ")
+    public  void existingUserTryToSignUp() throws InterruptedException{
+        signupPage.addFirstName("Frugal");
+        signupPage.addLastName("Testing");
+        signupPage.addGmailID("ilovefrugal2@gmail.com");
+        signupPage.clickCountryCodeSelector();
+        signupPage.clickUsaOption();
+        signupPage.addPhoneNumber(twilioService.phoneNumber);
+        signupPage.clickNext1Button();
+        Thread.sleep(5000);
+        if(signupPage.isTryAgainPopUpShown())
+        {
+            signupPage.clickTryAgain();
+        }
+        else
+        {
+            Assert.fail();
+        }
 
 
     }
-
-
 
 
     @AfterMethod
